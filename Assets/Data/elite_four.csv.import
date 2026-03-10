@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://w1o85g4bjiwc"
+
+[deps]
+
+files=["res://Assets/Data/elite_four.slot.translation", "res://Assets/Data/elite_four.name.translation", "res://Assets/Data/elite_four.role.translation", "res://Assets/Data/elite_four.type.translation", "res://Assets/Data/elite_four.pokemon.translation"]
+
+source_file="res://Assets/Data/elite_four.csv"
+dest_files=["res://Assets/Data/elite_four.slot.translation", "res://Assets/Data/elite_four.name.translation", "res://Assets/Data/elite_four.role.translation", "res://Assets/Data/elite_four.type.translation", "res://Assets/Data/elite_four.pokemon.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

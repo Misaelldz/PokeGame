@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://ca87tsblvpv8h"
+
+[deps]
+
+files=["res://Assets/Data/pokemon_cache.name.translation", "res://Assets/Data/pokemon_cache.types.translation", "res://Assets/Data/pokemon_cache.base.translation", "res://Assets/Data/pokemon_cache.level.translation", "res://Assets/Data/pokemon_cache.sprite.translation", "res://Assets/Data/pokemon_cache.created.translation", "res://Assets/Data/pokemon_cache.updated.translation", "res://Assets/Data/pokemon_cache.tm.translation", "res://Assets/Data/pokemon_cache.ability.translation"]
+
+source_file="res://Assets/Data/pokemon_cache.csv"
+dest_files=["res://Assets/Data/pokemon_cache.name.translation", "res://Assets/Data/pokemon_cache.types.translation", "res://Assets/Data/pokemon_cache.base.translation", "res://Assets/Data/pokemon_cache.level.translation", "res://Assets/Data/pokemon_cache.sprite.translation", "res://Assets/Data/pokemon_cache.created.translation", "res://Assets/Data/pokemon_cache.updated.translation", "res://Assets/Data/pokemon_cache.tm.translation", "res://Assets/Data/pokemon_cache.ability.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

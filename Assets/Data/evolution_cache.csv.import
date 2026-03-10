@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://bhq6v4b4ysacn"
+
+[deps]
+
+files=["res://Assets/Data/evolution_cache.to.translation", "res://Assets/Data/evolution_cache.trigger.translation", "res://Assets/Data/evolution_cache.min.translation", "res://Assets/Data/evolution_cache.item.translation"]
+
+source_file="res://Assets/Data/evolution_cache.csv"
+dest_files=["res://Assets/Data/evolution_cache.to.translation", "res://Assets/Data/evolution_cache.trigger.translation", "res://Assets/Data/evolution_cache.min.translation", "res://Assets/Data/evolution_cache.item.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

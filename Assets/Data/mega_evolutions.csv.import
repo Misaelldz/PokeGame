@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://cw0dfoas077r3"
+
+[deps]
+
+files=["res://Assets/Data/mega_evolutions.base.translation", "res://Assets/Data/mega_evolutions.mega.translation", "res://Assets/Data/mega_evolutions.mega.translation", "res://Assets/Data/mega_evolutions.base.translation", "res://Assets/Data/mega_evolutions.required.translation", "res://Assets/Data/mega_evolutions.type.translation", "res://Assets/Data/mega_evolutions.created.translation"]
+
+source_file="res://Assets/Data/mega_evolutions.csv"
+dest_files=["res://Assets/Data/mega_evolutions.base.translation", "res://Assets/Data/mega_evolutions.mega.translation", "res://Assets/Data/mega_evolutions.mega.translation", "res://Assets/Data/mega_evolutions.base.translation", "res://Assets/Data/mega_evolutions.required.translation", "res://Assets/Data/mega_evolutions.type.translation", "res://Assets/Data/mega_evolutions.created.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

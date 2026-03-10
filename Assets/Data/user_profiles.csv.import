@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://wfmq0wa1wwnq"
+
+[deps]
+
+files=["res://Assets/Data/user_profiles.run.translation", "res://Assets/Data/user_profiles.meta.translation", "res://Assets/Data/user_profiles.training.translation", "res://Assets/Data/user_profiles.updated.translation", "res://Assets/Data/user_profiles.email.translation", "res://Assets/Data/user_profiles.en.translation"]
+
+source_file="res://Assets/Data/user_profiles.csv"
+dest_files=["res://Assets/Data/user_profiles.run.translation", "res://Assets/Data/user_profiles.meta.translation", "res://Assets/Data/user_profiles.training.translation", "res://Assets/Data/user_profiles.updated.translation", "res://Assets/Data/user_profiles.email.translation", "res://Assets/Data/user_profiles.en.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

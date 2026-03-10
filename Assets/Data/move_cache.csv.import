@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://7mvjikbir1p"
+
+[deps]
+
+files=["res://Assets/Data/move_cache.name.translation", "res://Assets/Data/move_cache.name.translation", "res://Assets/Data/move_cache.type.translation", "res://Assets/Data/move_cache.category.translation", "res://Assets/Data/move_cache.power.translation", "res://Assets/Data/move_cache.accuracy.translation", "res://Assets/Data/move_cache.pp.translation", "res://Assets/Data/move_cache.priority.translation", "res://Assets/Data/move_cache.ailment.translation", "res://Assets/Data/move_cache.ailment.translation", "res://Assets/Data/move_cache.created.translation", "res://Assets/Data/move_cache.description.translation"]
+
+source_file="res://Assets/Data/move_cache.csv"
+dest_files=["res://Assets/Data/move_cache.name.translation", "res://Assets/Data/move_cache.name.translation", "res://Assets/Data/move_cache.type.translation", "res://Assets/Data/move_cache.category.translation", "res://Assets/Data/move_cache.power.translation", "res://Assets/Data/move_cache.accuracy.translation", "res://Assets/Data/move_cache.pp.translation", "res://Assets/Data/move_cache.priority.translation", "res://Assets/Data/move_cache.ailment.translation", "res://Assets/Data/move_cache.ailment.translation", "res://Assets/Data/move_cache.created.translation", "res://Assets/Data/move_cache.description.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

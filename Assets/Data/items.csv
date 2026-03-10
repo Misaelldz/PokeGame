@@ -1,0 +1,351 @@
+id,name,sprite_slug,description,category,effect,buyable,lootable,shop_price,sort_order,created_at
+abomasite,Abomasita,abomasite,Permite a Abomasnow Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""abomasite""}",false,false,,219,2026-03-06 13:17:41.216506+00
+absolite,Absolita,absolite,Permite a Absol Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""absolite""}",false,false,,210,2026-03-06 13:17:41.216506+00
+adamant-orb,Diamansfera,adamant-orb,+20% Ataque y Ataque Especial en movimientos Acero y Dragón de Dialga.,held,"{""stat"":""attack"",""type"":""stat_boost"",""amount"":1.2}",false,false,,164,2026-03-06 13:17:41.120203+00
+aerodactylite,Aerodactylita,aerodactylite,Permite a Aerodactyl Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""aerodactylite""}",false,false,,188,2026-03-06 13:17:41.120203+00
+aggronite,Aggronita,aggronite,Permite a Aggron Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""aggronite""}",false,false,,203,2026-03-06 13:17:41.216506+00
+aguav-berry,Baya Aguav,aguav-berry,Restaura 1/3 de PS al 25% pero puede causar confusión.,berry,"{""type"":""heal_hp"",""amount"":0}",false,false,,233,2026-03-06 13:17:41.216506+00
+air-balloon,Globo Aire,air-balloon,Inmunidad a movimientos de tipo Tierra. Se pincha al recibir daño.,held,"{""type"":""passive""}",false,false,,106,2026-03-06 13:17:41.022669+00
+alakazite,Alakazita,alakazite,Permite a Alakazam Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""alakazite""}",false,false,,182,2026-03-06 13:17:41.120203+00
+altarianite,Altarianita,altarianite,Permite a Altaria Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""altarianite""}",false,false,,208,2026-03-06 13:17:41.216506+00
+ampharosite,Ampharosita,ampharosite,Permite a Ampharos Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""ampharosite""}",false,false,,191,2026-03-06 13:17:41.120203+00
+amulet-coin,Moneda Amuleto,amulet-coin,Duplica los Pokédólares obtenidos en combate.,held,"{""type"":""passive""}",false,false,,124,2026-03-06 13:17:41.022669+00
+antidote,Antídoto,antidote,Cura el envenenamiento.,heal,"{""type"":""heal_status""}",true,true,200,31,2026-03-06 13:17:40.548179+00
+apicot-berry,Baya Apicot,apicot-berry,+1 Defensa Especial cuando los PS bajan al 25%.,berry,"{""stat"":""spDef"",""type"":""stat_boost"",""amount"":1.5}",false,false,,240,2026-03-06 13:17:41.216506+00
+aspear-berry,Baya Aspear,aspear-berry,Descongela al portador.,berry,"{""type"":""heal_status""}",false,false,,228,2026-03-06 13:17:41.216506+00
+assault-vest,Chaleco Asalto,assault-vest,+50% Defensa Especial. Impide usar movimientos de estado.,held,"{""stat"":""spDef"",""type"":""stat_boost"",""amount"":1.5}",true,true,3500,103,2026-03-06 13:17:41.022669+00
+audinite,Audinita,audinite,Permite a Audino Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""audinite""}",false,false,,221,2026-03-06 13:17:41.216506+00
+awakening,Despertar,awakening,Despierta a un Pokémon dormido.,heal,"{""type"":""heal_status""}",true,true,250,32,2026-03-06 13:17:40.548179+00
+babiri-berry,Baya Babiri,babiri-berry,Reduce el daño de un golpe Acero súper efectivo a la mitad.,berry,"{""type"":""passive""}",false,false,,266,2026-03-06 13:17:41.349718+00
+banettite,Banettita,banettite,Permite a Banette Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""banettite""}",false,false,,209,2026-03-06 13:17:41.216506+00
+beast-ball,Ultra Ball,beast-ball,Diseñada para capturar Ultraentes. Poco eficaz con otros.,ball,"{""type"":""catch"",""catchMultiplier"":0.1}",false,false,,25,2026-03-06 13:17:40.548179+00
+beedrillite,Beedrillita,beedrillite,Permite a Beedrill Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""beedrillite""}",false,false,,180,2026-03-06 13:17:41.120203+00
+berry-juice,Zumo de Baya,berry-juice,Restaura 20 PS.,heal,"{""type"":""heal_hp"",""amount"":20}",false,false,,40,2026-03-06 13:17:40.548179+00
+big-root,Raíz Grande,big-root,Aumenta un 30% los PS absorbidos por movimientos drenantes.,held,"{""type"":""passive""}",false,false,,131,2026-03-06 13:17:41.022669+00
+binding-band,Venda Trampa,binding-band,Los movimientos de trampa infligen 1/6 de daño en vez de 1/8.,held,"{""type"":""passive""}",false,false,,132,2026-03-06 13:17:41.022669+00
+black-belt,Cinturón Negro,black-belt,+20% poder en ataques de tipo Lucha.,held,"{""stat"":""attack"",""type"":""stat_boost"",""amount"":1.2}",false,false,,143,2026-03-06 13:17:41.022669+00
+black-glasses,Gafas de Sol,black-glasses,+20% poder en ataques de tipo Siniestro.,held,"{""stat"":""attack"",""type"":""stat_boost"",""amount"":1.2}",false,false,,142,2026-03-06 13:17:41.022669+00
+black-sludge,Barro Negro,black-sludge,Restaura 1/16 de PS a Pokémon Veneno. Daña a los demás.,held,"{""type"":""passive""}",false,false,,127,2026-03-06 13:17:41.022669+00
+blastoisinite,Blastoisita,blastoisinite,Permite a Blastoise Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""blastoisinite""}",false,false,,179,2026-03-06 13:17:41.120203+00
+blazikenite,Blazikenita,blazikenite,Permite a Blaziken Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""blazikenite""}",false,false,,198,2026-03-06 13:17:41.120203+00
+bright-powder,Polvo Brillo,bright-powder,Reduce la precisión de los ataques del rival en -10%.,held,"{""type"":""passive""}",false,false,,117,2026-03-06 13:17:41.022669+00
+burn-heal,Antiquemar,burn-heal,Cura las quemaduras.,heal,"{""type"":""heal_status""}",true,true,250,33,2026-03-06 13:17:40.548179+00
+cable-link,Cable Link,link-cable,Evoluciona a Pokémon que requieren intercambio.,evo,"{""type"":""evolve"",""method"":""trade""}",true,true,2000,270,2026-03-06 13:17:41.349718+00
+calcium,Calcio,calcium,Sube el Ataque Especial base del Pokémon.,special,"{""stat"":""spAtk"",""type"":""stat_boost"",""amount"":10}",true,true,9800,59,2026-03-06 13:17:40.907453+00
+cameruptite,Cameruptita,cameruptite,Permite a Camerupt Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""cameruptite""}",false,false,,207,2026-03-06 13:17:41.216506+00
+carbos,Carburo,carbos,Sube la Velocidad base del Pokémon.,special,"{""stat"":""speed"",""type"":""stat_boost"",""amount"":10}",true,true,9800,61,2026-03-06 13:17:40.907453+00
+carta-bosque,Carta Bosque,data-card-01,+20% experiencia ganada.,special,"{""type"":""xp_boost"",""multiplier"":1.2}",false,false,,345,2026-03-06 13:17:41.44134+00
+carta-ciudad,Carta Ciudad,data-card-05,+20% experiencia ganada.,special,"{""type"":""xp_boost"",""multiplier"":1.2}",false,false,,349,2026-03-06 13:17:41.44134+00
+carta-cueva,Carta Cueva,data-card-02,+20% experiencia ganada.,special,"{""type"":""xp_boost"",""multiplier"":1.2}",false,false,,346,2026-03-06 13:17:41.44134+00
+carta-mar,Carta Mar,data-card-04,+20% experiencia ganada.,special,"{""type"":""xp_boost"",""multiplier"":1.2}",false,false,,348,2026-03-06 13:17:41.44134+00
+carta-monte,Carta Monte,data-card-03,+20% experiencia ganada.,special,"{""type"":""xp_boost"",""multiplier"":1.2}",false,false,,347,2026-03-06 13:17:41.44134+00
+charcoal,Carbón,charcoal,+20% poder en ataques de tipo Fuego.,held,"{""stat"":""spAtk"",""type"":""stat_boost"",""amount"":1.2}",false,false,,138,2026-03-06 13:17:41.022669+00
+charizardite-x,Charizardita X,charizardite-x,Permite a Charizard Megaevolucionar a la forma X.,held,"{""type"":""mega_evo"",""stoneId"":""charizardite-x""}",false,false,,177,2026-03-06 13:17:41.120203+00
+charizardite-y,Charizardita Y,charizardite-y,Permite a Charizard Megaevolucionar a la forma Y.,held,"{""type"":""mega_evo"",""stoneId"":""charizardite-y""}",false,false,,178,2026-03-06 13:17:41.120203+00
+charti-berry,Baya Charti,charti-berry,Reduce el daño de un golpe Roca súper efectivo a la mitad.,berry,"{""type"":""passive""}",false,false,,262,2026-03-06 13:17:41.349718+00
+cheri-berry,Baya Cheri,cheri-berry,Cura la parálisis.,berry,"{""type"":""heal_status""}",false,false,,230,2026-03-06 13:17:41.216506+00
+cherish-ball,Tesoro Ball,cherish-ball,Ball especial para Pokémon distribuidos en eventos.,ball,"{""type"":""catch"",""catchMultiplier"":1}",false,false,,15,2026-03-06 13:17:40.548179+00
+chesto-berry,Baya Chesto,chesto-berry,Despierta al portador cuando se duerme.,berry,"{""type"":""heal_status""}",false,false,,231,2026-03-06 13:17:41.216506+00
+chilan-berry,Baya Chilan,chilan-berry,Reduce el daño de un golpe Normal a la mitad.,berry,"{""type"":""passive""}",false,false,,267,2026-03-06 13:17:41.349718+00
+choice-band,Cinta Elección,choice-band,+50% Ataque. Solo permite usar un movimiento.,held,"{""stat"":""attack"",""type"":""stat_boost"",""amount"":1.5}",true,true,5000,95,2026-03-06 13:17:40.907453+00
+choice-scarf,Pañuelo Elección,choice-scarf,+50% Velocidad. Solo permite usar un movimiento.,held,"{""stat"":""speed"",""type"":""stat_boost"",""amount"":1.5}",false,false,,96,2026-03-06 13:17:40.907453+00
+choice-specs,Gafas Elección,choice-specs,+50% Ataque Especial. Solo permite usar un movimiento.,held,"{""stat"":""spAtk"",""type"":""stat_boost"",""amount"":1.5}",false,false,,97,2026-03-06 13:17:40.907453+00
+chople-berry,Baya Chople,chople-berry,Reduce el daño de un golpe Lucha súper efectivo a la mitad.,berry,"{""type"":""passive""}",false,false,,256,2026-03-06 13:17:41.349718+00
+coba-berry,Baya Coba,coba-berry,Reduce el daño de un golpe Volador súper efectivo a la mitad.,berry,"{""type"":""passive""}",false,false,,259,2026-03-06 13:17:41.349718+00
+colbur-berry,Baya Colbur,colbur-berry,Reduce el daño de un golpe Siniestro súper efectivo a la mitad.,berry,"{""type"":""passive""}",false,false,,265,2026-03-06 13:17:41.349718+00
+custap-berry,Baya Custap,custap-berry,Ataca primero una vez cuando los PS bajen al 25%. Se consume.,berry,"{""type"":""passive""}",false,false,,119,2026-03-06 13:17:41.022669+00
+dawn-stone,Piedra Aurora,dawn-stone,Evoluciona a ciertos Pokémon según su género.,evo,"{""type"":""evolve"",""method"":""stone""}",false,false,,78,2026-03-06 13:17:40.907453+00
+deep-sea-scale,Escama Mar.,deep-sea-scale,Duplica la Defensa Especial de Clamperl.,held,"{""stat"":""spDef"",""type"":""stat_boost"",""amount"":2}",false,false,,158,2026-03-06 13:17:41.120203+00
+deep-sea-tooth,Diente Mar.,deep-sea-tooth,Duplica el Ataque Especial de Clamperl.,held,"{""stat"":""spAtk"",""type"":""stat_boost"",""amount"":2}",false,false,,157,2026-03-06 13:17:41.120203+00
+diancite,Diancita,diancite,Permite a Diancie Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""diancite""}",false,false,,222,2026-03-06 13:17:41.216506+00
+dire-hit,Golpe Certero,dire-hit,Aumenta la probabilidad de golpe crítico en combate.,battle,"{""stat"":""crit"",""type"":""stat_boost"",""amount"":1}",true,true,650,68,2026-03-06 13:17:40.907453+00
+dive-ball,Buceo Ball,dive-ball,Más eficaz contra Pokémon encontrados bajo el agua (x3.5).,ball,"{""type"":""catch"",""catchMultiplier"":3.5}",true,true,1000,6,2026-03-06 13:17:40.548179+00
+dragon-fang,Colmillo Dragón,dragon-fang,+20% poder en ataques de tipo Dragón.,held,"{""stat"":""attack"",""type"":""stat_boost"",""amount"":1.2}",false,false,,144,2026-03-06 13:17:41.022669+00
+dragon-scale,Escama Dragón,dragon-scale,Evoluciona a Seadra al intercambiar.,evo,"{""type"":""evolve"",""method"":""trade""}",false,false,,83,2026-03-06 13:17:40.907453+00
+dream-ball,Sueño Ball,dream-ball,Muy eficaz contra Pokémon dormidos (x4).,ball,"{""type"":""catch"",""catchMultiplier"":4}",false,false,,24,2026-03-06 13:17:40.548179+00
+dubious-disc,Disco Raro,dubious-disc,Evoluciona a Porygon2 al intercambiar.,evo,"{""type"":""evolve"",""method"":""trade""}",false,false,,85,2026-03-06 13:17:40.907453+00
+dusk-ball,Oscuridad Ball,dusk-ball,Más eficaz de noche o en cuevas (x3.5).,ball,"{""type"":""catch"",""catchMultiplier"":3.5}",true,true,1000,12,2026-03-06 13:17:40.548179+00
+dusk-stone,Piedra Sombría,dusk-stone,Evoluciona a ciertos Pokémon de tipo Siniestro y Fantasma.,evo,"{""type"":""evolve"",""method"":""stone""}",false,false,,77,2026-03-06 13:17:40.907453+00
+eject-button,Botón Escape,eject-button,El portador cambia automáticamente al recibir daño. Se consume.,held,"{""type"":""passive""}",false,false,,108,2026-03-06 13:17:41.022669+00
+electirizer,Electrizador,electirizer,Evoluciona a Electabuzz al intercambiar.,evo,"{""type"":""evolve"",""method"":""trade""}",false,false,,86,2026-03-06 13:17:40.907453+00
+elixir,Elixir,elixir,Restaura 10 PP de todos los movimientos.,heal,"{""type"":""pp_restore"",""amount"":10}",false,false,,51,2026-03-06 13:17:40.907453+00
+energy-powder,Polvo Vigor,energy-powder,Restaura 60 PS pero baja la amistad.,heal,"{""type"":""heal_hp"",""amount"":60}",true,true,500,45,2026-03-06 13:17:40.548179+00
+energy-root,Raíz Vigor,energy-root,Restaura 120 PS pero baja la amistad.,heal,"{""type"":""heal_hp"",""amount"":120}",true,true,800,46,2026-03-06 13:17:40.548179+00
+enigma-berry,Baya Enigma,enigma-berry,Restaura PS al recibir un golpe súper efectivo.,berry,"{""type"":""heal_hp"",""amount"":0}",false,false,,245,2026-03-06 13:17:41.216506+00
+ether,Éter,ether,Restaura 10 PP de un movimiento.,heal,"{""type"":""pp_restore"",""amount"":10}",false,false,,49,2026-03-06 13:17:40.548179+00
+eviolite,Mineral Evolutivo,eviolite,+50% Defensa y Defensa Especial si el Pokémon puede evolucionar.,held,"{""stat"":""defense"",""type"":""stat_boost"",""amount"":1.5}",true,true,3500,104,2026-03-06 13:17:41.022669+00
+exp-share,Repartir Exp.,exp-share,El equipo comparte la experiencia ganada en combate.,special,"{""type"":""xp_boost"",""multiplier"":1}",false,false,,268,2026-03-06 13:17:41.349718+00
+fairy-feather,Pluma Hada,fairy-feather,+20% poder en ataques de tipo Hada.,held,"{""stat"":""spAtk"",""type"":""stat_boost"",""amount"":1.2}",false,false,,153,2026-03-06 13:17:41.120203+00
+fast-ball,Rapid Ball,fast-ball,Más eficaz contra Pokémon con alta velocidad (x4).,ball,"{""type"":""catch"",""catchMultiplier"":4}",false,false,,16,2026-03-06 13:17:40.548179+00
+figy-berry,Baya Figy,figy-berry,Restaura 1/3 de PS al 25% pero puede causar confusión.,berry,"{""type"":""heal_hp"",""amount"":0}",false,false,,234,2026-03-06 13:17:41.216506+00
+fire-stone,Piedra Fuego,fire-stone,Evoluciona a ciertos Pokémon de tipo Fuego.,evo,"{""type"":""evolve"",""method"":""stone""}",true,true,2100,70,2026-03-06 13:17:40.907453+00
+flame-orb,Esfera Llama,flame-orb,Quema al portador.,held,"{""type"":""passive""}",false,false,,129,2026-03-06 13:17:41.022669+00
+focus-band,Banda Focus,focus-band,10% de probabilidad de sobrevivir con 1 PS a un golpe fulminante.,held,"{""type"":""passive""}",true,true,4000,99,2026-03-06 13:17:40.907453+00
+focus-sash,Faja Focus,focus-sash,Sobrevive con 1 PS a un golpe que lo debilitaría si tiene PS completos. Se consume.,held,"{""type"":""passive""}",false,false,,100,2026-03-06 13:17:41.022669+00
+fresh-water,Agua Fresca,fresh-water,Restaura 30 PS.,heal,"{""type"":""heal_hp"",""amount"":30}",true,true,200,41,2026-03-06 13:17:40.548179+00
+friend-ball,Amistad Ball,friend-ball,El Pokémon capturado tiene alta amistad desde el inicio.,ball,"{""type"":""catch"",""catchMultiplier"":1}",false,false,,21,2026-03-06 13:17:40.548179+00
+full-heal,Cura Total,full-heal,Cura cualquier problema de estado.,heal,"{""type"":""heal_status""}",true,true,600,36,2026-03-06 13:17:40.548179+00
+full-incense,Incienso Lleno,full-incense,El portador siempre actúa al final del turno. Necesario para criar Snorlax→Munchlax.,held,"{""type"":""passive""}",false,false,,167,2026-03-06 13:17:41.120203+00
+full-restore,Restaurar Todo,full-restore,Restaura todos los PS y cura problemas de estado.,heal,"{""type"":""heal_hp"",""amount"":""full""}",true,true,3000,30,2026-03-06 13:17:40.548179+00
+galladite,Galladita,galladite,Permite a Gallade Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""galladite""}",false,false,,220,2026-03-06 13:17:41.216506+00
+ganlon-berry,Baya Ganlon,ganlon-berry,+1 Defensa cuando los PS bajan al 25%.,berry,"{""stat"":""defense"",""type"":""stat_boost"",""amount"":1.5}",false,false,,243,2026-03-06 13:17:41.216506+00
+garchompite,Garchompita,garchompite,Permite a Garchomp Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""garchompite""}",false,false,,217,2026-03-06 13:17:41.216506+00
+gardevoirite,Gardevoirita,gardevoirite,Permite a Gardevoir Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""gardevoirite""}",false,false,,200,2026-03-06 13:17:41.216506+00
+gengarite,Gengarita,gengarite,Permite a Gengar Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""gengarite""}",false,false,,184,2026-03-06 13:17:41.120203+00
+glalitite,Glalitita,glalitite,Permite a Glalie Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""glalitite""}",false,false,,211,2026-03-06 13:17:41.216506+00
+great-ball,Super Ball,great-ball,Una buena Poké Ball con mayor tasa de captura.,ball,"{""type"":""catch"",""catchMultiplier"":1.5}",true,true,600,1,2026-03-06 13:17:40.548179+00
+griseous-orb,Griseosfera,griseous-orb,+20% Ataque y Ataque Especial en movimientos Fantasma y Dragón de Giratina.,held,"{""stat"":""attack"",""type"":""stat_boost"",""amount"":1.2}",false,false,,166,2026-03-06 13:17:41.120203+00
+guard-spec,Guardaspec,guard-spec,Evita que bajen las estadísticas del equipo durante 5 turnos.,battle,"{""type"":""passive""}",true,true,700,69,2026-03-06 13:17:40.907453+00
+gyaradosite,Gyaradosita,gyaradosite,Permite a Gyarados Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""gyaradosite""}",false,false,,187,2026-03-06 13:17:41.120203+00
+haban-berry,Baya Haban,haban-berry,Reduce el daño de un golpe Dragón súper efectivo a la mitad.,berry,"{""type"":""passive""}",false,false,,264,2026-03-06 13:17:41.349718+00
+hard-stone,Piedra Dura,hard-stone,+20% poder en ataques de tipo Roca.,held,"{""stat"":""attack"",""type"":""stat_boost"",""amount"":1.2}",false,false,,145,2026-03-06 13:17:41.022669+00
+heal-ball,Cura Ball,heal-ball,Recupera todos los PS del Pokémon capturado.,ball,"{""type"":""catch"",""catchMultiplier"":1}",true,true,300,13,2026-03-06 13:17:40.548179+00
+heal-powder,Polvo Cura,heal-powder,Cura problemas de estado pero baja la amistad.,heal,"{""type"":""heal_status""}",true,true,450,47,2026-03-06 13:17:40.548179+00
+heavy-ball,Peso Ball,heavy-ball,Más eficaz contra Pokémon de gran peso.,ball,"{""type"":""catch"",""catchMultiplier"":1}",false,false,,19,2026-03-06 13:17:40.548179+00
+heracronite,Heracronita,heracronite,Permite a Heracross Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""heracronite""}",false,false,,194,2026-03-06 13:17:41.120203+00
+houndoominite,Houndoominita,houndoominite,Permite a Houndoom Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""houndoominite""}",false,false,,195,2026-03-06 13:17:41.120203+00
+hp-up,Salud Más,hp-up,Sube los PS base del Pokémon.,special,"{""stat"":""hp"",""type"":""stat_boost"",""amount"":10}",true,true,9800,56,2026-03-06 13:17:40.907453+00
+hyper-potion,Hiperpoción,hyper-potion,Restaura 200 PS.,heal,"{""type"":""heal_hp"",""amount"":200}",true,true,1200,28,2026-03-06 13:17:40.548179+00
+iapapa-berry,Baya Iapapa,iapapa-berry,Restaura 1/3 de PS al 25% pero puede causar confusión.,berry,"{""type"":""heal_hp"",""amount"":0}",false,false,,235,2026-03-06 13:17:41.216506+00
+ice-heal,Antihielo,ice-heal,Descongela a un Pokémon congelado.,heal,"{""type"":""heal_status""}",true,true,250,34,2026-03-06 13:17:40.548179+00
+ice-stone,Piedra Hielo,ice-stone,Evoluciona a ciertos Pokémon de tipo Hielo.,evo,"{""type"":""evolve"",""method"":""stone""}",false,false,,79,2026-03-06 13:17:40.907453+00
+iron,Hierro,iron,Sube la Defensa base del Pokémon.,special,"{""stat"":""defense"",""type"":""stat_boost"",""amount"":10}",true,true,9800,58,2026-03-06 13:17:40.907453+00
+iron-ball,Bola Acero,iron-ball,Reduce la velocidad a la mitad y elimina la inmunidad Tierra de los flotadores.,held,"{""stat"":""speed"",""type"":""stat_boost"",""amount"":0.5}",false,false,,121,2026-03-06 13:17:41.022669+00
+jaboca-berry,Baya Jaboca,jaboca-berry,Daña al rival si usa ataques físicos contra el portador.,berry,"{""type"":""passive""}",false,false,,246,2026-03-06 13:17:41.216506+00
+kangaskhanite,Kangaskhanita,kangaskhanite,Permite a Kangaskhan Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""kangaskhanite""}",false,false,,185,2026-03-06 13:17:41.120203+00
+kasib-berry,Baya Kasib,kasib-berry,Reduce el daño de un golpe Fantasma súper efectivo a la mitad.,berry,"{""type"":""passive""}",false,false,,263,2026-03-06 13:17:41.349718+00
+kebia-berry,Baya Kebia,kebia-berry,Reduce el daño de un golpe Veneno súper efectivo a la mitad.,berry,"{""type"":""passive""}",false,false,,257,2026-03-06 13:17:41.349718+00
+kee-berry,Baya Kee,kee-berry,+1 Defensa al recibir ataques físicos.,berry,"{""stat"":""defense"",""type"":""stat_boost"",""amount"":1.5}",false,false,,248,2026-03-06 13:17:41.216506+00
+kings-rock,Roca Rey,kings-rock,Permite evolucionar a Poliwhirl y Slowpoke al intercambiar.,evo,"{""type"":""evolve"",""method"":""trade""}",false,false,,81,2026-03-06 13:17:40.907453+00
+lagging-tail,Cola Lenta,lagging-tail,El portador siempre actúa al final del turno.,held,"{""type"":""passive""}",false,false,,120,2026-03-06 13:17:41.022669+00
+lansat-berry,Baya Lansat,lansat-berry,Aumenta la probabilidad de crítico al 25% de PS.,berry,"{""type"":""passive""}",false,false,,241,2026-03-06 13:17:41.216506+00
+latiasite,Latiasita,latiasite,Permite a Latias Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""latiasite""}",false,false,,214,2026-03-06 13:17:41.216506+00
+latiosite,Latiosita,latiosite,Permite a Latios Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""latiosite""}",false,false,,215,2026-03-06 13:17:41.216506+00
+lax-incense,Incienso Relajado,lax-incense,Reduce la precisión del rival. Necesario para criar Wobbuffet→Wynaut.,held,"{""type"":""passive""}",false,false,,168,2026-03-06 13:17:41.120203+00
+leaf-stone,Piedra Hoja,leaf-stone,Evoluciona a ciertos Pokémon de tipo Planta.,evo,"{""type"":""evolve"",""method"":""stone""}",true,true,2100,73,2026-03-06 13:17:40.907453+00
+lemonade,Limonada,lemonade,Restaura 80 PS.,heal,"{""type"":""heal_hp"",""amount"":80}",true,true,350,43,2026-03-06 13:17:40.548179+00
+leppa-berry,Baya Frambu,leppa-berry,Restaura 10 PP de un movimiento cuando se agotan.,berry,"{""type"":""pp_restore"",""amount"":10}",false,false,,226,2026-03-06 13:17:41.216506+00
+level-ball,Nivel Ball,level-ball,Más eficaz cuanto mayor sea la diferencia de nivel.,ball,"{""type"":""catch"",""catchMultiplier"":1}",false,false,,17,2026-03-06 13:17:40.548179+00
+liechi-berry,Baya Liechi,liechi-berry,+1 Ataque cuando los PS bajan al 25%.,berry,"{""stat"":""attack"",""type"":""stat_boost"",""amount"":1.5}",false,false,,242,2026-03-06 13:17:41.216506+00
+life-orb,Vidasfera,life-orb,+30% daño. El portador pierde 1/10 de sus PS cada turno.,held,"{""stat"":""attack"",""type"":""stat_boost"",""amount"":1.3}",true,true,4000,98,2026-03-06 13:17:40.907453+00
+light-ball,Bolaluminosa,light-ball,Duplica el Ataque y Ataque Especial de Pikachu.,held,"{""stat"":""spAtk"",""type"":""stat_boost"",""amount"":2}",false,false,,156,2026-03-06 13:17:41.120203+00
+lopunnite,Lopunnita,lopunnite,Permite a Lopunny Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""lopunnite""}",false,false,,216,2026-03-06 13:17:41.216506+00
+love-ball,Amor Ball,love-ball,Muy eficaz si el Pokémon rival es del sexo opuesto (x8).,ball,"{""type"":""catch"",""catchMultiplier"":8}",false,false,,20,2026-03-06 13:17:40.548179+00
+lucarionite,Lucarionita,lucarionite,Permite a Lucario Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""lucarionite""}",false,false,,218,2026-03-06 13:17:41.216506+00
+luck-incense,Incienso Suerte,luck-incense,Duplica Pokédólares en combate. Necesario para criar Chansey→Happiny.,held,"{""type"":""passive""}",false,false,,169,2026-03-06 13:17:41.120203+00
+lucky-egg,Huevo Suerte,lucky-egg,El portador gana un 50% más de experiencia en combate.,held,"{""type"":""xp_boost"",""multiplier"":1.5}",false,false,,123,2026-03-06 13:17:41.022669+00
+lucky-punch,Puño Suerte,lucky-punch,Aumenta la probabilidad de crítico de Chansey.,held,"{""type"":""passive""}",false,false,,160,2026-03-06 13:17:41.120203+00
+lum-berry,Baya Ziuela,lum-berry,Cura cualquier problema de estado. Se consume.,berry,"{""type"":""heal_status""}",false,false,,225,2026-03-06 13:17:41.216506+00
+lure-ball,Señuelo Ball,lure-ball,Más eficaz contra Pokémon capturados con caña (x3).,ball,"{""type"":""catch"",""catchMultiplier"":3}",false,false,,18,2026-03-06 13:17:40.548179+00
+lustrous-orb,Lustresfera,lustrous-orb,+20% Ataque y Ataque Especial en movimientos Agua y Dragón de Palkia.,held,"{""stat"":""spAtk"",""type"":""stat_boost"",""amount"":1.2}",false,false,,165,2026-03-06 13:17:41.120203+00
+luxury-ball,Lujo Ball,luxury-ball,Aumenta rápidamente la amistad del Pokémon capturado.,ball,"{""type"":""catch"",""catchMultiplier"":1}",true,true,1000,10,2026-03-06 13:17:40.548179+00
+macho-brace,Arnés Fuerte,macho-brace,Duplica los EVs ganados pero reduce la velocidad a la mitad.,held,"{""type"":""passive""}",false,false,,122,2026-03-06 13:17:41.022669+00
+magmarizer,Magmarizador,magmarizer,Evoluciona a Magmar al intercambiar.,evo,"{""type"":""evolve"",""method"":""trade""}",false,false,,87,2026-03-06 13:17:40.907453+00
+magnet,Imán,magnet,+20% poder en ataques de tipo Eléctrico.,held,"{""stat"":""spAtk"",""type"":""stat_boost"",""amount"":1.2}",false,false,,141,2026-03-06 13:17:41.022669+00
+mago-berry,Baya Mago,mago-berry,Restaura 1/3 de PS al 25% pero puede causar confusión.,berry,"{""type"":""heal_hp"",""amount"":0}",false,false,,236,2026-03-06 13:17:41.216506+00
+manectite,Manectita,manectite,Permite a Manectric Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""manectite""}",false,false,,205,2026-03-06 13:17:41.216506+00
+maranga-berry,Baya Maranga,maranga-berry,+1 Defensa Especial al recibir ataques especiales.,berry,"{""stat"":""spDef"",""type"":""stat_boost"",""amount"":1.5}",false,false,,249,2026-03-06 13:17:41.216506+00
+master-ball,Master Ball,master-ball,La Poké Ball definitiva. Captura sin fallar.,ball,"{""type"":""catch"",""catchMultiplier"":255}",false,false,,3,2026-03-06 13:17:40.548179+00
+mawilite,Mawilita,mawilite,Permite a Mawile Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""mawilite""}",false,false,,202,2026-03-06 13:17:41.216506+00
+max-elixir,Elixir Máximo,max-elixir,Restaura todos los PP de todos los movimientos.,heal,"{""type"":""pp_restore"",""amount"":""full""}",false,false,,52,2026-03-06 13:17:40.907453+00
+max-ether,Éter Máximo,max-ether,Restaura todos los PP de un movimiento.,heal,"{""type"":""pp_restore"",""amount"":""full""}",false,false,,50,2026-03-06 13:17:40.907453+00
+max-potion,Poción Máxima,max-potion,Restaura todos los PS.,heal,"{""type"":""heal_hp"",""amount"":""full""}",true,true,2500,29,2026-03-06 13:17:40.548179+00
+max-revive,Max. Revivir,max-revive,Revive a un Pokémon debilitado con todos sus PS.,heal,"{""type"":""revive"",""hpPercent"":1}",false,false,,38,2026-03-06 13:17:40.548179+00
+medichamite,Medichamita,medichamite,Permite a Medicham Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""medichamite""}",false,false,,204,2026-03-06 13:17:41.216506+00
+mega-bracelet,Mega-Brazalete,mega-bracelet,Permite usar la Megaevolución en combate.,special,"{""type"":""passive""}",false,false,,269,2026-03-06 13:17:41.349718+00
+mental-herb,Hierba Mental,mental-herb,Cura atracciones y bloqueos de movimiento. Se consume.,held,"{""type"":""passive""}",false,false,,111,2026-03-06 13:17:41.022669+00
+metagrossite,Metagrossita,metagrossite,Permite a Metagross Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""metagrossite""}",false,false,,213,2026-03-06 13:17:41.216506+00
+metal-coat,Revestimiento Metálico,metal-coat,Evoluciona a Scyther y Onix al intercambiar. Potencia ataques Acero.,evo,"{""type"":""evolve"",""method"":""trade""}",false,false,,82,2026-03-06 13:17:40.907453+00
+metal-powder,Polvo Metálico,metal-powder,Aumenta la Defensa y Defensa Especial de Ditto.,held,"{""stat"":""defense"",""type"":""stat_boost"",""amount"":1.5}",false,false,,161,2026-03-06 13:17:41.120203+00
+mewtwonite-x,Mewtwonita X,mewtwonite-x,Permite a Mewtwo Megaevolucionar a la forma X.,held,"{""type"":""mega_evo"",""stoneId"":""mewtwonite-x""}",false,false,,189,2026-03-06 13:17:41.120203+00
+mewtwonite-y,Mewtwonita Y,mewtwonite-y,Permite a Mewtwo Megaevolucionar a la forma Y.,held,"{""type"":""mega_evo"",""stoneId"":""mewtwonite-y""}",false,false,,190,2026-03-06 13:17:41.120203+00
+miracle-seed,Semilla Milagro,miracle-seed,+20% poder en ataques de tipo Planta.,held,"{""stat"":""spAtk"",""type"":""stat_boost"",""amount"":1.2}",false,false,,140,2026-03-06 13:17:41.022669+00
+moomoo-milk,Leche MuMu,moomoo-milk,Restaura 100 PS.,heal,"{""type"":""heal_hp"",""amount"":100}",true,true,500,44,2026-03-06 13:17:40.548179+00
+moon-ball,Luna Ball,moon-ball,Más eficaz contra Pokémon que evolucionan con Piedra Lunar (x4).,ball,"{""type"":""catch"",""catchMultiplier"":4}",false,false,,22,2026-03-06 13:17:40.548179+00
+moon-stone,Piedra Lunar,moon-stone,Evoluciona a ciertos Pokémon.,evo,"{""type"":""evolve"",""method"":""stone""}",true,true,2100,74,2026-03-06 13:17:40.907453+00
+mt-a-quemar,MT A Quemar,tm-fighting,Enseña A Quemar. Ataque físico que ignora modificadores.,tm,"{""type"":""teach"",""moveId"":370,""moveName"":""A Quemar""}",true,true,2000,310,2026-03-06 13:17:41.44134+00
+mt-acecho,MT Acecho,tm-dark,Enseña Acecho. Golpe crítico garantizado si el rival usó un movimiento de preparación.,tm,"{""type"":""teach"",""moveId"":185,""moveName"":""Acecho""}",true,true,2000,334,2026-03-06 13:17:41.44134+00
+mt-acido,MT Ácido,tm-poison,Enseña Ácido. Puede bajar la Defensa Especial.,tm,"{""type"":""teach"",""moveId"":51,""moveName"":""Ácido""}",true,true,1500,312,2026-03-06 13:17:41.44134+00
+mt-acrobacia,MT Acrobacia,tm-flying,Enseña Acrobacia. Doble potencia si no lleva objeto.,tm,"{""type"":""teach"",""moveId"":512,""moveName"":""Acrobacia""}",true,true,2000,317,2026-03-06 13:17:41.44134+00
+mt-ataque-aereo,MT Ataque Aéreo,tm-flying,Enseña Ataque Aéreo. Vuela un turno y golpea el siguiente.,tm,"{""type"":""teach"",""moveId"":19,""moveName"":""Ataque Aéreo""}",true,true,2000,316,2026-03-06 13:17:41.44134+00
+mt-atraccion,MT Atracción,tm-normal,Enseña Atracción. Encanta al rival si es de distinto género.,tm,"{""type"":""teach"",""moveId"":213,""moveName"":""Atracción""}",true,true,1000,286,2026-03-06 13:17:41.349718+00
+mt-avalancha,MT Avalancha,tm-rock,Enseña Avalancha. Doble potencia si el usuario recibió daño.,tm,"{""type"":""teach"",""moveId"":419,""moveName"":""Avalancha""}",true,true,2000,325,2026-03-06 13:17:41.44134+00
+mt-beso-drenaje,MT Beso Drenaje,tm-fairy,Enseña Beso Drenaje. Roba PS al rival.,tm,"{""type"":""teach"",""moveId"":577,""moveName"":""Beso Drenaje""}",true,true,2000,341,2026-03-06 13:17:41.44134+00
+mt-bola-de-hadas,MT Bola de Hadas,tm-fairy,Enseña Bola de Hadas. Potente movimiento Hada especial.,tm,"{""type"":""teach"",""moveId"":585,""moveName"":""Bola de Hadas""}",true,true,3000,344,2026-03-06 13:17:41.44134+00
+mt-bola-sombra,MT Bola Sombra,tm-ghost,Enseña Bola Sombra. Puede bajar la Defensa Especial.,tm,"{""type"":""teach"",""moveId"":247,""moveName"":""Bola Sombra""}",true,true,2000,328,2026-03-06 13:17:41.44134+00
+mt-bomba-lodo,MT Bomba Lodo,tm-poison,Enseña Bomba Lodo. Puede envenenar al rival.,tm,"{""type"":""teach"",""moveId"":188,""moveName"":""Bomba Lodo""}",true,true,2000,313,2026-03-06 13:17:41.44134+00
+mt-cabeza-hierro,MT Cabeza Hierro,tm-steel,Enseña Cabeza Hierro. Puede hacer retroceder al rival.,tm,"{""type"":""teach"",""moveId"":442,""moveName"":""Cabeza Hierro""}",true,true,2500,338,2026-03-06 13:17:41.44134+00
+mt-cascada,MT Cascada,tm-water,Enseña Cascada. Puede hacer retroceder al rival.,tm,"{""type"":""teach"",""moveId"":127,""moveName"":""Cascada""}",true,true,2500,296,2026-03-06 13:17:41.349718+00
+mt-chispa,MT Chispa,tm-electric,Enseña Chispa. Puede paralizar al rival.,tm,"{""type"":""teach"",""moveId"":209,""moveName"":""Chispa""}",true,true,1500,299,2026-03-06 13:17:41.349718+00
+mt-danza-de-hadas,MT Danza de Hadas,tm-fairy,"Enseña Danza de Hadas. Sube Ataque Esp., Def. Esp. y Velocidad.",tm,"{""type"":""teach"",""moveId"":552,""moveName"":""Danza de Hadas""}",true,true,2500,343,2026-03-06 13:17:41.44134+00
+mt-danza-espada,MT Danza Espada,tm-normal,Enseña Danza Espada. Sube el Ataque 2 etapas.,tm,"{""type"":""teach"",""moveId"":14,""moveName"":""Danza Espada""}",true,true,2000,284,2026-03-06 13:17:41.349718+00
+mt-descanso,MT Descanso,tm-normal,Enseña Descanso. El usuario se duerme y recupera todos los PS.,tm,"{""type"":""teach"",""moveId"":156,""moveName"":""Descanso""}",true,true,1500,285,2026-03-06 13:17:41.349718+00
+mt-dragoaliento,MT Dragoaliento,tm-dragon,Enseña Dragoaliento. Puede paralizar al rival.,tm,"{""type"":""teach"",""moveId"":225,""moveName"":""Dragoaliento""}",true,true,2500,279,2026-03-06 13:17:41.349718+00
+mt-embargo,MT Embargo,tm-dark,Enseña Embargo. Impide al rival usar su objeto.,tm,"{""type"":""teach"",""moveId"":373,""moveName"":""Embargo""}",true,true,1500,336,2026-03-06 13:17:41.44134+00
+mt-excavar,MT Excavar,tm-ground,Enseña Excavar. Se sumerge un turno y ataca el siguiente.,tm,"{""type"":""teach"",""moveId"":91,""moveName"":""Excavar""}",true,true,2000,314,2026-03-06 13:17:41.44134+00
+mt-facade,MT Fachada,tm-normal,Enseña Fachada. Doble poder si el usuario tiene estado.,tm,"{""type"":""teach"",""moveId"":263,""moveName"":""Fachada""}",true,true,2000,290,2026-03-06 13:17:41.349718+00
+mt-foco-resplandor,MT Foco Resplandor,tm-fighting,"Enseña Foco Resplandor. Alta potencia, puede fallar.",tm,"{""type"":""teach"",""moveId"":411,""moveName"":""Foco Resplandor""}",true,true,2500,308,2026-03-06 13:17:41.44134+00
+mt-furia-dragon,MT Furia Dragón,tm-dragon,Enseña Furia Dragón. Siempre inflige 40 PS de daño.,tm,"{""type"":""teach"",""moveId"":82,""moveName"":""Furia Dragón""}",true,true,1500,332,2026-03-06 13:17:41.44134+00
+mt-garra-dragon,MT Garra Dragón,tm-dragon,Enseña Garra Dragón. Ataque físico Dragón fiable.,tm,"{""type"":""teach"",""moveId"":337,""moveName"":""Garra Dragón""}",true,true,2500,331,2026-03-06 13:17:41.44134+00
+mt-garra-metal,MT Garra Metal,tm-steel,Enseña Garra Metal. Puede subir el Ataque del usuario.,tm,"{""type"":""teach"",""moveId"":232,""moveName"":""Garra Metal""}",true,true,1500,337,2026-03-06 13:17:41.44134+00
+mt-gigadrenado,MT Gigadrenado,tm-grass,Enseña Gigadrenado. Roba PS al rival.,tm,"{""type"":""teach"",""moveId"":202,""moveName"":""Gigadrenado""}",true,true,2500,302,2026-03-06 13:17:41.44134+00
+mt-giro-rapido,MT Giro Rápido,tm-normal,"Enseña Giro Rápido. Alta prioridad, baja potencia.",tm,"{""type"":""teach"",""moveId"":129,""moveName"":""Giro Rápido""}",true,true,1000,288,2026-03-06 13:17:41.349718+00
+mt-golpe-cuerpo,MT Golpe Cuerpo,tm-normal,Enseña Golpe Cuerpo. Puede paralizar al rival.,tm,"{""type"":""teach"",""moveId"":34,""moveName"":""Golpe Cuerpo""}",true,true,1500,282,2026-03-06 13:17:41.349718+00
+mt-golpe-fantasma,MT Golpe Fantasma,tm-ghost,Enseña Golpe Fantasma. Ataque físico Fantasma muy potente.,tm,"{""type"":""teach"",""moveId"":122,""moveName"":""Golpe Fantasma""}",true,true,2500,329,2026-03-06 13:17:41.44134+00
+mt-hidrobomba,MT Hidrobomba,tm-water,"Enseña Hidrobomba. Máxima potencia Agua, puede fallar.",tm,"{""type"":""teach"",""moveId"":56,""moveName"":""Hidrobomba""}",true,true,3000,294,2026-03-06 13:17:41.349718+00
+mt-hierba-lazo,MT Hierba Lazo,tm-grass,Enseña Hierba Lazo. Más daño cuanto más pesa el rival.,tm,"{""type"":""teach"",""moveId"":447,""moveName"":""Hierba Lazo""}",true,true,2000,301,2026-03-06 13:17:41.44134+00
+mt-hiperrayo,MT Hiperrayo,tm-normal,Enseña Hiperrayo. El más poderoso movimiento normal. Requiere recarga.,tm,"{""type"":""teach"",""moveId"":63,""moveName"":""Hiperrayo""}",true,true,3000,283,2026-03-06 13:17:41.349718+00
+mt-karate,MT Golpe Kárate,tm-fighting,Enseña Golpe Kárate. Movimiento Lucha confiable.,tm,"{""type"":""teach"",""moveId"":2,""moveName"":""Golpe Kárate""}",true,true,1500,307,2026-03-06 13:17:41.44134+00
+mt-lanzallamas,MT Lanzallamas,tm-fire,Enseña Lanzallamas. Puede quemar al rival.,tm,"{""type"":""teach"",""moveId"":53,""moveName"":""Lanzallamas""}",true,true,2000,272,2026-03-06 13:17:41.349718+00
+mt-lanzapiedras,MT Lanzapiedras,tm-rock,Enseña Lanzapiedras. Puede hacer retroceder al rival.,tm,"{""type"":""teach"",""moveId"":88,""moveName"":""Lanzapiedras""}",true,true,1500,327,2026-03-06 13:17:41.44134+00
+mt-llamarada,MT Llamarada,tm-fire,"Enseña Llamarada. Movimiento Fuego de alta potencia, requiere recarga.",tm,"{""type"":""teach"",""moveId"":126,""moveName"":""Llamarada""}",true,true,3000,291,2026-03-06 13:17:41.349718+00
+mt-luz-lunar,MT Luz Lunar,tm-fairy,Enseña Luz Lunar. Restaura PS según el clima.,tm,"{""type"":""teach"",""moveId"":236,""moveName"":""Luz Lunar""}",true,true,2000,342,2026-03-06 13:17:41.44134+00
+mt-maldicion-fantasma,MT Mal de Ojo,tm-ghost,Enseña Mal de Ojo. Maldice al rival quitándole PS cada turno.,tm,"{""type"":""teach"",""moveId"":506,""moveName"":""Mal de Ojo""}",true,true,2000,330,2026-03-06 13:17:41.44134+00
+mt-megapuno,MT Megapuño,tm-normal,Enseña Megapuño. Potente golpe físico.,tm,"{""type"":""teach"",""moveId"":5,""moveName"":""Megapuño""}",true,true,1500,281,2026-03-06 13:17:41.349718+00
+mt-megapuño,MT Megapuño,tm-normal,Enseña Megapuño. Potente golpe físico de tipo Normal.,tm,"{""type"":""teach"",""moveId"":5,""moveName"":""Megapuño""}",true,true,1500,271,2026-03-06 13:17:41.349718+00
+mt-meteoro-hierro,MT Meteoro Hierro,tm-steel,Enseña Meteoro Hierro. Baja el Ataque Especial del usuario.,tm,"{""type"":""teach"",""moveId"":309,""moveName"":""Meteoro Hierro""}",true,true,2500,339,2026-03-06 13:17:41.44134+00
+mt-nieve-polvo,MT Nieve Polvo,tm-ice,Enseña Nieve Polvo. Puede congelar al rival.,tm,"{""type"":""teach"",""moveId"":181,""moveName"":""Nieve Polvo""}",true,true,1500,306,2026-03-06 13:17:41.44134+00
+mt-onda-trueno,MT Onda Trueno,tm-electric,Enseña Onda Trueno. Paraliza al rival con seguridad.,tm,"{""type"":""teach"",""moveId"":85,""moveName"":""Onda Trueno""}",true,true,1000,298,2026-03-06 13:17:41.349718+00
+mt-onda-vacuo,MT Onda Vacío,tm-fighting,"Enseña Onda Vacío. Alta prioridad, daño especial.",tm,"{""type"":""teach"",""moveId"":409,""moveName"":""Onda Vacío""}",true,true,2000,309,2026-03-06 13:17:41.44134+00
+mt-picadura,MT Picadura,tm-bug,Enseña Picadura. Roba y consume el objeto del rival.,tm,"{""type"":""teach"",""moveId"":450,""moveName"":""Picadura""}",true,true,1500,324,2026-03-06 13:17:41.44134+00
+mt-pistola-agua,MT Pistola Agua,tm-water,Enseña Pistola Agua. Movimiento Agua básico y fiable.,tm,"{""type"":""teach"",""moveId"":55,""moveName"":""Pistola Agua""}",true,true,1000,295,2026-03-06 13:17:41.349718+00
+mt-premonicion,MT Premonición,tm-psychic,Enseña Premonición. Daño diferido después de 2 turnos.,tm,"{""type"":""teach"",""moveId"":148,""moveName"":""Premonición""}",true,true,2000,320,2026-03-06 13:17:41.44134+00
+mt-proteccion,MT Protección,tm-normal,Enseña Protección. Esquiva todos los ataques ese turno.,tm,"{""type"":""teach"",""moveId"":182,""moveName"":""Protección""}",true,true,1500,287,2026-03-06 13:17:41.349718+00
+mt-psicocarga,MT Psicocarga,tm-psychic,Enseña Psicocarga. Ataque físico Psíquico.,tm,"{""type"":""teach"",""moveId"":473,""moveName"":""Psicocarga""}",true,true,2000,319,2026-03-06 13:17:41.44134+00
+mt-psicorayo,MT Psicocarga,tm-psychic,Enseña Psicotrón. Rayo psíquico de alta potencia.,tm,"{""type"":""teach"",""moveId"":60,""moveName"":""Psicotrón""}",true,true,2000,321,2026-03-06 13:17:41.44134+00
+mt-psiquico,MT Psíquico,tm-psychic,Enseña Psíquico. Puede bajar la Def. Esp. del rival.,tm,"{""type"":""teach"",""moveId"":94,""moveName"":""Psíquico""}",true,true,2000,275,2026-03-06 13:17:41.349718+00
+mt-pulso-dragon,MT Pulso Dragón,tm-dragon,Enseña Pulso Dragón. Potente movimiento especial Dragón.,tm,"{""type"":""teach"",""moveId"":406,""moveName"":""Pulso Dragón""}",true,true,3000,333,2026-03-06 13:17:41.44134+00
+mt-pulso-umbrio,MT Pulso Umbrío,tm-dark,Enseña Pulso Umbrío. Puede hacer retroceder al rival.,tm,"{""type"":""teach"",""moveId"":399,""moveName"":""Pulso Umbrío""}",true,true,2500,335,2026-03-06 13:17:41.44134+00
+mt-rayo,MT Rayo,tm-electric,Enseña Rayo. Puede paralizar al rival.,tm,"{""type"":""teach"",""moveId"":87,""moveName"":""Rayo""}",true,true,2000,273,2026-03-06 13:17:41.349718+00
+mt-rayo-hielo,MT Rayo Hielo,tm-ice,Enseña Rayo Hielo. Puede congelar al rival.,tm,"{""type"":""teach"",""moveId"":58,""moveName"":""Rayo Hielo""}",true,true,2000,304,2026-03-06 13:17:41.44134+00
+mt-rayohelado,MT Rayo Hielo,tm-ice,Enseña Rayo Hielo. Puede congelar al rival.,tm,"{""type"":""teach"",""moveId"":58,""moveName"":""Rayo Hielo""}",true,true,2000,278,2026-03-06 13:17:41.349718+00
+mt-roca-afilada,MT Roca Afilada,tm-rock,Enseña Roca Afilada. Alta probabilidad de golpe crítico.,tm,"{""type"":""teach"",""moveId"":157,""moveName"":""Roca Afilada""}",true,true,2000,326,2026-03-06 13:17:41.44134+00
+mt-rueda-fuego,MT Rueda de Fuego,tm-fire,"Enseña Rueda de Fuego. Puede quemar, alta velocidad.",tm,"{""type"":""teach"",""moveId"":394,""moveName"":""Rueda de Fuego""}",true,true,2000,293,2026-03-06 13:17:41.349718+00
+mt-sofoco,MT Sofoco,tm-fire,Enseña Sofoco. Potente pero puede fallar.,tm,"{""type"":""teach"",""moveId"":488,""moveName"":""Sofoco""}",true,true,2500,292,2026-03-06 13:17:41.349718+00
+mt-solar,MT Solar,tm-grass,"Enseña Rayo Solar. Máxima potencia Planta, carga un turno.",tm,"{""type"":""teach"",""moveId"":76,""moveName"":""Rayo Solar""}",true,true,3000,300,2026-03-06 13:17:41.44134+00
+mt-surf,MT Surf,tm-water,Enseña Surf. Potente movimiento de tipo Agua.,tm,"{""type"":""teach"",""moveId"":57,""moveName"":""Surf""}",true,true,2000,274,2026-03-06 13:17:41.349718+00
+mt-terremoto,MT Terremoto,tm-ground,Enseña Terremoto. Poderoso movimiento sísmico.,tm,"{""type"":""teach"",""moveId"":89,""moveName"":""Terremoto""}",true,true,2500,276,2026-03-06 13:17:41.349718+00
+mt-tijera-x,MT Tijera X,tm-bug,Enseña Tijera X. Alta probabilidad de golpe crítico.,tm,"{""type"":""teach"",""moveId"":404,""moveName"":""Tijera X""}",true,true,2000,323,2026-03-06 13:17:41.44134+00
+mt-tinieblas,MT Tinieblas,tm-ghost,Enseña Tinieblas. Causa daño fijo según el nivel del Pokémon.,tm,"{""type"":""teach"",""moveId"":101,""moveName"":""Tinieblas""}",true,true,1500,277,2026-03-06 13:17:41.349718+00
+mt-tormenta-floral,MT Tormenta Floral,tm-grass,"Enseña Tormenta Floral. Alta potencia, baja precisión.",tm,"{""type"":""teach"",""moveId"":526,""moveName"":""Tormenta Floral""}",true,true,2500,303,2026-03-06 13:17:41.44134+00
+mt-toxico,MT Tóxico,tm-poison,Enseña Tóxico. Envenena gravemente al rival.,tm,"{""type"":""teach"",""moveId"":92,""moveName"":""Tóxico""}",true,true,1500,311,2026-03-06 13:17:41.44134+00
+mt-trituradora,MT Trituradora,tm-steel,Enseña Trituradora. Puede bajar la Defensa del rival.,tm,"{""type"":""teach"",""moveId"":242,""moveName"":""Trituradora""}",true,true,2000,280,2026-03-06 13:17:41.349718+00
+mt-triturar,MT Triturar,tm-normal,Enseña Triturar. Ataque físico que puede bajar la Defensa.,tm,"{""type"":""teach"",""moveId"":242,""moveName"":""Triturar""}",true,true,2000,289,2026-03-06 13:17:41.349718+00
+mt-trueno,MT Trueno,tm-electric,"Enseña Trueno. Gran potencia, puede paralizar, puede fallar.",tm,"{""type"":""teach"",""moveId"":86,""moveName"":""Trueno""}",true,true,3000,297,2026-03-06 13:17:41.349718+00
+mt-tumba-rocas,MT Tumba Rocas,tm-ground,Enseña Tumba Rocas. Puede bajar la Velocidad del rival.,tm,"{""type"":""teach"",""moveId"":246,""moveName"":""Tumba Rocas""}",true,true,1500,315,2026-03-06 13:17:41.44134+00
+mt-vendaval,MT Vendaval,tm-flying,Enseña Vendaval. Puede hacer retroceder al rival.,tm,"{""type"":""teach"",""moveId"":16,""moveName"":""Vendaval""}",true,true,2500,318,2026-03-06 13:17:41.44134+00
+mt-ventisca,MT Ventisca,tm-ice,"Enseña Ventisca. Máxima potencia Hielo, puede fallar.",tm,"{""type"":""teach"",""moveId"":59,""moveName"":""Ventisca""}",true,true,3000,305,2026-03-06 13:17:41.44134+00
+mt-voz-cautivadora,MT Voz Cautivadora,tm-fairy,Enseña Voz Cautivadora. No falla nunca.,tm,"{""type"":""teach"",""moveId"":574,""moveName"":""Voz Cautivadora""}",true,true,2000,340,2026-03-06 13:17:41.44134+00
+mt-zumbido,MT Zumbido,tm-bug,Enseña Zumbido. Puede bajar el Ataque Especial.,tm,"{""type"":""teach"",""moveId"":405,""moveName"":""Zumbido""}",true,true,1500,322,2026-03-06 13:17:41.44134+00
+muscle-band,Cinta Fuerte,muscle-band,+10% poder en movimientos físicos.,held,"{""stat"":""attack"",""type"":""stat_boost"",""amount"":1.1}",true,true,3000,101,2026-03-06 13:17:41.022669+00
+mystic-water,Agua Mística,mystic-water,+20% poder en ataques de tipo Agua.,held,"{""stat"":""spAtk"",""type"":""stat_boost"",""amount"":1.2}",false,false,,139,2026-03-06 13:17:41.022669+00
+nest-ball,Nido Ball,nest-ball,Más eficaz cuanto más bajo sea el nivel del Pokémon.,ball,"{""type"":""catch"",""catchMultiplier"":1}",true,true,1000,7,2026-03-06 13:17:40.548179+00
+net-ball,Red Ball,net-ball,Más eficaz contra Pokémon de tipo Agua y Bicho (x3).,ball,"{""type"":""catch"",""catchMultiplier"":3}",true,true,1000,5,2026-03-06 13:17:40.548179+00
+never-melt-ice,Antiderretir,never-melt-ice,+20% poder en ataques de tipo Hielo.,held,"{""stat"":""spAtk"",""type"":""stat_boost"",""amount"":1.2}",false,false,,148,2026-03-06 13:17:41.022669+00
+occa-berry,Baya Occa,occa-berry,Reduce el daño de un golpe Fuego súper efectivo a la mitad.,berry,"{""type"":""passive""}",false,false,,251,2026-03-06 13:17:41.349718+00
+odd-incense,Incienso Raro,odd-incense,+20% poder en movimientos Psíquico. Necesario para criar Mr. Mime→Mime Jr.,held,"{""stat"":""spAtk"",""type"":""stat_boost"",""amount"":1.2}",false,false,,175,2026-03-06 13:17:41.120203+00
+oran-berry,Baya Aranja,oran-berry,Restaura 10 PS cuando los PS bajan.,berry,"{""type"":""heal_hp"",""amount"":10}",true,true,100,223,2026-03-06 13:17:41.216506+00
+oval-stone,Piedra Oval,oval-stone,Evoluciona a Happiny cuando sube de nivel de día.,evo,"{""type"":""evolve"",""method"":""stone""}",false,false,,80,2026-03-06 13:17:40.907453+00
+paralyze-heal,Antiparalizador,paralyze-heal,Cura la parálisis.,heal,"{""type"":""heal_status""}",true,true,200,35,2026-03-06 13:17:40.548179+00
+passho-berry,Baya Passho,passho-berry,Reduce el daño de un golpe Agua súper efectivo a la mitad.,berry,"{""type"":""passive""}",false,false,,252,2026-03-06 13:17:41.349718+00
+payapa-berry,Baya Payapa,payapa-berry,Reduce el daño de un golpe Psíquico súper efectivo a la mitad.,berry,"{""type"":""passive""}",false,false,,260,2026-03-06 13:17:41.349718+00
+pecha-berry,Baya Pecha,pecha-berry,Cura el envenenamiento.,berry,"{""type"":""heal_status""}",false,false,,229,2026-03-06 13:17:41.216506+00
+persim-berry,Baya Persim,persim-berry,Cura la confusión.,berry,"{""type"":""heal_status""}",false,false,,232,2026-03-06 13:17:41.216506+00
+petaya-berry,Baya Petaya,petaya-berry,+1 Ataque Especial cuando los PS bajan al 25%.,berry,"{""stat"":""spAtk"",""type"":""stat_boost"",""amount"":1.5}",false,false,,239,2026-03-06 13:17:41.216506+00
+pidgeotite,Pidgeotita,pidgeotite,Permite a Pidgeot Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""pidgeotite""}",false,false,,181,2026-03-06 13:17:41.120203+00
+pinsirite,Pinsirita,pinsirite,Permite a Pinsir Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""pinsirite""}",false,false,,186,2026-03-06 13:17:41.120203+00
+poison-barb,Flecha Venenosa,poison-barb,+20% poder en ataques de tipo Veneno.,held,"{""stat"":""attack"",""type"":""stat_boost"",""amount"":1.2}",false,false,,147,2026-03-06 13:17:41.022669+00
+poke-ball,Poké Ball,poke-ball,La Poké Ball estándar para capturar Pokémon.,ball,"{""type"":""catch"",""catchMultiplier"":1}",true,true,200,0,2026-03-06 13:17:40.548179+00
+potion,Poción,potion,Restaura 20 PS.,heal,"{""type"":""heal_hp"",""amount"":20}",true,true,300,26,2026-03-06 13:17:40.548179+00
+power-herb,Hierba Poder,power-herb,Usa movimientos de carga en un turno. Se consume.,held,"{""type"":""passive""}",false,false,,112,2026-03-06 13:17:41.022669+00
+pp-max,PP Máximo,pp-max,Sube los PP máximos de un movimiento al máximo.,special,"{""type"":""passive""}",false,false,,55,2026-03-06 13:17:40.907453+00
+pp-up,PP Más,pp-up,Sube los PP máximos de un movimiento en 1/5.,special,"{""type"":""passive""}",false,false,,53,2026-03-06 13:17:40.907453+00
+premier-ball,Premier Ball,premier-ball,Una Poké Ball especial de edición limitada.,ball,"{""type"":""catch"",""catchMultiplier"":1}",false,false,,11,2026-03-06 13:17:40.548179+00
+prism-scale,Escama Prisma,prism-scale,Evoluciona a Feebas al intercambiar.,evo,"{""type"":""evolve"",""method"":""trade""}",false,false,,90,2026-03-06 13:17:40.907453+00
+protector,Protector,protector,Evoluciona a Rhydon al intercambiar.,evo,"{""type"":""evolve"",""method"":""trade""}",false,false,,88,2026-03-06 13:17:40.907453+00
+protein,Proteína,protein,Sube el Ataque base del Pokémon.,special,"{""stat"":""attack"",""type"":""stat_boost"",""amount"":10}",true,true,9800,57,2026-03-06 13:17:40.907453+00
+punching-glove,Guante de Boxeo,punching-glove,+10% poder en movimientos de puñetazo. No hacen contacto.,held,"{""stat"":""attack"",""type"":""stat_boost"",""amount"":1.1}",false,false,,154,2026-03-06 13:17:41.120203+00
+pure-incense,Incienso Puro,pure-incense,Reduce la frecuencia de encuentros salvajes. Necesario para criar Chimecho→Chingling.,held,"{""type"":""passive""}",false,false,,170,2026-03-06 13:17:41.120203+00
+quick-ball,Quick Ball,quick-ball,Muy eficaz si se usa al primer turno del combate (x5).,ball,"{""type"":""catch"",""catchMultiplier"":5}",true,true,1000,14,2026-03-06 13:17:40.548179+00
+quick-claw,Garra Rápida,quick-claw,20% de probabilidad de atacar primero sin importar la velocidad.,held,"{""type"":""passive""}",false,false,,118,2026-03-06 13:17:41.022669+00
+quick-powder,Polvo Rápido,quick-powder,Duplica la Velocidad de Ditto.,held,"{""stat"":""speed"",""type"":""stat_boost"",""amount"":2}",false,false,,162,2026-03-06 13:17:41.120203+00
+rare-candy,Carameloraro,rarecandy,Sube el nivel del Pokémon en 1.,special,"{""type"":""passive""}",false,false,,54,2026-03-06 13:17:40.907453+00
+rawst-berry,Baya Rawst,rawst-berry,Cura las quemaduras.,berry,"{""type"":""heal_status""}",false,false,,227,2026-03-06 13:17:41.216506+00
+razor-claw,Garra Afilada,razor-claw,Evoluciona a Sneasel al subir de nivel de noche.,evo,"{""type"":""evolve"",""method"":""item""}",false,false,,93,2026-03-06 13:17:40.907453+00
+razor-claw-held,Garra Afilada (Sostenida),razor-claw,Aumenta la tasa de golpe crítico.,held,"{""type"":""passive""}",false,false,,114,2026-03-06 13:17:41.022669+00
+razor-fang,Colmillo Filo,razor-fang,Evoluciona a Gligar al subir de nivel de noche.,evo,"{""type"":""evolve"",""method"":""item""}",false,false,,94,2026-03-06 13:17:40.907453+00
+reaper-cloth,Tela Parca,reaper-cloth,Evoluciona a Dusclops al intercambiar.,evo,"{""type"":""evolve"",""method"":""trade""}",false,false,,89,2026-03-06 13:17:40.907453+00
+red-card,Tarjeta Roja,red-card,Fuerza al atacante a cambiar de Pokémon al recibir daño. Se consume.,held,"{""type"":""passive""}",false,false,,107,2026-03-06 13:17:41.022669+00
+repeat-ball,Repeat Ball,repeat-ball,Más eficaz contra Pokémon que ya hayas capturado (x3.5).,ball,"{""type"":""catch"",""catchMultiplier"":3.5}",true,true,1000,8,2026-03-06 13:17:40.548179+00
+revival-herb,Hierba Revivir,revival-herb,Revive con todos los PS pero baja mucho la amistad.,heal,"{""type"":""revive"",""hpPercent"":1}",true,true,2800,48,2026-03-06 13:17:40.548179+00
+revive,Revivir,revive,Revive a un Pokémon debilitado con 50% de sus PS.,heal,"{""type"":""revive"",""hpPercent"":0.5}",true,true,1500,37,2026-03-06 13:17:40.548179+00
+rindo-berry,Baya Rindo,rindo-berry,Reduce el daño de un golpe Planta súper efectivo a la mitad.,berry,"{""type"":""passive""}",false,false,,254,2026-03-06 13:17:41.349718+00
+rock-incense,Incienso Roca,rock-incense,+20% poder en movimientos Roca. Necesario para criar Sudowoodo→Bonsly.,held,"{""stat"":""attack"",""type"":""stat_boost"",""amount"":1.2}",false,false,,171,2026-03-06 13:17:41.120203+00
+rocky-helmet,Casco Dentado,rocky-helmet,Devuelve 1/6 del daño a atacantes de contacto físico.,held,"{""type"":""passive""}",false,false,,105,2026-03-06 13:17:41.022669+00
+room-service,Servicio Habitación,room-service,Baja la Velocidad del portador al activarse Sala de Magia.,held,"{""type"":""passive""}",false,false,,135,2026-03-06 13:17:41.022669+00
+rose-incense,Incienso Rosa,rose-incense,+20% poder en movimientos Planta. Necesario para criar Roselia→Budew.,held,"{""stat"":""spAtk"",""type"":""stat_boost"",""amount"":1.2}",false,false,,172,2026-03-06 13:17:41.120203+00
+roseli-berry,Baya Roseli,roseli-berry,Reduce el daño de un golpe Hada súper efectivo a la mitad.,berry,"{""type"":""passive""}",false,false,,250,2026-03-06 13:17:41.349718+00
+rowap-berry,Baya Rowap,rowap-berry,Daña al rival si usa ataques especiales contra el portador.,berry,"{""type"":""passive""}",false,false,,247,2026-03-06 13:17:41.216506+00
+sablenite,Sablenita,sablenite,Permite a Sableye Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""sablenite""}",false,false,,201,2026-03-06 13:17:41.216506+00
+sachet,Saquito Perfumado,sachet,Evoluciona a Spritzee al intercambiar.,evo,"{""type"":""evolve"",""method"":""trade""}",false,false,,92,2026-03-06 13:17:40.907453+00
+sacred-ash,Ceniza Sagrada,sacred-ash,Revive a todos los Pokémon debilitados con todos sus PS.,heal,"{""type"":""revive"",""hpPercent"":1}",false,false,,39,2026-03-06 13:17:40.548179+00
+safari-ball,Safari Ball,safari-ball,Poké Ball especial usada en la Zona Safari.,ball,"{""type"":""catch"",""catchMultiplier"":1.5}",false,false,,4,2026-03-06 13:17:40.548179+00
+safety-goggles,Gafas Protectoras,safety-goggles,Inmunidad al clima dañino y al polvo/esporas.,held,"{""type"":""passive""}",false,false,,133,2026-03-06 13:17:41.022669+00
+salac-berry,Baya Salac,salac-berry,+1 Velocidad cuando los PS bajan al 25%.,berry,"{""stat"":""speed"",""type"":""stat_boost"",""amount"":1.5}",false,false,,238,2026-03-06 13:17:41.216506+00
+salamencite,Salamencita,salamencite,Permite a Salamence Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""salamencite""}",false,false,,212,2026-03-06 13:17:41.216506+00
+sceptilite,Sceptilita,sceptilite,Permite a Sceptile Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""sceptilite""}",false,false,,197,2026-03-06 13:17:41.120203+00
+scizorite,Scizorita,scizorite,Permite a Scizor Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""scizorite""}",false,false,,193,2026-03-06 13:17:41.120203+00
+scope-lens,Gafas Mira,scope-lens,Aumenta la probabilidad de asestar golpes críticos.,held,"{""type"":""passive""}",false,false,,113,2026-03-06 13:17:41.022669+00
+sea-incense,Incienso Mar,sea-incense,+20% poder en movimientos Agua. Necesario para criar Marill→Azurill.,held,"{""stat"":""spAtk"",""type"":""stat_boost"",""amount"":1.2}",false,false,,173,2026-03-06 13:17:41.120203+00
+sharp-beak,Pico Afilado,sharp-beak,+20% poder en ataques de tipo Volador.,held,"{""stat"":""attack"",""type"":""stat_boost"",""amount"":1.2}",false,false,,151,2026-03-06 13:17:41.120203+00
+sharpedonite,Sharpedonita,sharpedonite,Permite a Sharpedo Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""sharpedonite""}",false,false,,206,2026-03-06 13:17:41.216506+00
+shed-shell,Caparazón Viejo,shed-shell,Permite cambiar de Pokémon aunque el rival use retención.,held,"{""type"":""passive""}",false,false,,109,2026-03-06 13:17:41.022669+00
+shell-bell,Campana Concha,shell-bell,Restaura 1/8 del daño infligido como PS.,held,"{""type"":""passive""}",false,false,,126,2026-03-06 13:17:41.022669+00
+shiny-stone,Piedra Brillante,shiny-stone,Evoluciona a ciertos Pokémon.,evo,"{""type"":""evolve"",""method"":""stone""}",false,false,,76,2026-03-06 13:17:40.907453+00
+shuca-berry,Baya Shuca,shuca-berry,Reduce el daño de un golpe Tierra súper efectivo a la mitad.,berry,"{""type"":""passive""}",false,false,,258,2026-03-06 13:17:41.349718+00
+silk-scarf,Pañuelo Seda,silk-scarf,+20% poder en ataques de tipo Normal.,held,"{""stat"":""attack"",""type"":""stat_boost"",""amount"":1.2}",false,false,,152,2026-03-06 13:17:41.120203+00
+silver-powder,Polvo Plata,silver-powder,+20% poder en ataques de tipo Bicho.,held,"{""stat"":""attack"",""type"":""stat_boost"",""amount"":1.2}",false,false,,146,2026-03-06 13:17:41.022669+00
+sitrus-berry,Baya Zidra,sitrus-berry,Restaura 25% de PS cuando bajan al 50%.,berry,"{""type"":""heal_hp"",""amount"":0}",false,false,,224,2026-03-06 13:17:41.216506+00
+slowbronite,Slowbronita,slowbronite,Permite a Slowbro Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""slowbronite""}",false,false,,183,2026-03-06 13:17:41.120203+00
+soda-pop,Refresco,soda-pop,Restaura 50 PS.,heal,"{""type"":""heal_hp"",""amount"":50}",true,true,300,42,2026-03-06 13:17:40.548179+00
+soft-sand,Arena Fina,soft-sand,+20% poder en ataques de tipo Tierra.,held,"{""stat"":""attack"",""type"":""stat_boost"",""amount"":1.2}",false,false,,150,2026-03-06 13:17:41.120203+00
+soothe-bell,Campana Suave,soothe-bell,Aumenta la amistad del portador más rápidamente.,held,"{""type"":""friendship_boost""}",false,false,,125,2026-03-06 13:17:41.022669+00
+soul-dew,Rocío Bondad,soul-dew,+20% Ataque Especial y Defensa Especial de Latias y Latios.,held,"{""stat"":""spAtk"",""type"":""stat_boost"",""amount"":1.2}",false,false,,163,2026-03-06 13:17:41.120203+00
+spell-tag,Hechizo,spell-tag,+20% poder en ataques de tipo Fantasma.,held,"{""stat"":""spAtk"",""type"":""stat_boost"",""amount"":1.2}",false,false,,149,2026-03-06 13:17:41.022669+00
+sport-ball,Sport Ball,sport-ball,Poké Ball especial para el Concurso de Bichos.,ball,"{""type"":""catch"",""catchMultiplier"":1.5}",false,false,,23,2026-03-06 13:17:40.548179+00
+starf-berry,Baya Starf,starf-berry,+2 en una estadística aleatoria al 25% de PS.,berry,"{""type"":""passive""}",false,false,,244,2026-03-06 13:17:41.216506+00
+steelixite,Steelixita,steelixite,Permite a Steelix Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""steelixite""}",false,false,,192,2026-03-06 13:17:41.120203+00
+stick,Puerro,stick,Aumenta la probabilidad de crítico de Farfetch'd.,held,"{""stat"":""attack"",""type"":""stat_boost"",""amount"":1.5}",false,false,,159,2026-03-06 13:17:41.120203+00
+sticky-barb,Pincho Adherente,sticky-barb,Daña al portador y se transfiere al atacar cuerpo a cuerpo.,held,"{""type"":""passive""}",false,false,,130,2026-03-06 13:17:41.022669+00
+sun-stone,Piedra Solar,sun-stone,Evoluciona a ciertos Pokémon.,evo,"{""type"":""evolve"",""method"":""stone""}",true,true,2100,75,2026-03-06 13:17:40.907453+00
+super-potion,Superpoción,super-potion,Restaura 50 PS.,heal,"{""type"":""heal_hp"",""amount"":50}",true,true,700,27,2026-03-06 13:17:40.548179+00
+swampertite,Swampertita,swampertite,Permite a Swampert Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""swampertite""}",false,false,,199,2026-03-06 13:17:41.120203+00
+tanga-berry,Baya Tanga,tanga-berry,Reduce el daño de un golpe Bicho súper efectivo a la mitad.,berry,"{""type"":""passive""}",false,false,,261,2026-03-06 13:17:41.349718+00
+terrain-extender,Amplificador Terreno,terrain-extender,Extiende los terrenos creados por el portador a 8 turnos.,held,"{""type"":""passive""}",false,false,,134,2026-03-06 13:17:41.022669+00
+thick-club,Hueso Grueso,thick-club,Duplica el Ataque de Cubone y Marowak.,held,"{""stat"":""attack"",""type"":""stat_boost"",""amount"":2}",false,false,,155,2026-03-06 13:17:41.120203+00
+thunder-stone,Piedra Trueno,thunder-stone,Evoluciona a ciertos Pokémon de tipo Eléctrico.,evo,"{""type"":""evolve"",""method"":""stone""}",true,true,2100,72,2026-03-06 13:17:40.907453+00
+timer-ball,Crono Ball,timer-ball,Más eficaz cuanto más turnos hayan pasado en combate.,ball,"{""type"":""catch"",""catchMultiplier"":1}",true,true,1000,9,2026-03-06 13:17:40.548179+00
+toxic-orb,Esfera Tóxica,toxic-orb,Inflige envenenamiento grave al portador.,held,"{""type"":""passive""}",false,false,,128,2026-03-06 13:17:41.022669+00
+twisted-spoon,Cuchara Torcida,twisted-spoon,+20% poder en ataques de tipo Psíquico.,held,"{""stat"":""spAtk"",""type"":""stat_boost"",""amount"":1.2}",false,false,,137,2026-03-06 13:17:41.022669+00
+tyranitarite,Tyranitarita,tyranitarite,Permite a Tyranitar Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""tyranitarite""}",false,false,,196,2026-03-06 13:17:41.120203+00
+ultra-ball,Ultra Ball,ultra-ball,Una Poké Ball excelente con alta tasa de captura.,ball,"{""type"":""catch"",""catchMultiplier"":2}",true,true,1200,2,2026-03-06 13:17:40.548179+00
+upgrade,Mejora,upgrade,Evoluciona a Porygon al intercambiar.,evo,"{""type"":""evolve"",""method"":""trade""}",false,false,,84,2026-03-06 13:17:40.907453+00
+utility-umbrella,Paraguas Multiuso,utility-umbrella,El portador ignora los efectos del clima.,held,"{""type"":""passive""}",false,false,,136,2026-03-06 13:17:41.022669+00
+venusaurite,Venusaurita,venusaurite,Permite a Venusaur Megaevolucionar.,held,"{""type"":""mega_evo"",""stoneId"":""venusaurite""}",false,false,,176,2026-03-06 13:17:41.120203+00
+wacan-berry,Baya Wacan,wacan-berry,Reduce el daño de un golpe Eléctrico súper efectivo a la mitad.,berry,"{""type"":""passive""}",false,false,,253,2026-03-06 13:17:41.349718+00
+water-stone,Piedra Agua,water-stone,Evoluciona a ciertos Pokémon de tipo Agua.,evo,"{""type"":""evolve"",""method"":""stone""}",true,true,2100,71,2026-03-06 13:17:40.907453+00
+wave-incense,Incienso Ola,wave-incense,+20% poder en movimientos Agua. Necesario para criar Mantine→Mantyke.,held,"{""stat"":""spAtk"",""type"":""stat_boost"",""amount"":1.2}",false,false,,174,2026-03-06 13:17:41.120203+00
+whipped-dream,Nube Azucarada,whipped-dream,Evoluciona a Swirlix al intercambiar.,evo,"{""type"":""evolve"",""method"":""trade""}",false,false,,91,2026-03-06 13:17:40.907453+00
+white-herb,Hierba Blanca,white-herb,Restaura estadísticas bajadas. Se consume al usarse.,held,"{""type"":""passive""}",false,false,,110,2026-03-06 13:17:41.022669+00
+wide-lens,Lente Amplia,wide-lens,+10% de precisión en todos los movimientos.,held,"{""type"":""passive""}",false,false,,115,2026-03-06 13:17:41.022669+00
+wiki-berry,Baya Wiki,wiki-berry,Restaura 1/3 de PS al 25% pero puede causar confusión.,berry,"{""type"":""heal_hp"",""amount"":0}",false,false,,237,2026-03-06 13:17:41.216506+00
+wise-glasses,Gafas Especiales,wise-glasses,+10% poder en movimientos especiales.,held,"{""stat"":""spAtk"",""type"":""stat_boost"",""amount"":1.1}",true,true,3000,102,2026-03-06 13:17:41.022669+00
+x-accuracy,Precisión X,x-accuracy,Sube la Precisión en combate.,battle,"{""stat"":""acc"",""type"":""stat_boost"",""amount"":1}",true,true,950,67,2026-03-06 13:17:40.907453+00
+x-attack,Ataque X,x-attack,Sube el Ataque en combate.,battle,"{""stat"":""attack"",""type"":""stat_boost"",""amount"":1}",true,true,500,62,2026-03-06 13:17:40.907453+00
+x-defense,Defensa X,x-defense,Sube la Defensa en combate.,battle,"{""stat"":""defense"",""type"":""stat_boost"",""amount"":1}",true,true,550,63,2026-03-06 13:17:40.907453+00
+x-sp-atk,Ataque Esp. X,x-sp-atk,Sube el Ataque Especial en combate.,battle,"{""stat"":""spAtk"",""type"":""stat_boost"",""amount"":1}",true,true,350,64,2026-03-06 13:17:40.907453+00
+x-sp-def,Defensa Esp. X,x-sp-def,Sube la Defensa Especial en combate.,battle,"{""stat"":""spDef"",""type"":""stat_boost"",""amount"":1}",true,true,350,65,2026-03-06 13:17:40.907453+00
+x-speed,Velocidad X,x-speed,Sube la Velocidad en combate.,battle,"{""stat"":""speed"",""type"":""stat_boost"",""amount"":1}",true,true,350,66,2026-03-06 13:17:40.907453+00
+yache-berry,Baya Yache,yache-berry,Reduce el daño de un golpe Hielo súper efectivo a la mitad.,berry,"{""type"":""passive""}",false,false,,255,2026-03-06 13:17:41.349718+00
+zinc,Zinc,zinc,Sube la Defensa Especial base del Pokémon.,special,"{""stat"":""spDef"",""type"":""stat_boost"",""amount"":10}",true,true,9800,60,2026-03-06 13:17:40.907453+00
+zoom-lens,Lente Zoom,zoom-lens,+20% precisión si el Pokémon actúa después del rival.,held,"{""type"":""passive""}",false,false,,116,2026-03-06 13:17:41.022669+00

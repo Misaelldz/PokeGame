@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://bkuxjd31ouaqp"
+
+[deps]
+
+files=["res://Assets/Data/gyms.region.translation", "res://Assets/Data/gyms.leader.translation", "res://Assets/Data/gyms.badge.translation", "res://Assets/Data/gyms.type.translation", "res://Assets/Data/gyms.unlock.translation", "res://Assets/Data/gyms.reference.translation", "res://Assets/Data/gyms.mechanic.translation", "res://Assets/Data/gyms.pokemon.translation", "res://Assets/Data/gyms.reward.translation", "res://Assets/Data/gyms.dialog.translation", "res://Assets/Data/gyms.dialog.translation", "res://Assets/Data/gyms.dialog.translation"]
+
+source_file="res://Assets/Data/gyms.csv"
+dest_files=["res://Assets/Data/gyms.region.translation", "res://Assets/Data/gyms.leader.translation", "res://Assets/Data/gyms.badge.translation", "res://Assets/Data/gyms.type.translation", "res://Assets/Data/gyms.unlock.translation", "res://Assets/Data/gyms.reference.translation", "res://Assets/Data/gyms.mechanic.translation", "res://Assets/Data/gyms.pokemon.translation", "res://Assets/Data/gyms.reward.translation", "res://Assets/Data/gyms.dialog.translation", "res://Assets/Data/gyms.dialog.translation", "res://Assets/Data/gyms.dialog.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

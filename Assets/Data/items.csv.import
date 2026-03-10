@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://b3kg4yxqstb3b"
+
+[deps]
+
+files=["res://Assets/Data/items.name.translation", "res://Assets/Data/items.sprite.translation", "res://Assets/Data/items.description.translation", "res://Assets/Data/items.category.translation", "res://Assets/Data/items.effect.translation", "res://Assets/Data/items.buyable.translation", "res://Assets/Data/items.lootable.translation", "res://Assets/Data/items.shop.translation", "res://Assets/Data/items.sort.translation", "res://Assets/Data/items.created.translation"]
+
+source_file="res://Assets/Data/items.csv"
+dest_files=["res://Assets/Data/items.name.translation", "res://Assets/Data/items.sprite.translation", "res://Assets/Data/items.description.translation", "res://Assets/Data/items.category.translation", "res://Assets/Data/items.effect.translation", "res://Assets/Data/items.buyable.translation", "res://Assets/Data/items.lootable.translation", "res://Assets/Data/items.shop.translation", "res://Assets/Data/items.sort.translation", "res://Assets/Data/items.created.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://b0d27klarbpni"
+
+[deps]
+
+files=["res://Assets/Data/zones.region.translation", "res://Assets/Data/zones.zone.translation", "res://Assets/Data/zones.name.translation", "res://Assets/Data/zones.en.translation", "res://Assets/Data/zones.en.translation", "res://Assets/Data/zones.wild.translation", "res://Assets/Data/zones.is.translation", "res://Assets/Data/zones.en.translation", "res://Assets/Data/zones.created.translation", "res://Assets/Data/zones.gym.translation", "res://Assets/Data/zones.battle.translation", "res://Assets/Data/zones.encounter.translation", "res://Assets/Data/zones.trainer.translation", "res://Assets/Data/zones.reference.translation", "res://Assets/Data/zones.item.translation", "res://Assets/Data/zones.description.translation"]
+
+source_file="res://Assets/Data/zones.csv"
+dest_files=["res://Assets/Data/zones.region.translation", "res://Assets/Data/zones.zone.translation", "res://Assets/Data/zones.name.translation", "res://Assets/Data/zones.en.translation", "res://Assets/Data/zones.en.translation", "res://Assets/Data/zones.wild.translation", "res://Assets/Data/zones.is.translation", "res://Assets/Data/zones.en.translation", "res://Assets/Data/zones.created.translation", "res://Assets/Data/zones.gym.translation", "res://Assets/Data/zones.battle.translation", "res://Assets/Data/zones.encounter.translation", "res://Assets/Data/zones.trainer.translation", "res://Assets/Data/zones.reference.translation", "res://Assets/Data/zones.item.translation", "res://Assets/Data/zones.description.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

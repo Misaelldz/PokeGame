@@ -1,0 +1,6 @@
+region,slot,name,role,type,pokemon
+kanto,1,Lorelei,elite_four,ice,"[{""level"":54,""pokemonId"":87},{""level"":53,""pokemonId"":91},{""level"":54,""pokemonId"":80},{""level"":56,""pokemonId"":124},{""level"":56,""pokemonId"":131}]"
+kanto,2,Bruno,elite_four,fighting,"[{""level"":53,""pokemonId"":95},{""level"":55,""pokemonId"":107},{""level"":55,""pokemonId"":106},{""level"":56,""pokemonId"":95},{""level"":58,""pokemonId"":68}]"
+kanto,3,Agatha,elite_four,ghost,"[{""level"":56,""pokemonId"":94},{""level"":56,""pokemonId"":42},{""level"":55,""pokemonId"":93},{""level"":58,""pokemonId"":24},{""level"":60,""pokemonId"":94}]"
+kanto,4,Lance,elite_four,dragon,"[{""level"":58,""pokemonId"":130},{""level"":56,""pokemonId"":148},{""level"":56,""pokemonId"":148},{""level"":60,""pokemonId"":142},{""level"":62,""pokemonId"":149}]"
+kanto,5,Blue,champion,mixed,"[{""level"":61,""pokemonId"":18},{""level"":59,""pokemonId"":65},{""level"":61,""pokemonId"":112},{""level"":61,""pokemonId"":103},{""level"":63,""pokemonId"":130},{""level"":65,""pokemonId"":6}]"

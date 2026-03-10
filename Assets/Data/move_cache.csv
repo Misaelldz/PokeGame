@@ -1,0 +1,938 @@
+move_id,name_es,name_en,type,category,power,accuracy,pp,priority,ailment,ailment_chance,created_at,description_es
+1,Destructor,pound,normal,physical,40,100,35,0,,0,2026-03-06 13:24:47.668494+00,Golpea con las patas o la cola.
+2,Golpe Kárate,karate-chop,fighting,physical,50,100,25,0,,0,2026-03-06 13:56:53.761109+00,Da un golpe cortante. Suele ser crítico.
+3,Doble Bofetón,double-slap,normal,physical,15,85,10,0,,0,2026-03-06 13:24:46.366674+00,Abofetea de dos a cinco veces seguidas.
+4,Puño Cometa,comet-punch,normal,physical,18,85,15,0,,0,2026-03-06 13:31:46.297195+00,Pega de dos a cinco veces seguidas.
+5,Megapuño,mega-punch,normal,physical,80,85,20,0,,0,2026-03-06 13:26:47.13099+00,Un puñetazo de gran potencia.
+6,Día de Pago,pay-day,normal,physical,40,100,20,0,,0,2026-03-06 13:24:13.612631+00,Arroja monedas al objetivo. Las recupera al final del combate.
+7,Puño Fuego,fire-punch,fire,physical,75,100,15,0,BRN,10,2026-03-06 13:26:48.243713+00,Puñetazo ardiente. Puede quemar.
+8,Puño Hielo,ice-punch,ice,physical,75,100,15,0,FRZ,10,2026-03-06 13:26:47.931983+00,Puñetazo helado. Puede congelar.
+9,Puño Trueno,thunder-punch,electric,physical,75,100,15,0,PAR,10,2026-03-06 13:24:06.648416+00,Puñetazo eléctrico. Puede paralizar.
+10,Arañazo,scratch,normal,physical,40,100,35,0,,0,2026-03-06 13:23:28.116876+00,Araña con afiladas garras.
+11,Agarre,vice-grip,normal,physical,55,100,30,0,,0,2026-03-06 13:28:44.897043+00,Atrapa y atenaza al objetivo.
+12,Guillotina,guillotine,normal,physical,,30,5,0,,0,2026-03-06 13:28:41.397303+00,Ataque con pinzas que debilita al oponente de un golpe si acierta.
+13,Viento Cortante,razor-wind,normal,special,80,100,10,0,,0,2026-03-06 13:28:19.38897+00,Primero se prepara y en el segundo turno ataca al oponente con ráfagas de viento cortante. Alta probabilidad de ser crítico.
+14,Danza Espada,swords-dance,normal,status,,,20,0,,0,2026-03-06 13:26:38.321349+00,Baile frenético que aumenta mucho el Ataque.
+15,Corte,cut,normal,physical,50,95,30,0,,0,2026-03-06 14:14:08.070494+00,"Corta con garras, guadañas, etc. También sirve para cortar árboles finos."
+16,Tornado,gust,flying,special,40,100,35,0,,0,2026-03-06 13:30:26.115207+00,Crea un tornado con las alas y lo lanza contra el objetivo.
+17,Ataque Ala,wing-attack,flying,physical,60,100,35,0,,0,2026-03-06 13:23:35.879125+00,Golpea al objetivo con unas grandes alas.
+18,Remolino,whirlwind,normal,status,,,20,-6,,0,2026-03-06 13:36:30.717756+00,"Se lleva al objetivo, que es cambiado por otro Pokémon. Si es un Pokémon salvaje, acaba el combate."
+19,Vuelo,fly,flying,physical,90,95,15,0,,0,2026-03-06 13:29:57.211656+00,"Primer turno: vuela. Segundo turno: ataca. Fuera de combate, permite ir a sitios ya conocidos."
+20,Atadura,bind,normal,physical,15,85,20,0,,100,2026-03-06 13:26:55.760971+00,Ata y oprime de cuatro a cinco turnos.
+21,Atizar,slam,normal,physical,80,75,20,0,,0,2026-03-06 13:23:57.177659+00,Golpea con las extremidades.
+22,Látigo Cepa,vine-whip,grass,physical,45,100,25,0,,0,2026-03-06 13:23:10.969956+00,Azota al objetivo con ramas finas.
+23,Pisotón,stomp,normal,physical,65,100,20,0,,0,2026-03-06 13:25:57.632701+00,Tremendo pisotón que puede hacer retroceder al objetivo.
+24,Doble Patada,double-kick,fighting,physical,30,100,30,0,,0,2026-03-06 13:24:00.231124+00,Una patada doble. Golpea dos veces.
+25,Megapatada,mega-kick,normal,physical,120,75,5,0,,0,2026-03-06 13:26:40.550335+00,Patada de extrema fuerza.
+26,Patada Salto,jump-kick,fighting,physical,100,95,10,0,,0,2026-03-06 13:26:42.624731+00,"Da un salto y pega una patada. Si falla, se lesiona."
+27,Patada Giro,rolling-kick,fighting,physical,60,85,15,0,,0,2026-03-06 13:26:43.111095+00,Da una patada rápida y circular. Puede hacer retroceder al objetivo.
+28,Ataque Arena,sand-attack,ground,status,,100,15,0,,0,2026-03-06 13:29:09.152799+00,Arroja arena a la cara y baja la Precisión.
+29,Golpe Cabeza,headbutt,normal,physical,70,100,15,0,,0,2026-03-06 13:23:40.075517+00,Lanza un potente cabezazo que puede hacer retroceder al objetivo.
+30,Cornada,horn-attack,normal,physical,65,100,25,0,,0,2026-03-06 13:27:52.619026+00,Ataca al objetivo con una cornada.
+31,Ataque Furia,fury-attack,normal,physical,15,85,20,0,,0,2026-03-06 13:27:09.766869+00,Cornea al objetivo de dos a cinco veces.
+32,Perforador,horn-drill,normal,physical,,30,5,0,,0,2026-03-06 13:27:07.773009+00,Ataque con taladro que fulmina en un golpe al objetivo si le toca.
+33,Placaje,tackle,normal,physical,40,100,35,0,,0,2026-03-06 13:23:11.953542+00,Embiste con todo el cuerpo.
+34,Golpe Cuerpo,body-slam,normal,physical,85,100,15,0,PAR,30,2026-03-06 13:24:45.500835+00,Salta sobre el objetivo con todo su peso. Puede paralizar.
+35,Constricción,wrap,normal,physical,15,90,20,0,,100,2026-03-06 13:26:55.454985+00,Oprime al objetivo de cuatro a cinco turnos con ramas o con su cuerpo.
+36,Derribo,take-down,normal,physical,90,85,20,0,,0,2026-03-06 13:23:10.391346+00,Carga desmedida que también hiere al agresor.
+37,Golpe,thrash,normal,physical,120,100,10,0,,0,2026-03-06 13:26:31.10547+00,Ataca de dos a tres turnos y acaba confundiendo al agresor.
+38,Doble Filo,double-edge,normal,physical,120,100,15,0,,0,2026-03-06 13:23:08.921265+00,Ataque arriesgado que también hiere al agresor.
+39,Látigo,tail-whip,normal,status,,100,30,0,,0,2026-03-06 13:23:43.940824+00,Agita la cola para bajar la Defensa del equipo rival.
+40,Picotazo Veneno,poison-sting,poison,physical,15,100,35,0,PSN,30,2026-03-06 13:31:58.073028+00,Lanza un aguijón tóxico que puede envenenar al objetivo.
+41,Doble Ataque,twineedle,bug,physical,25,100,20,0,PSN,20,2026-03-06 14:01:05.048248+00,Pincha dos veces con dos espinas. Puede envenenar.
+42,Pin Misil,pin-missile,bug,physical,25,95,20,0,,0,2026-03-06 13:29:19.72176+00,Lanza finas púas que hieren de dos a cinco veces.
+43,Malicioso,leer,normal,status,,100,30,0,,0,2026-03-06 13:23:26.6189+00,Intimida a los rivales para bajar su Defensa.
+44,Mordisco,bite,dark,physical,60,100,25,0,,0,2026-03-06 13:23:42.716887+00,Un voraz bocado que puede hacer retroceder al objetivo.
+45,Gruñido,growl,normal,status,,100,40,0,,0,2026-03-06 13:23:11.641189+00,Dulce gruñido que reduce el Ataque del contrincante.
+46,Rugido,roar,normal,status,,,20,-6,,0,2026-03-06 13:24:34.070096+00,"Se lleva al objetivo, que es cambiado por otro Pokémon. Si es un Pokémon salvaje, acaba el combate."
+47,Canto,sing,normal,status,,55,15,0,SLP,0,2026-03-06 13:27:23.700614+00,Cancioncilla que hace dormir profundamente al objetivo.
+48,Supersónico,supersonic,normal,status,,55,20,0,,0,2026-03-06 13:26:03.361428+00,Raras ondas sónicas que confunden al objetivo.
+49,Bomba Sónica,sonic-boom,normal,special,,90,20,0,,0,2026-03-06 13:26:04.053924+00,Lanza ondas de choque que restan 20 PS al objetivo.
+50,Anulación,disable,normal,status,,100,20,0,,0,2026-03-06 13:24:23.992449+00,Desactiva el último movimiento del objetivo durante cuatro turnos.
+51,Ácido,acid,poison,special,40,100,30,0,,0,2026-03-06 13:44:29.880737+00,Rocía a los enemigos con un ácido corrosivo. Puede bajar la Defensa Especial.
+52,Ascuas,ember,fire,special,40,100,25,0,BRN,10,2026-03-06 13:23:26.909+00,Ataca con llamas pequeñas que pueden causar quemaduras.
+53,Lanzallamas,flamethrower,fire,special,90,100,15,0,BRN,10,2026-03-06 13:23:24.248809+00,Ataca con una gran ráfaga de fuego que puede causar quemaduras.
+54,Neblina,mist,ice,status,,,30,0,,0,2026-03-06 13:24:56.481237+00,Rodea de fina niebla al usuario y protege las características de su equipo durante cinco turnos.
+55,Pistola Agua,water-gun,water,special,40,100,25,0,,0,2026-03-06 13:23:43.340489+00,Ataca disparando agua con gran potencia.
+56,Hidrobomba,hydro-pump,water,special,110,80,5,0,,0,2026-03-06 13:23:39.158024+00,Lanza una gran masa de agua a presión para atacar.
+57,Surf,surf,water,special,90,100,15,0,,0,2026-03-06 13:24:22.71896+00,Inunda el campo de batalla con una ola gigante. Fuera de batalla sirve para moverse sobre el agua.
+58,Rayo Hielo,ice-beam,ice,special,90,100,10,0,FRZ,10,2026-03-06 13:29:00.273736+00,Rayo de hielo que puede llegar a congelar.
+59,Ventisca,blizzard,ice,special,110,70,5,0,FRZ,10,2026-03-06 13:28:25.106588+00,Tormenta de hielo que puede llegar a congelar.
+60,Psicorrayo,psybeam,psychic,special,65,100,20,0,,10,2026-03-06 13:24:24.46659+00,Extraño rayo que puede causar confusión.
+61,Rayo Burbuja,bubble-beam,water,special,65,100,20,0,,0,2026-03-06 13:23:41.826503+00,Diluvio de burbujas que puede bajar la Velocidad.
+62,Rayo Aurora,aurora-beam,ice,special,65,100,20,0,,0,2026-03-06 13:29:15.64495+00,Rayo multicolor que puede reducir el Ataque.
+63,Hiperrayo,hyper-beam,normal,special,150,90,5,0,,0,2026-03-06 13:28:35.559854+00,"Es eficaz, pero el atacante deberá descansar en el siguiente turno."
+64,Picotazo,peck,flying,physical,35,100,35,0,,0,2026-03-06 13:27:53.733121+00,Ensarta al objetivo con un cuerno o pico punzante.
+65,Pico Taladro,drill-peck,flying,physical,80,100,20,0,,0,2026-03-06 13:30:18.1941+00,Picotazo giratorio y perforador muy potente.
+66,Sumisión,submission,fighting,physical,80,80,20,0,,0,2026-03-06 13:24:54.938285+00,Tira al objetivo al suelo. También hiere al agresor.
+67,Patada Baja,low-kick,fighting,physical,,100,20,0,,0,2026-03-06 13:24:46.080602+00,"Patada baja. Cuanto más pesa el objetivo, más daño causa."
+68,Contraataque,counter,fighting,physical,,100,20,-5,,0,2026-03-06 13:26:46.272918+00,Devuelve un golpe físico por duplicado.
+69,Sísmico,seismic-toss,fighting,physical,,100,20,0,,0,2026-03-06 13:25:17.430914+00,La gravedad derriba al objetivo. Se restarán tantos PS como nivel tenga el agresor.
+70,Fuerza,strength,normal,physical,80,100,15,0,,0,2026-03-06 13:25:19.176868+00,Potente puñetazo. Fuera de combate sirve para mover rocas.
+71,Absorber,absorb,grass,special,20,100,25,0,,0,2026-03-06 13:27:31.272263+00,Absorbe la mitad del daño producido en el objetivo para restaurar los PS del usuario.
+72,Megaagotar,mega-drain,grass,special,40,100,15,0,,0,2026-03-06 13:27:30.594861+00,Absorbe la mitad del daño producido en el objetivo para restaurar los PS del usuario.
+73,Drenadoras,leech-seed,grass,status,,90,10,0,,0,2026-03-06 13:23:11.262105+00,Planta semillas que absorben PS para recuperar la salud del usuario en cada turno.
+74,Desarrollo,growth,normal,status,,,20,0,,0,2026-03-06 13:23:08.619729+00,El cuerpo del usuario crece a marchas forzadas y aumenta el Ataque y el Ataque Especial.
+75,Hoja Afilada,razor-leaf,grass,physical,55,95,25,0,,0,2026-03-06 13:23:09.790554+00,Corta con hojas afiladas. Suele ser crítico.
+76,Rayo Solar,solar-beam,grass,special,120,100,10,0,,0,2026-03-06 13:23:07.34828+00,Primer turno: absorbe luz. Segundo turno: lanza un potente rayo de energía.
+77,Polvo Veneno,poison-powder,poison,status,,75,35,0,PSN,0,2026-03-06 13:23:10.667152+00,Polvo tóxico que envenena al objetivo.
+78,Paralizador,stun-spore,grass,status,,75,30,0,PAR,0,2026-03-06 13:27:29.781478+00,Esparce polvo que paraliza al objetivo.
+79,Somnífero,sleep-powder,grass,status,,75,15,0,SLP,0,2026-03-06 13:23:07.675802+00,Esparce polvo que duerme al objetivo.
+80,Danza Pétalo,petal-dance,grass,special,120,100,10,0,,0,2026-03-06 13:23:19.590888+00,Lanza pétalos de dos a tres turnos y acaba confundiendo al atacante.
+81,Disparo Demora,string-shot,bug,status,,95,40,0,,0,2026-03-06 13:31:58.372255+00,Lanza seda a los rivales y reduce mucho su Velocidad.
+82,Furia Dragón,dragon-rage,dragon,special,,100,10,0,,0,2026-03-06 13:23:23.666411+00,Ráfaga de furiosas ondas de choque que quitan 40 PS.
+83,Giro Fuego,fire-spin,fire,special,35,85,15,0,,100,2026-03-06 13:23:23.05227+00,Un aro de fuego que atrapa al objetivo de cuatro a cinco turnos.
+84,Impactrueno,thunder-shock,electric,special,40,100,30,0,PAR,10,2026-03-06 13:24:07.519785+00,Ataque eléctrico que puede paralizar al objetivo.
+85,Rayo,thunderbolt,electric,special,90,100,15,0,PAR,10,2026-03-06 13:23:56.589013+00,Potente ataque eléctrico que puede paralizar al objetivo.
+86,Onda Trueno,thunder-wave,electric,status,,90,20,0,PAR,0,2026-03-06 13:23:59.302538+00,Una ligera descarga que paraliza al objetivo si lo alcanza.
+87,Trueno,thunder,electric,special,110,70,10,0,PAR,30,2026-03-06 13:23:55.326963+00,Un poderoso rayo que daña al objetivo y puede paralizarlo.
+88,Lanzarrocas,rock-throw,rock,physical,50,90,15,0,,0,2026-03-06 13:25:35.749596+00,Tira una pequeña roca al objetivo.
+89,Terremoto,earthquake,ground,physical,100,100,10,0,,0,2026-03-06 13:25:33.360579+00,Un terremoto que afecta a los Pokémon de alrededor en combate.
+90,Fisura,fissure,ground,physical,,30,5,0,,0,2026-03-06 13:42:29.809423+00,Abre una grieta en el suelo y mete al objetivo en ella. Fulmina en un golpe.
+91,Excavar,dig,ground,physical,80,100,10,0,,0,2026-03-06 13:34:41.05765+00,Primer turno: cava. Segundo turno: ataca. También sirve para salir de ciertas zonas.
+92,Tóxico,toxic,poison,status,,90,10,0,PSN,0,2026-03-06 13:26:16.810364+00,Envenena gravemente al objetivo y causa un daño mayor en cada turno.
+93,Confusión,confusion,psychic,special,50,100,25,0,,10,2026-03-06 13:24:22.997185+00,Débil ataque telequinético que puede causar confusión.
+94,Psíquico,psychic,psychic,special,90,100,10,0,,0,2026-03-06 13:25:01.64561+00,Fuerte ataque telequinético que puede bajar la Defensa Especial del objetivo.
+95,Hipnosis,hypnosis,psychic,status,,60,20,0,SLP,0,2026-03-06 13:24:19.943999+00,Ataque hipnótico que hace dormir profundamente al objetivo.
+96,Meditación,meditate,psychic,status,,,40,0,,0,2026-03-06 13:28:12.829101+00,El usuario reposa y medita para potenciar el Ataque.
+97,Agilidad,agility,psychic,status,,,30,0,,0,2026-03-06 13:23:56.287602+00,Relaja el cuerpo para ganar mucha Velocidad.
+98,Ataque Rápido,quick-attack,normal,physical,40,100,30,1,,0,2026-03-06 13:23:59.908042+00,Ataque rápido que permite golpear en primer lugar.
+99,Furia,rage,normal,physical,20,100,20,0,,0,2026-03-06 13:23:25.723988+00,"Al usarse, aumenta el Ataque del usuario cada vez que es golpeado."
+100,Teletransporte,teleport,psychic,status,,,20,-6,,0,2026-03-06 13:24:59.543569+00,Permite huir al instante de combates contra Pokémon salvajes o viajar al último Centro Pokémon visitado.
+101,Tinieblas,night-shade,ghost,special,,100,15,0,,0,2026-03-06 13:25:05.345169+00,"Produce un espejismo ante el objetivo, que pierde tantos PS como nivel tenga el agresor."
+102,Mimético,mimic,normal,status,,,10,0,,0,2026-03-06 13:28:14.206142+00,Copia el último movimiento usado por el objetivo. Dicho movimiento se podrá usar mientras el Pokémon no sea cambiado.
+103,Chirrido,screech,normal,status,,85,40,0,,0,2026-03-06 13:24:13.315179+00,Alarido agudo que reduce mucho la Defensa del objetivo.
+104,Doble Equipo,double-team,normal,status,,,15,0,,0,2026-03-06 13:23:59.008083+00,Crea copias de sí mismo para mejorar la Evasión.
+105,Recuperación,recover,normal,status,,,5,0,,0,2026-03-06 13:25:02.838255+00,Restaura hasta la mitad de los PS máximos.
+106,Fortaleza,harden,normal,status,,,30,0,,0,2026-03-06 13:25:34.829554+00,Tensa la musculatura del usuario para aumentar la Defensa.
+107,Reducción,minimize,normal,status,,,10,0,,0,2026-03-06 13:27:23.000786+00,El usuario mengua para aumentar mucho la Evasión.
+108,Pantalla de Humo,smokescreen,normal,status,,100,20,0,,0,2026-03-06 13:23:26.040899+00,Baja la Precisión del objetivo con una nube de humo o tinta.
+109,Rayo Confuso,confuse-ray,ghost,status,,100,10,0,,0,2026-03-06 13:26:15.997104+00,Rayo siniestro que confunde al objetivo.
+110,Refugio,withdraw,water,status,,,40,0,,0,2026-03-06 13:23:41.263747+00,El usuario se protege en su coraza y sube la Defensa.
+111,Rizo Defensa,defense-curl,normal,status,,,40,0,,0,2026-03-06 13:25:36.71822+00,Se enrosca para ocultar su punto débil. Sube la Defensa.
+112,Barrera,barrier,psychic,status,,,20,0,,0,2026-03-06 13:29:33.484801+00,Crea una barrera que aumenta mucho la Defensa.
+113,Pantalla de Luz,light-screen,psychic,status,,,30,0,,0,2026-03-06 13:23:55.643081+00,Pared de luz que reduce durante cinco turnos el daño producido por los ataques especiales.
+114,Niebla,haze,ice,status,,,30,0,,0,2026-03-06 13:24:57.168272+00,Neblina que elimina los cambios de características de todos los Pokémon en combate.
+115,Reflejo,reflect,psychic,status,,,20,0,,0,2026-03-06 13:25:01.925581+00,Pared de luz que reduce durante cinco turnos el daño producido por los ataques físicos.
+116,Foco Energía,focus-energy,normal,status,,,30,0,,0,2026-03-06 13:25:18.312316+00,Concentra energía para aumentar las posibilidades de un golpe crítico.
+117,Venganza,bide,normal,physical,,,10,1,,0,2026-03-06 13:25:37.577826+00,Espera dos turnos para atacar con el doble de potencia del daño recibido.
+118,Metrónomo,metronome,normal,status,,,10,0,,0,2026-03-06 13:30:34.562234+00,El usuario mueve un dedo y estimula su cerebro para usar al azar casi cualquier movimiento.
+119,Espejo,mirror-move,flying,status,,,20,0,,0,2026-03-06 13:36:59.215891+00,Contraataca con el mismo movimiento empleado por el objetivo.
+120,Autodestrucción,self-destruct,normal,physical,200,100,5,0,,0,2026-03-06 13:25:32.545296+00,El atacante explota y hiere a todos a su alrededor. El usuario se debilita de inmediato.
+121,Bomba Huevo,egg-bomb,normal,physical,100,75,10,0,,0,2026-03-06 13:27:22.254334+00,Arroja un huevo al objetivo con gran fuerza.
+122,Lengüetazo,lick,ghost,physical,30,100,30,0,PAR,30,2026-03-06 13:26:18.51415+00,Una lengua ataca al objetivo. Puede causar parálisis.
+123,Polución,smog,poison,special,30,70,20,0,PSN,40,2026-03-06 13:26:18.809115+00,El objetivo es atacado con gases tóxicos que pueden llegar a envenenar.
+124,Residuos,sludge,poison,special,65,100,20,0,PSN,30,2026-03-06 13:27:00.076997+00,Arroja residuos al objetivo. Puede llegar a envenenar.
+125,Hueso Palo,bone-club,ground,physical,65,85,20,0,,0,2026-03-06 13:26:33.704712+00,Aporrea con un hueso. Puede hacer retroceder al objetivo.
+126,Llamarada,fire-blast,fire,special,110,85,5,0,BRN,10,2026-03-06 13:28:35.894609+00,Llama intensa que chamusca y puede causar quemaduras.
+127,Cascada,waterfall,water,physical,80,100,15,0,,0,2026-03-06 13:27:43.572783+00,Embiste con un gran impulso que puede hacer retroceder. También sirve para remontar cascadas.
+128,Tenaza,clamp,water,physical,35,85,15,0,,100,2026-03-06 14:05:04.882569+00,Atrapa y atenaza con fuerza durante cuatro o cinco turnos.
+129,Rapidez,swift,normal,special,60,,20,0,,0,2026-03-06 13:23:58.400805+00,Lanza rayos en forma de estrella que no fallan nunca.
+130,Cabezazo,skull-bash,normal,physical,130,100,10,0,,100,2026-03-06 13:23:39.479352+00,Primer turno: se prepara y sube la Defensa del usuario. Segundo turno: da el cabezazo.
+131,Clavo Cañón,spike-cannon,normal,physical,20,100,15,0,,0,2026-03-06 13:29:35.714676+00,Lanza finas púas que hieren de dos a cinco veces.
+132,Restricción,constrict,normal,physical,10,100,35,0,,0,2026-03-06 13:31:57.188387+00,Constriñe para herir y puede bajar la Velocidad.
+133,Amnesia,amnesia,psychic,status,,,20,0,,0,2026-03-06 13:23:21.765146+00,El usuario olvida sus preocupaciones y aumenta mucho la Defensa Especial.
+134,Kinético,kinesis,psychic,status,,80,15,0,,0,2026-03-08 04:31:12.941315+00,Dobla una cuchara para distraer al objetivo y bajar su nivel de Precisión.
+135,Amortiguador,soft-boiled,normal,status,,,5,0,,0,2026-03-06 13:27:22.535937+00,Restaura la mitad de los PS máximos del usuario. Fuera de combate se usa para transferir parte de sus PS a un aliado.
+136,Pat. Salto Alta,high-jump-kick,fighting,physical,130,90,10,0,,0,2026-03-06 13:26:41.537545+00,"Salta muy alto y lanza una patada. Si falla, dañará al usuario."
+137,Deslumbrar,glare,normal,status,,100,30,0,PAR,0,2026-03-06 13:34:43.328211+00,Intimida y asusta al objetivo con la mirada para dejarlo paralizado.
+138,Comesueños,dream-eater,psychic,special,100,100,15,0,,0,2026-03-06 13:26:13.365987+00,Restaura al usuario la mitad del daño causado a un objetivo dormido.
+139,Gas Venenoso,poison-gas,poison,status,,90,40,0,PSN,0,2026-03-06 13:26:18.190417+00,Lanza una nube de gas tóxico a los rivales. Produce envenenamiento.
+140,Bombardeo,barrage,normal,physical,15,85,20,0,,0,2026-03-07 21:49:14.312447+00,Arroja esferas al objetivo entre dos y cinco veces seguidas.
+141,Chupavidas,leech-life,bug,physical,80,100,10,0,,0,2026-03-06 13:29:46.668562+00,Restaura al usuario la mitad del daño causado al objetivo.
+142,Beso Amoroso,lovely-kiss,normal,status,,75,10,0,SLP,0,2026-03-06 13:28:27.013111+00,"Con una cara que asusta, da un beso al objetivo y lo adormece."
+143,Ataque Aéreo,sky-attack,flying,physical,140,90,5,0,,0,2026-03-06 13:30:08.876969+00,Ataque en dos turnos que suele ser crítico. Puede hacer retroceder al objetivo.
+144,Transformación,transform,normal,status,,,10,0,,0,2026-03-06 13:29:04.014339+00,"El usuario se transforma en una copia del objetivo, con los mismos movimientos."
+145,Burbuja,bubble,water,special,40,100,30,0,,0,2026-03-06 13:23:43.645892+00,Lanza burbujas a los contrincantes y puede reducir su Velocidad.
+146,Puño Mareo,dizzy-punch,normal,physical,70,100,10,0,,20,2026-03-06 13:26:49.708739+00,Rítmicos puñetazos que pueden causar confusión.
+147,Espora,spore,grass,status,,100,15,0,SLP,0,2026-03-06 13:39:18.369478+00,Esparce esporas que inducen al sueño.
+148,Destello,flash,normal,status,,100,20,0,,0,2026-03-06 13:25:05.848526+00,Luz cegadora que baja la Precisión del objetivo.
+149,Psicoonda,psywave,psychic,special,,100,15,0,,0,2026-03-06 13:28:04.211775+00,Ataque con una onda de energía de intensidad variable.
+150,Salpicadura,splash,normal,status,,,40,0,,0,2026-03-06 13:28:51.735317+00,No tiene ningún efecto. Solo salpica.
+151,Armadura Ácida,acid-armor,poison,status,,,20,0,,0,2026-03-06 13:29:13.876095+00,Transforma la estructura celular para hacerse líquido y aumenta mucho la Defensa.
+152,Martillazo,crabhammer,water,physical,100,90,10,0,,0,2026-03-06 13:34:46.623579+00,Golpea con fuerza con una pinza enorme. Suele ser crítico.
+153,Explosión,explosion,normal,physical,250,100,5,0,,0,2026-03-06 13:25:33.069436+00,El atacante causa una grandísima explosión y hiere a todos a su alrededor. El usuario se debilita de inmediato.
+154,Golpes Furia,fury-swipes,normal,physical,18,80,15,0,,0,2026-03-06 13:23:26.335188+00,Araña rápidamente de dos a cinco veces.
+155,Huesomerang,bonemerang,ground,physical,50,90,10,0,,0,2026-03-06 13:26:31.412779+00,Lanza un hueso a modo de bumerán que golpea dos veces.
+156,Descanso,rest,psychic,status,,,5,0,,0,2026-03-06 13:25:51.345307+00,Restaura todos los PS y cura todos los problemas de estado del usuario. Duerme los dos próximos turnos.
+157,Avalancha,rock-slide,rock,physical,75,90,10,0,,0,2026-03-06 13:25:35.448543+00,Lanza grandes pedruscos. Puede amedrentar al objetivo.
+158,Hipercolmillo,hyper-fang,normal,physical,80,90,15,0,,0,2026-03-06 13:47:14.949886+00,Ataque con finos colmillos. Puede hacer retroceder al objetivo.
+159,Afilar,sharpen,normal,status,,,30,0,,0,2026-03-06 13:29:32.524221+00,El perfil del usuario se hace más afilado y su Ataque mejora.
+160,Conversión,conversion,normal,status,,,30,0,,0,2026-03-06 13:29:31.183353+00,Cambia el tipo del usuario por el del primero de sus movimientos.
+161,Triataque,tri-attack,normal,special,80,100,10,0,,20,2026-03-06 13:26:07.717452+00,"Ataque triple que puede paralizar, quemar o congelar al objetivo."
+162,Superdiente,super-fang,normal,physical,,90,10,0,,0,2026-03-06 13:47:14.03304+00,Finos colmillos que reducen a la mitad los PS del objetivo.
+163,Cuchillada,slash,normal,physical,70,100,20,0,,0,2026-03-06 13:23:24.544032+00,Ataca con cuchillas o con pinzas. Suele dar un golpe crítico.
+164,Sustituto,substitute,normal,status,,,10,0,,0,2026-03-06 13:25:04.314296+00,Utiliza parte de los PS propios para crear un sustituto que actúa como señuelo.
+165,Forcejeo,struggle,normal,physical,50,,1,0,,0,2026-03-08 04:31:16.885105+00,Solo se usa como último recurso al acabarse los PP. Hiere un poco al agresor.
+166,Esquema,sketch,normal,status,,,1,0,,0,2026-03-07 22:00:14.043787+00,Aprende de forma permanente el último movimiento utilizado por el objetivo. Es de un solo uso.
+167,Triple Patada,triple-kick,fighting,physical,10,90,10,0,,0,2026-03-06 14:13:43.106292+00,Patea hasta tres veces seguidas y cada vez más fuerte.
+168,Ladrón,thief,dark,physical,60,100,25,0,,0,2026-03-06 13:37:33.167461+00,"Ataca y le quita al objetivo el objeto que lleve. Si el agresor lleva un objeto, no robará el del objetivo."
+169,Telaraña,spider-web,bug,status,,,10,0,,0,2026-03-06 13:31:55.389543+00,Enreda al objetivo para evitar que abandone la batalla.
+170,Telépata,mind-reader,normal,status,,,5,0,,0,2026-03-06 13:24:54.049553+00,El usuario adivina los movimientos del objetivo para hacer que su siguiente ataque no falle.
+171,Pesadilla,nightmare,ghost,status,,100,15,0,,0,2026-03-06 13:26:13.966605+00,El objetivo dormido sufre una pesadilla que le hace perder PS en cada turno.
+172,Rueda Fuego,flame-wheel,fire,physical,60,100,25,0,BRN,10,2026-03-06 13:24:35.334285+00,Ataca envuelto en fuego. Puede causar quemaduras.
+173,Ronquido,snore,normal,special,50,100,15,0,,0,2026-03-06 13:30:06.069099+00,Fuerte ronquido que solo puede usarse dormido. Puede hacer retroceder al objetivo.
+174,Maldición,curse,ghost,status,,,10,0,,0,2026-03-06 13:25:52.961301+00,Un movimiento que tiene efectos distintos si el usuario es de tipo Fantasma o no.
+175,Azote,flail,normal,physical,,100,15,0,,0,2026-03-06 13:27:52.050623+00,"Ataque frenético. Cuantos menos PS tenga el usuario, más daño producirá."
+176,Conversión2,conversion-2,normal,status,,,30,0,,0,2026-03-06 13:29:32.2267+00,El usuario cambia de tipo para hacerse resistente al último tipo de movimiento usado por el objetivo.
+177,Aerochorro,aeroblast,flying,special,100,95,5,0,,0,2026-03-06 13:36:30.233858+00,Lanza un chorro de aire que suele dar un golpe crítico.
+178,Esporagodón,cotton-spore,grass,status,,100,40,0,,0,2026-03-06 13:32:34.743717+00,Adhiere esporas a los rivales para reducir mucho su Velocidad.
+179,Inversión,reversal,fighting,physical,,100,15,0,,0,2026-03-06 13:24:32.369578+00,Ataque desesperado que causa más daño cuantos menos PS tenga el usuario.
+180,Rencor,spite,ghost,status,,100,10,0,,0,2026-03-06 13:26:17.591211+00,Da rienda suelta a su rencor para reducir cuatro PP del último movimiento usado por el objetivo.
+181,Nieve Polvo,powder-snow,ice,special,40,100,25,0,FRZ,10,2026-03-06 13:28:29.386625+00,Lanza nieve que puede llegar a congelar.
+182,Protección,protect,normal,status,,,10,4,,0,2026-03-06 13:23:40.980639+00,"Frena todos los ataques, pero puede fallar si se usa repetidamente."
+183,Ultrapuño,mach-punch,fighting,physical,40,100,30,1,,0,2026-03-06 13:25:20.28049+00,Puñetazo que se da rápido para golpear primero.
+184,Cara Susto,scary-face,normal,status,,100,10,0,,0,2026-03-06 13:23:24.827846+00,Asusta al objetivo para reducir mucho su Velocidad.
+185,Finta,feint-attack,dark,physical,60,,20,0,,0,2026-03-06 13:24:13.899084+00,Engaña al objetivo para acercarse y dar un puñetazo que no falla.
+186,Beso Dulce,sweet-kiss,fairy,status,,75,10,0,,0,2026-03-06 13:24:08.463651+00,Da un beso con tal dulzura que causa confusión.
+187,Tambor,belly-drum,normal,status,,,10,0,,0,2026-03-06 13:24:43.881166+00,Reduce la mitad de los PS máximos para mejorar al máximo el Ataque.
+188,Bomba Lodo,sludge-bomb,poison,special,90,100,10,0,PSN,30,2026-03-06 13:26:58.484042+00,Arroja residuos al objetivo. Puede llegar a envenenar.
+189,Bofetón Lodo,mud-slap,ground,special,20,100,10,0,,0,2026-03-06 13:25:37.020032+00,Echa lodo en la cara para bajar la Precisión.
+190,Pulpocañón,octazooka,water,special,65,85,10,0,,0,2026-03-06 14:17:32.082816+00,Dispara tinta a la cara. Puede bajar la Precisión.
+191,Púas,spikes,ground,status,,,20,0,,0,2026-03-06 13:34:30.944548+00,Esparce púas en el equipo rival. Las púas hieren a los Pokémon rivales que entran en combate.
+192,Electrocañón,zap-cannon,electric,special,120,50,5,0,PAR,100,2026-03-06 13:25:59.421477+00,Dispara una descarga eléctrica que causa daño y parálisis.
+193,Profecía,foresight,normal,status,,,40,0,,0,2026-03-06 13:25:19.691111+00,Permite atacar con cualquier movimiento a objetivos de tipo Fantasma y golpear a Pokémon evasivos.
+194,Mismo Destino,destiny-bond,ghost,status,,,5,0,,0,2026-03-06 13:26:14.282042+00,"Si el usuario se debilita por un ataque rival antes de usar otro movimiento, el Pokémon rival se debilitará también."
+195,Canto Mortal,perish-song,normal,status,,,5,0,,0,2026-03-06 13:28:25.395036+00,"Si un Pokémon escucha este canto y no es cambiado por otro en tres turnos, acaba debilitándose."
+196,Viento Hielo,icy-wind,ice,special,55,95,15,0,,0,2026-03-06 13:35:33.593013+00,Ataque con aire helado que baja la Velocidad de los rivales.
+197,Detección,detect,fighting,status,,,5,4,,0,2026-03-06 13:26:46.83853+00,"Frena todos los ataques, pero puede fallar si se usa repetidamente."
+198,Ataque Óseo,bone-rush,ground,physical,25,90,10,0,,0,2026-03-06 13:26:30.228176+00,"Hueso en ristre, aporrea al objetivo de dos a cinco veces."
+199,Fijar Blanco,lock-on,normal,status,,,5,0,,0,2026-03-06 13:26:00.292696+00,Fija el blanco para que el siguiente ataque no falle.
+200,Enfado,outrage,dragon,physical,120,100,10,0,,0,2026-03-06 13:24:34.551976+00,Ataca de dos a tres turnos y acaba confundiendo al agresor.
+201,Tormenta Arena,sandstorm,rock,status,,,10,0,,0,2026-03-06 13:34:51.980271+00,"Tormenta de arena que dura cinco turnos y hiere a todos, excepto a los de tipo Roca, Tierra y Acero."
+202,Gigadrenado,giga-drain,grass,special,75,100,10,0,,0,2026-03-06 13:27:30.113976+00,Un ataque que absorbe nutrientes. Quien lo usa recupera la mitad de los PS del daño que produce.
+203,Aguante,endure,normal,status,,,10,4,,0,2026-03-06 13:26:41.237574+00,Resiste cualquier ataque y deja al menos 1 PS. Puede fallar si se usa repetidamente.
+204,Encanto,charm,fairy,status,,100,20,0,,0,2026-03-06 13:24:08.750009+00,Engatusa al objetivo y reduce bastante su Ataque.
+205,Rodar,rollout,rock,physical,30,90,20,0,,0,2026-03-06 13:25:34.266836+00,"El atacante rueda contra el objetivo durante cinco turnos, cada vez con mayor fuerza."
+206,Falso Tortazo,false-swipe,normal,physical,40,100,40,0,,0,2026-03-06 13:26:32.319625+00,Ataque moderado que no debilita al objetivo y le deja al menos 1 PS.
+207,Contoneo,swagger,normal,status,,85,15,0,,0,2026-03-06 13:24:11.799773+00,"Provoca confusión en el objetivo, pero también sube mucho su Ataque."
+208,Batido,milk-drink,normal,status,,,5,0,,0,2026-03-06 14:03:47.043016+00,Restaura la mitad de los PS máximos del usuario. Fuera de combate se usa para transferir parte de sus PS a un aliado.
+209,Chispa,spark,electric,physical,65,100,20,0,PAR,30,2026-03-06 13:23:58.683901+00,Ataque eléctrico que puede llegar a paralizar.
+210,Corte Furia,fury-cutter,bug,physical,40,95,20,0,,0,2026-03-06 13:28:18.095527+00,Ataque con garras o guadaña que crece en intensidad si se usa repetidas veces.
+211,Ala de Acero,steel-wing,steel,physical,70,90,25,0,,0,2026-03-06 14:03:04.942747+00,Alas macizas que golpean al objetivo y pueden subir la Defensa del usuario.
+212,Mal de Ojo,mean-look,normal,status,,,5,0,,0,2026-03-06 13:26:13.677554+00,Mal de ojo que impide al objetivo huir de la batalla.
+213,Atracción,attract,normal,status,,100,15,0,,0,2026-03-06 13:37:56.798976+00,"Si el objetivo es del sexo opuesto, se enamorará y bajará la posibilidad de que ataque."
+214,Sonámbulo,sleep-talk,normal,status,,,10,0,,0,2026-03-06 13:30:05.482355+00,"Mientras duerme, usa uno de sus movimientos elegido al azar."
+215,Campana Cura,heal-bell,normal,status,,,5,0,,0,2026-03-06 13:36:42.462816+00,Tañido que cura los problemas de estado de todos los Pokémon del equipo.
+216,Retribución,return,normal,physical,,100,20,0,,0,2026-03-06 13:49:40.642938+00,"Cuanto mayor sea la amistad con el Entrenador, más poderoso será este ataque."
+217,Presente,present,normal,physical,,90,15,0,,0,2026-03-06 14:26:44.504379+00,"Quien lo usa ataca al objetivo dándole un regalo con bomba trampa. Sin embargo, a veces restaura sus PS."
+218,Frustración,frustration,normal,physical,,100,20,0,,0,2026-03-06 13:49:35.046645+00,"Cuanto menor sea la amistad con el Entrenador, más poderoso será este ataque."
+219,Velo Sagrado,safeguard,normal,status,,,25,0,,0,2026-03-06 13:28:10.695853+00,"Un escudo que protege de problemas de estado, como el sueño o la parálisis, durante cinco turnos."
+220,Divide Dolor,pain-split,normal,status,,,20,0,,0,2026-03-06 13:34:17.916191+00,Suma los PS del usuario a los del objetivo y los reparte a partes iguales.
+221,Fuego Sagrado,sacred-fire,fire,physical,100,95,5,0,BRN,50,2026-03-06 13:36:19.917464+00,Fuego místico de gran intensidad que puede causar quemaduras.
+222,Magnitud,magnitude,ground,physical,,100,30,0,,0,2026-03-06 13:25:36.028503+00,Sacudida sísmica de intensidad variable que afecta a todos los Pokémon a su alrededor.
+223,Puño Dinámico,dynamic-punch,fighting,physical,100,50,5,0,,100,2026-03-06 13:24:54.662331+00,Puñetazo con toda la fuerza concentrada. Causa confusión si atina.
+224,Megacuerno,megahorn,bug,physical,120,85,10,0,,0,2026-03-06 13:27:07.479749+00,Violenta embestida con cuernos imponentes.
+225,Dragoaliento,dragon-breath,dragon,special,60,100,20,0,PAR,30,2026-03-06 13:23:27.57096+00,Poderosa ráfaga de aliento que golpea al objetivo y puede paralizarlo.
+226,Relevo,baton-pass,normal,status,,,40,0,,0,2026-03-06 13:28:11.282446+00,Cambia el puesto con un compañero y le pasa los cambios de características.
+227,Otra Vez,encore,normal,status,,100,5,0,,0,2026-03-06 13:24:09.037189+00,El objetivo repite su último movimiento durante tres turnos.
+228,Persecución,pursuit,dark,physical,40,100,20,0,,0,2026-03-06 13:26:50.901355+00,Hace el doble de daño al objetivo que pide el relevo.
+229,Giro Rápido,rapid-spin,normal,physical,50,100,40,0,,0,2026-03-06 13:23:43.038539+00,"Ataque giratorio que puede eliminar movimientos como Atadura, Constricción, Drenadoras y Púas."
+230,Dulce Aroma,sweet-scent,normal,status,,100,20,0,,0,2026-03-06 13:23:10.094975+00,"Un dulce aroma engatusa al objetivo, por lo que se reduce mucho su Evasión. En la hierba alta sirve para atraer a Pokémon salvajes."
+231,Cola Férrea,iron-tail,steel,physical,100,75,15,0,,0,2026-03-06 13:23:57.477912+00,Ataca con una cola férrea y puede bajar la Defensa del objetivo.
+232,Garra Metal,metal-claw,steel,physical,50,95,35,0,,0,2026-03-06 13:23:27.256161+00,Ataque con garras de acero que puede aumentar el Ataque del usuario.
+233,Tiro Vital,vital-throw,fighting,physical,70,,10,-1,,0,2026-03-06 13:25:18.890112+00,"El usuario ataca el último, pero no falla."
+234,Sol Matinal,morning-sun,normal,status,,,5,0,,0,2026-03-06 13:33:53.383523+00,Restaura PS del usuario. La cantidad varía según el tiempo que haga.
+235,Síntesis,synthesis,grass,status,,,5,0,,0,2026-03-06 13:23:07.978844+00,Restaura PS del usuario. La cantidad varía según el tiempo que haga.
+236,Luz Lunar,moonlight,fairy,status,,,5,0,,0,2026-03-06 13:33:58.534291+00,Restaura PS del usuario. La cantidad varía según el tiempo que haga.
+237,Poder Oculto,hidden-power,normal,special,60,100,15,0,,0,2026-03-06 13:34:21.920903+00,Movimiento cuyo tipo varía en función del Pokémon que lo usa.
+238,Tajo Cruzado,cross-chop,fighting,physical,100,80,5,0,,0,2026-03-06 13:25:16.574883+00,Corte doble que suele propinar un golpe crítico.
+239,Ciclón,twister,dragon,special,40,100,20,0,,0,2026-03-06 13:27:43.252654+00,Crea un violento tornado para hacer trizas al enemigo. Puede hacerlo retroceder.
+240,Danza Lluvia,rain-dance,water,status,,,5,0,,0,2026-03-06 13:23:39.767167+00,Genera una fuerte lluvia que refuerza los movimientos de tipo Agua durante cinco turnos.
+241,Día Soleado,sunny-day,fire,status,,,5,0,,0,2026-03-06 13:28:36.172495+00,"Quien lo usa intensifica el efecto del sol durante cinco turnos, lo que potencia los movimientos de tipo Fuego."
+242,Triturar,crunch,dark,physical,80,100,15,0,,0,2026-03-06 13:24:33.538505+00,Tritura con afilados colmillos y puede bajar la Defensa del objetivo.
+243,Manto Espejo,mirror-coat,psychic,special,,100,20,-5,,0,2026-03-06 13:30:11.799537+00,Responde a un ataque especial ocasionando el doble del daño recibido.
+244,Más Psique,psych-up,normal,status,,,10,0,,0,2026-03-06 13:24:22.390745+00,Quien lo usa se hipnotiza y copia cualquier cambio que haya en las características de su objetivo.
+245,Veloc. Extrema,extreme-speed,normal,physical,80,100,5,2,,0,2026-03-06 13:24:38.50479+00,Ataque muy rápido que siempre se realiza el primero.
+246,Poder Pasado,ancient-power,rock,special,60,100,5,0,,0,2026-03-06 13:27:28.912343+00,Ataque prehistórico que puede subir todas las características.
+247,Bola Sombra,shadow-ball,ghost,special,80,100,15,0,,0,2026-03-06 13:26:14.569464+00,Lanza una bola oscura que puede bajar la Defensa Especial del objetivo.
+248,Premonición,future-sight,psychic,special,120,100,10,0,,0,2026-03-06 13:25:01.351436+00,Concentra energía psíquica para golpear al objetivo dos turnos después.
+249,Golpe Roca,rock-smash,fighting,physical,40,100,15,0,,0,2026-03-06 13:35:30.146046+00,Ataque con los puños. Puede bajar la Defensa del objetivo. Puede romper rocas fuera del combate.
+250,Torbellino,whirlpool,water,special,35,85,15,0,,100,2026-03-06 13:37:15.169402+00,Una tromba de agua atrapa al objetivo durante cuatro o cinco turnos.
+251,Paliza,beat-up,dark,physical,,100,10,0,,0,2026-03-06 13:35:32.175676+00,"Ataque de todo el equipo Pokémon. Cuantos más haya, más veces se atacará."
+252,Sorpresa,fake-out,normal,physical,40,100,10,3,,0,2026-03-06 13:23:53.723035+00,"Ataca primero y, además, hace retroceder al objetivo. Solo sirve en el primer turno."
+253,Alboroto,uproar,normal,special,90,100,10,0,,0,2026-03-06 13:31:36.404681+00,Ataca de forma alborotada durante tres turnos. Mantiene despiertos a todos.
+254,Reserva,stockpile,normal,status,,,20,0,,0,2026-03-06 13:35:08.401674+00,Acumula energía y sube la Defensa y la Defensa Especial. Puede utilizarse hasta tres veces.
+255,Escupir,spit-up,normal,special,,100,10,0,,0,2026-03-06 13:35:08.694823+00,Libera de una vez la energía acumulada con Reserva.
+256,Tragar,swallow,normal,status,,,10,0,,0,2026-03-06 13:38:51.382312+00,Absorbe la energía acumulada con Reserva y restaura PS.
+257,Onda Ígnea,heat-wave,fire,special,95,90,10,0,BRN,10,2026-03-06 13:23:34.057195+00,Provoca un viento abrasador que puede quemar al objetivo.
+258,Granizo,hail,ice,status,,,10,0,,0,2026-03-06 13:30:07.935702+00,"Tormenta de granizo que dura cinco turnos. Hiere a todos, excepto a los de tipo Hielo."
+259,Tormento,torment,dark,status,,100,15,0,,0,2026-03-06 13:34:03.770369+00,"Atormenta y enfurece al objetivo, que no puede usar dos veces seguidas el mismo movimiento."
+260,Camelo,flatter,dark,status,,100,15,0,,0,2026-03-06 13:41:44.826656+00,"Halaga al objetivo y lo confunde, pero también sube su Ataque Especial."
+261,Fuego Fatuo,will-o-wisp,fire,status,,85,15,0,BRN,0,2026-03-06 13:26:17.883521+00,Siniestra llama morada que produce quemaduras.
+262,Legado,memento,dark,status,,100,10,0,,0,2026-03-06 13:26:57.805323+00,"El usuario se debilita, pero baja mucho tanto el Ataque como el Ataque Especial del objetivo."
+263,Imagen,facade,normal,physical,70,100,20,0,,0,2026-03-06 13:26:43.818168+00,"Ataca con el doble de potencia si el usuario está quemado, paralizado o envenenado."
+264,Puño Certero,focus-punch,fighting,physical,150,100,20,-3,,0,2026-03-06 13:26:46.551714+00,Se concentra para dar un puñetazo. Falla si se sufre un golpe antes de su uso.
+265,Estímulo,smelling-salts,normal,physical,70,100,10,0,,0,2026-03-06 13:40:12.178162+00,"Hace el doble de daño a objetivos paralizados, pero también cura la parálisis."
+266,Señuelo,follow-me,normal,status,,,20,2,,0,2026-03-06 13:31:25.539468+00,Llama la atención para concentrar todos los ataques de todos los del equipo rival hacia sí mismo.
+267,Adaptación,nature-power,normal,status,,,20,0,,0,2026-03-06 13:30:39.88788+00,Usa el poder de la naturaleza para atacar. Su efecto varía según el entorno de combate.
+268,Carga,charge,electric,status,,,20,0,,0,2026-03-06 13:28:34.334514+00,Recarga energía para potenciar el siguiente movimiento de tipo Eléctrico. También sube la Defensa Especial.
+269,Mofa,taunt,dark,status,,100,20,0,,0,2026-03-06 13:24:14.187594+00,Enfurece al objetivo para que solo use movimientos de ataque durante tres turnos.
+270,Refuerzo,helping-hand,normal,status,,,20,5,,0,2026-03-06 13:24:34.850296+00,El usuario ayuda a un aliado reforzando la potencia de su ataque.
+271,Truco,trick,psychic,status,,100,10,0,,0,2026-03-06 13:25:00.763325+00,Engaña al objetivo desprevenido e intercambia objetos.
+272,Imitación,role-play,psychic,status,,,10,0,,0,2026-03-06 13:25:02.220101+00,Imita al objetivo por completo y copia su habilidad.
+273,Deseo,wish,normal,status,,,10,0,,0,2026-03-06 13:32:19.208621+00,Restaura la mitad de los PS máximos en el siguiente turno.
+274,Ayuda,assist,normal,status,,,20,0,,0,2026-03-06 13:40:33.261834+00,Usa un movimiento de un miembro del equipo elegido al azar.
+275,Arraigo,ingrain,grass,status,,,20,0,,0,2026-03-06 13:27:27.344431+00,"Echa raíces para recuperar PS en cada turno, pero impide el relevo."
+276,Fuerza Bruta,superpower,fighting,physical,120,100,5,0,,0,2026-03-06 13:24:53.757445+00,"Ataque de gran potencia, pero que reduce el Ataque y la Defensa del agresor."
+277,Capa Mágica,magic-coat,psychic,status,,,15,4,,0,2026-03-06 13:29:29.274198+00,Barrera capaz de devolver al agresor movimientos como Drenadoras y otros que alteran el estado o las características.
+278,Reciclaje,recycle,normal,status,,,10,0,,0,2026-03-06 13:28:13.908534+00,Recicla y así recupera un objeto equipado de un solo uso que ya haya sido empleado durante el combate.
+279,Desquite,revenge,fighting,physical,60,100,10,-4,,0,2026-03-06 13:25:19.968957+00,Ataque que produce el doble de daño si el usuario es herido en el mismo turno.
+280,Demolición,brick-break,fighting,physical,75,100,15,0,,0,2026-03-06 13:25:20.572704+00,Potente ataque que también es capaz de destruir barreras como Pantalla de Luz y Reflejo.
+281,Bostezo,yawn,normal,status,,,10,0,,0,2026-03-06 13:25:52.442399+00,Gran bostezo que induce al sueño al objetivo en el siguiente turno.
+282,Desarme,knock-off,dark,physical,65,100,20,0,,0,2026-03-06 13:25:20.86108+00,Impide al objetivo usar el objeto que lleva durante el combate. La potencia del movimiento se multiplica si el objetivo lleva un objeto.
+283,Esfuerzo,endeavor,normal,physical,,100,5,0,,0,2026-03-06 13:26:31.70759+00,Reduce los PS del objetivo para que igualen a los del atacante.
+284,Estallido,eruption,fire,special,150,100,5,0,,0,2026-03-06 13:30:52.115867+00,"Furia explosiva. Cuanto menor sea el número de PS del usuario, menos daño hará el ataque."
+285,Intercambio,skill-swap,psychic,status,,,10,0,,0,2026-03-06 13:41:31.447125+00,Usa el poder psíquico para intercambiar habilidades con el objetivo.
+286,Sellar,imprison,psychic,status,,,10,0,,0,2026-03-06 13:30:34.047928+00,Impide a los contrincantes usar ataques conocidos por el usuario durante el combate.
+287,Alivio,refresh,normal,status,,,20,0,,0,2026-03-06 13:26:52.823891+00,"Descansa para curar parálisis, envenenamiento o quemaduras."
+288,Rabia,grudge,ghost,status,,,5,0,,0,2026-03-06 13:34:17.230917+00,"Si el usuario se debilita al recibir un ataque, todos los PP de este último ataque serán eliminados."
+289,Robo,snatch,dark,status,,,10,4,,0,2026-03-06 13:35:33.901037+00,Roba el efecto de los movimientos de curación o de cambio de características que se usen.
+290,Daño Secreto,secret-power,normal,physical,70,100,20,0,,30,2026-03-06 13:56:18.963251+00,Ataque con poder secreto cuyos efectos secundarios varían según el entorno de combate.
+291,Buceo,dive,water,physical,80,100,10,0,,0,2026-03-06 13:42:16.867785+00,El usuario se sumerge en el primer turno y ataca en el segundo.
+292,Empujón,arm-thrust,fighting,physical,15,100,20,0,,0,2026-03-06 13:40:13.856616+00,Empujones directos que golpean de dos a cinco veces seguidas.
+293,Camuflaje,camouflage,normal,status,,,20,0,,0,2026-03-06 13:28:03.727206+00,Modifica el tipo del Pokémon según el terreno de combate donde esté.
+294,Ráfaga,tail-glow,bug,status,,,20,0,,0,2026-03-06 13:41:40.444997+00,Se concentra en una ráfaga de luz que sube muchísimo el Ataque Especial.
+295,Resplandor,luster-purge,psychic,special,95,100,5,0,,0,2026-03-06 13:45:45.739205+00,Fogonazo de luz que puede bajar la Defensa Especial del objetivo.
+296,Bola Neblina,mist-ball,psychic,special,95,100,5,0,,0,2026-03-06 13:45:40.246688+00,Banco de niebla que puede bajar el Ataque Especial del objetivo.
+297,Danza Pluma,feather-dance,flying,status,,100,15,0,,0,2026-03-06 13:37:00.128906+00,Envuelve al objetivo con un manto de plumas para reducir mucho su Ataque.
+298,Danza Caos,teeter-dance,normal,status,,100,20,0,,0,2026-03-06 13:28:10.996246+00,Danza histérica que confunde a los Pokémon que están alrededor del usuario.
+299,Patada Ígnea,blaze-kick,fire,physical,85,90,10,0,BRN,10,2026-03-06 13:26:41.836304+00,Patada que suele ser un golpe crítico y puede causar quemaduras.
+300,Chapoteo Lodo,mud-sport,ground,status,,,15,0,,0,2026-03-06 13:33:47.720782+00,"El usuario esparce lodo a su alrededor, lo que debilita los movimientos de tipo Eléctrico durante cinco turnos."
+301,Bola Hielo,ice-ball,ice,physical,30,90,20,0,,0,2026-03-06 14:07:02.333631+00,"El atacante rueda contra el objetivo durante cinco turnos, cada vez con mayor fuerza."
+302,Brazo Pincho,needle-arm,grass,physical,60,100,15,0,,0,2026-03-06 13:43:12.076941+00,Pega con brazos de pinchos y puede hacer retroceder al objetivo.
+303,Relajo,slack-off,normal,status,,,5,0,,0,2026-03-06 13:25:50.198202+00,El usuario se relaja y restaura la mitad de sus PS máximos.
+304,Vozarrón,hyper-voice,normal,special,90,100,10,0,,0,2026-03-06 13:31:24.233216+00,Grito desgarrador que inflige daño al objetivo.
+305,Colmillo Veneno,poison-fang,poison,physical,50,100,15,0,PSN,50,2026-03-06 13:42:07.677806+00,Colmillos tóxicos que pueden envenenar gravemente al objetivo.
+306,Garra Brutal,crush-claw,normal,physical,75,95,10,0,,0,2026-03-06 13:43:33.432111+00,Hace trizas al objetivo con garras afiladas y puede bajar su Defensa.
+307,Anillo Ígneo,blast-burn,fire,special,150,90,5,0,,0,2026-03-08 04:31:34.755104+00,Explosión de fuego. El atacante debe descansar el siguiente turno.
+308,Hidrocañón,hydro-cannon,water,special,150,90,5,0,,0,2026-03-08 04:31:34.794018+00,Disparo de agua. El atacante debe descansar el siguiente turno.
+309,Puño Meteoro,meteor-mash,steel,physical,90,90,10,0,,0,2026-03-06 13:46:03.19125+00,Puñetazo que impacta como un meteorito y puede subir el Ataque del agresor.
+310,Impresionar,astonish,ghost,physical,30,100,15,0,,0,2026-03-06 13:33:25.182887+00,Impresiona tanto que puede hacer retroceder al objetivo.
+311,Meteorobola,weather-ball,normal,special,50,100,10,0,,0,2026-03-06 13:36:33.107664+00,El tipo y fuerza del ataque varían según el tiempo que haga.
+312,Aromaterapia,aromatherapy,grass,status,,,5,0,,0,2026-03-06 13:30:38.711289+00,Cura todos los problemas de estado del equipo con un suave aroma.
+313,Llanto Falso,fake-tears,dark,status,,100,20,0,,0,2026-03-06 13:28:26.528495+00,Lágrimas de cocodrilo que bajan mucho la Defensa Especial del objetivo.
+314,Aire Afilado,air-cutter,flying,special,60,95,25,0,,0,2026-03-06 13:33:43.240641+00,Viento cortante que azota. Suele ser un golpe crítico.
+315,Sofoco,overheat,fire,special,130,90,5,0,,0,2026-03-06 13:30:23.446354+00,Ataque en toda regla que baja mucho el Ataque Especial de quien lo usa.
+316,Rastreo,odor-sleuth,normal,status,,,40,0,,0,2026-03-06 13:24:36.216091+00,Permite atacar con cualquier movimiento a objetivos de tipo Fantasma y golpear a Pokémon evasivos.
+317,Tumba Rocas,rock-tomb,rock,physical,60,95,15,0,,0,2026-03-06 13:32:59.61901+00,Tira rocas que detienen al objetivo y bajan su Velocidad.
+318,Viento Plata,silver-wind,bug,special,60,100,5,0,,0,2026-03-06 13:28:20.807443+00,Fuerte viento con polvo de escamas. Puede subir todas las características de quien lo usa.
+319,Eco Metálico,metal-sound,steel,status,,85,40,0,,0,2026-03-06 13:26:01.886897+00,Horrible chirrido metálico que baja mucho la Defensa Especial del objetivo.
+320,Silbato,grass-whistle,grass,status,,55,15,0,SLP,0,2026-03-06 13:33:32.930094+00,Agradable melodía que adormece al objetivo.
+321,Cosquillas,tickle,normal,status,,100,20,0,,0,2026-03-06 13:27:28.232767+00,Hace reír al objetivo para bajar su Ataque y Defensa.
+322,Masa Cósmica,cosmic-power,psychic,status,,,20,0,,0,2026-03-06 13:28:00.404573+00,Sube la Defensa y la Defensa Especial propias con energía mística.
+323,Salpicar,water-spout,water,special,150,100,5,0,,0,2026-03-06 13:42:16.206721+00,"Chorro de agua. Cuantos menos PS tenga el usuario, menos dañino será."
+324,Doble Rayo,signal-beam,bug,special,75,100,15,0,,10,2026-03-06 13:29:31.725889+00,Ataca con un rayo de luz siniestro. Puede confundir al objetivo.
+325,Puño Sombra,shadow-punch,ghost,physical,60,,20,0,,0,2026-03-06 13:26:22.506317+00,Puñetazo ineludible procedente de las sombras.
+326,Paranormal,extrasensory,psychic,special,80,100,20,0,,0,2026-03-06 13:31:34.91827+00,Energía muy extraña que puede hacer retroceder al objetivo.
+327,Gancho Alto,sky-uppercut,fighting,physical,85,90,15,0,,0,2026-03-06 13:26:47.638042+00,Gancho ascendente de gran ímpetu.
+328,Bucle Arena,sand-tomb,ground,physical,35,85,15,0,,100,2026-03-06 13:34:54.6079+00,Enreda al objetivo en un remolino de arena de cuatro a cinco turnos.
+329,Frío Polar,sheer-cold,ice,special,,30,5,0,,0,2026-03-06 13:28:58.727529+00,Ataque de frío polar que debilita al objetivo si le alcanza.
+330,Agua Lodosa,muddy-water,water,special,90,85,10,0,,0,2026-03-06 13:29:13.396468+00,Ataque con agua lodosa que puede bajar la Precisión del equipo rival.
+331,Semilladora,bullet-seed,grass,physical,25,100,30,0,,0,2026-03-06 13:33:09.046299+00,Dispara rápido de dos a cinco ráfagas de semillas de manera consecutiva.
+332,Golpe Aéreo,aerial-ace,flying,physical,60,,20,0,,0,2026-03-06 13:28:20.514466+00,El usuario lanza un ataque muy rápido e ineludible.
+333,Carámbano,icicle-spear,ice,physical,25,100,30,0,,0,2026-03-06 14:00:29.252802+00,Ataca lanzando de dos a cinco ráfagas consecutivas de carámbanos.
+334,Defensa Férrea,iron-defense,steel,status,,,15,0,,0,2026-03-06 13:23:40.668836+00,Fortalece el cuerpo como si fuera de hierro y sube mucho la Defensa.
+335,Bloqueo,block,normal,status,,,5,0,,0,2026-03-06 13:30:04.93316+00,Le corta el paso al objetivo para que no pueda escapar.
+336,Aullido,howl,normal,status,,,40,0,,0,2026-03-06 13:24:36.890012+00,Aullido que sube el ánimo y aumenta el Ataque.
+337,Garra Dragón,dragon-claw,dragon,physical,80,100,15,0,,0,2026-03-06 13:43:06.991968+00,Araña al objetivo con garras afiladas.
+338,Planta Feroz,frenzy-plant,grass,special,150,90,5,0,,0,2026-03-08 04:31:38.655904+00,Golpea con una enorme planta. Quien lo usa no puede moverse en el siguiente turno.
+339,Corpulencia,bulk-up,fighting,status,,,20,0,,0,2026-03-06 13:24:58.065781+00,Robustece el cuerpo para subir el Ataque y la Defensa.
+340,Bote,bounce,flying,physical,85,85,5,0,PAR,30,2026-03-06 13:32:48.823893+00,Primer turno: bota. Segundo turno: golpea. Puede paralizar.
+341,Disparo Lodo,mud-shot,ground,special,55,95,15,0,,0,2026-03-06 13:24:45.790944+00,El usuario lanza lodo al objetivo y reduce su Velocidad.
+342,Cola Veneno,poison-tail,poison,physical,50,100,25,0,PSN,10,2026-03-06 13:34:49.09079+00,Puede envenenar y dar un golpe crítico.
+343,Antojo,covet,normal,physical,60,100,25,0,,0,2026-03-06 13:28:29.106668+00,"Se acerca con ternura al objetivo, pero le ataca y le roba el objeto que lleve."
+344,Placaje Eléc,volt-tackle,electric,physical,120,100,15,0,PAR,10,2026-03-08 04:31:39.9476+00,"Quien lo usa electrifica su cuerpo para luego atacar. Se hiere mucho a sí mismo, pero puede paralizar al objetivo."
+345,Hoja Mágica,magical-leaf,grass,special,60,,20,0,,0,2026-03-06 13:28:14.887906+00,Esparce extrañas hojas que persiguen al objetivo. No se puede esquivar.
+346,Hidrochorro,water-sport,water,status,,,15,0,,0,2026-03-06 13:24:25.730382+00,"El usuario se empapa en agua, lo que debilita los movimientos de tipo Fuego durante cinco turnos."
+347,Paz Mental,calm-mind,psychic,status,,,20,0,,0,2026-03-06 13:25:01.054397+00,Aumenta la concentración y calma el espíritu para subir el Ataque Especial y la Defensa Especial.
+348,Hoja Aguda,leaf-blade,grass,physical,90,100,15,0,,0,2026-03-06 13:36:50.185325+00,Acuchilla con una hoja fina. Suele dar un golpe crítico.
+349,Danza Dragón,dragon-dance,dragon,status,,,20,0,,0,2026-03-06 13:27:41.395468+00,Danza mística que sube el Ataque y la Velocidad.
+350,Pedrada,rock-blast,rock,physical,25,90,10,0,,0,2026-03-06 13:25:34.553024+00,Lanza pedruscos al objetivo de dos a cinco veces consecutivas.
+351,Onda Voltio,shock-wave,electric,special,60,,20,0,,0,2026-03-06 13:28:33.147909+00,Ataque eléctrico muy rápido e ineludible.
+352,Hidropulso,water-pulse,water,special,60,100,20,0,,20,2026-03-06 13:23:42.430895+00,Ataca con un potente chorro de agua. Puede confundir al objetivo.
+353,Deseo Oculto,doom-desire,steel,special,140,100,5,0,,0,2026-03-06 13:46:01.64364+00,Concentra un haz de luz y ataca dos turnos después.
+354,Psicoataque,psycho-boost,psychic,special,140,90,5,0,,0,2026-03-06 13:46:06.80177+00,Ataque en toda regla que baja mucho el Ataque Especial de quien lo usa.
+355,Respiro,roost,flying,status,,,5,0,,0,2026-03-06 13:30:08.266476+00,Aterriza sobre la superficie para descansar. Recupera hasta la mitad del total de sus PS.
+356,Gravedad,gravity,psychic,status,,,5,0,,0,2026-03-06 13:46:03.522876+00,"La gravedad aumenta durante cinco turnos, lo que impide acciones que impliquen volar o levitar."
+357,Gran Ojo,miracle-eye,psychic,status,,,40,0,,0,2026-03-06 13:25:04.813356+00,Permite atacar con cualquier movimiento a objetivos de tipo Siniestro y golpear a Pokémon evasivos.
+358,Espabila,wake-up-slap,fighting,physical,70,100,10,0,,0,2026-03-06 13:24:45.186991+00,"Inflige gran daño a objetivos dormidos. Sin embargo, los bofetones también los despiertan."
+359,Machada,hammer-arm,fighting,physical,100,90,10,0,,0,2026-03-06 13:27:14.874163+00,"Gira con fuerza el puño y da un gran golpe. No obstante, baja la Velocidad."
+360,Giro Bola,gyro-ball,steel,physical,,100,5,0,,0,2026-03-06 13:25:59.72354+00,"Embiste al objetivo con un potente ataque giratorio. Cuanto más lento es el usuario, más daño causa."
+361,Deseo Cura,healing-wish,psychic,status,,,10,0,,0,2026-03-06 13:27:21.230763+00,"El Pokémon cae debilitado, pero su sustituto recupera su estado y los PS."
+362,Salmuera,brine,water,special,65,100,10,0,,0,2026-03-06 13:27:42.738853+00,"Si al objetivo le queda la mitad o menos de sus PS, el ataque será el doble de fuerte."
+363,Don Natural,natural-gift,normal,physical,,100,15,0,,0,2026-03-06 13:27:29.259045+00,La baya que lleva presta su fuerza para atacar. El tipo de ataque y su fuerza dependen de la baya.
+364,Amago,feint,normal,physical,30,100,10,2,,0,2026-03-06 13:23:57.772113+00,Permite golpear a objetivos que usan Protección o Detección y anula dichos movimientos.
+365,Picoteo,pluck,flying,physical,60,100,20,0,,0,2026-03-06 13:30:19.686285+00,"Picotea al objetivo. Si este sostiene una baya, la picotea también y obtiene sus efectos."
+366,Viento Afín,tailwind,flying,status,,,15,0,,0,2026-03-06 13:30:09.390172+00,Crea un fuerte remolino que aumenta la Velocidad de los Pokémon de tu equipo durante cuatro turnos.
+367,Acupresión,acupressure,normal,status,,,30,0,,0,2026-03-06 13:35:06.788904+00,Aplica presión en puntos clave de su cuerpo o de los aliados para potenciar un parámetro de sus características.
+368,Represión Metal,metal-burst,steel,physical,,100,10,0,,0,2026-03-06 13:40:54.275503+00,"Devuelve al objetivo el último ataque recibido, pero con mucha más fuerza."
+369,Ida y Vuelta,u-turn,bug,physical,70,100,20,0,,0,2026-03-06 13:33:07.456774+00,"Tras atacar, vuelve a toda prisa para dar paso a otro Pokémon del equipo."
+370,A Bocajarro,close-combat,fighting,physical,120,100,5,0,,0,2026-03-06 13:25:17.13362+00,Lucha abiertamente contra el objetivo sin protegerse. También reduce la Defensa y la Defensa Especial del usuario.
+371,Vendetta,payback,dark,physical,50,100,10,0,,0,2026-03-06 13:26:16.504099+00,El usuario contraataca con el doble de fuerza si el objetivo usa un movimiento antes.
+372,Buena Baza,assurance,dark,physical,60,100,10,0,,0,2026-03-06 13:24:12.733269+00,"Si el objetivo ya ha sufrido daño en ese turno, la fuerza del ataque se duplica."
+373,Embargo,embargo,dark,status,,100,15,0,,0,2026-03-06 13:37:33.447594+00,Impide al objetivo usar el objeto que lleva. Su Entrenador tampoco puede usar objetos con él.
+374,Lanzamiento,fling,dark,physical,,100,10,0,,0,2026-03-06 13:26:32.609396+00,Lanza contra el objetivo el objeto que lleva. La fuerza del ataque y su efecto varían según el objeto.
+375,Psicocambio,psycho-shift,psychic,status,,100,10,0,,0,2026-03-06 13:31:34.613977+00,Usa su poder mental para transferir al objetivo sus problemas de estado.
+376,As Oculto,trump-card,normal,special,,,5,0,,0,2026-03-06 13:29:05.169195+00,"Cuantos menos PP tenga el movimiento, mayor será la fuerza para atacar."
+377,Anticura,heal-block,psychic,status,,100,15,0,,0,2026-03-06 13:36:40.588944+00,"Impide al objetivo usar movimientos, habilidades y objetos equipados que recuperan PS durante cinco turnos."
+378,Estrujón,wring-out,normal,special,,100,5,0,,0,2026-03-06 13:26:52.292909+00,"Estruja con fuerza al objetivo. Cuantos más PS tenga el objetivo, más fuerza tendrá el ataque."
+379,Truco Fuerza,power-trick,psychic,status,,,10,0,,0,2026-03-06 13:35:21.017681+00,Usa sus poderes mentales para intercambiar su característica de Ataque por Defensa.
+380,Bilis,gastro-acid,poison,status,,100,10,0,,0,2026-03-06 13:35:22.368553+00,"El usuario arroja sus jugos biliares al objetivo, lo que anula el efecto de la habilidad en uso."
+381,Conjuro,lucky-chant,normal,status,,,30,0,,0,2026-03-06 13:38:57.533794+00,Lanza al cielo un conjuro que impide al objetivo asestar golpes críticos.
+382,Yo Primero,me-first,normal,status,,,20,0,,0,2026-03-06 13:26:53.84761+00,"Se adelanta al movimiento que pretende usar el objetivo y lo lanza antes con más fuerza. Si el usuario es más lento, falla."
+383,Copión,copycat,normal,status,,,20,0,,0,2026-03-06 13:29:07.46115+00,Imita el movimiento usado justo antes. El movimiento falla si no se ha usado aún ninguno.
+384,Cambiafuerza,power-swap,psychic,status,,,10,0,,0,2026-03-06 13:30:30.30603+00,El usuario emplea su poder mental para intercambiar los cambios en Ataque y Ataque Especial con el objetivo.
+385,Cambiadefensa,guard-swap,psychic,status,,,10,0,,0,2026-03-06 13:30:30.612369+00,El usuario emplea su poder mental para intercambiar los cambios en Defensa y Defensa Especial con el objetivo.
+386,Castigo,punishment,dark,physical,,100,5,0,,0,2026-03-06 13:35:33.093361+00,La fuerza del ataque aumenta cuanto más se ha fortalecido el objetivo con cambios de características.
+387,Última Baza,last-resort,normal,physical,140,100,5,0,,0,2026-03-06 13:27:21.753739+00,Este movimiento solo puede utilizarse tras haber usado al menos una vez todos los demás conocidos por el Pokémon.
+388,Abatidoras,worry-seed,grass,status,,100,10,0,,0,2026-03-06 13:23:09.502162+00,Se planta una semilla en el objetivo que le causa pesar. Evita el sueño gracias a la habilidad Insomnio.
+389,Golpe Bajo,sucker-punch,dark,physical,70,100,5,1,,0,2026-03-06 13:26:15.509462+00,Permite atacar primero. Falla si el objetivo no está preparando ningún ataque.
+390,Púas Tóxicas,toxic-spikes,poison,status,,,20,0,,0,2026-03-06 13:35:09.20911+00,Lanza una trampa de púas tóxicas a los pies del objetivo. El veneno afecta a los Pokémon que entran en combate.
+391,Cambia Almas,heart-swap,psychic,status,,,10,0,,0,2026-03-07 22:20:47.709116+00,Usa la fuerza mental para intercambiar con el objetivo los cambios en las características.
+392,Acua Aro,aqua-ring,water,status,,,20,0,,0,2026-03-06 13:27:52.335398+00,Un manto de agua cubre al Pokémon que lo usa. Recupera algunos PS en cada turno.
+393,Levitón,magnet-rise,electric,status,,,10,0,,0,2026-03-06 13:26:00.008338+00,Levita gracias a un campo magnético generado por electricidad durante cinco turnos.
+394,Envite Ígneo,flare-blitz,fire,physical,120,100,15,0,BRN,10,2026-03-06 13:23:23.952178+00,"El Pokémon se cubre de llamas y carga contra el objetivo, aunque él también recibe daños. Puede quemar."
+395,Palmeo,force-palm,fighting,physical,60,100,10,0,PAR,30,2026-03-06 13:39:23.556105+00,Ataca al objetivo con una onda de choque y puede llegar a paralizarlo.
+396,Esfera Aural,aura-sphere,fighting,special,80,,20,0,,0,2026-03-06 13:30:27.445262+00,Libera una descarga de la fuerza del aura desde su interior. Es infalible.
+397,Pulimento,rock-polish,rock,status,,,20,0,,0,2026-03-06 13:25:37.298077+00,Reduce la resistencia puliendo su cuerpo. Aumenta la Velocidad considerablemente.
+398,Puya Nociva,poison-jab,poison,physical,80,100,20,0,PSN,30,2026-03-06 13:27:58.775142+00,Pincha al objetivo con un tentáculo o brazo envenenado. Puede llegar a envenenar al objetivo.
+399,Pulso Umbrío,dark-pulse,dark,special,80,100,15,0,,0,2026-03-06 13:26:15.204336+00,Libera una horrible aura llena de malos pensamientos y puede hacer retroceder al objetivo.
+400,Tajo Umbrío,night-slash,dark,physical,70,100,15,0,,0,2026-03-06 13:24:11.03856+00,Ataca al objetivo a la primera oportunidad. Suele ser crítico.
+401,Acua Cola,aqua-tail,water,physical,90,90,10,0,,0,2026-03-06 13:23:41.541498+00,Ataca agitando la cola como si fuera una ola rabiosa en una tormenta devastadora.
+402,Bomba Germen,seed-bomb,grass,physical,80,100,15,0,,0,2026-03-06 13:23:08.290897+00,Lanza al objetivo una descarga de semillas explosivas desde arriba.
+403,Tajo Aéreo,air-slash,flying,special,75,95,15,0,,0,2026-03-06 13:23:34.552507+00,Ataca con una hoja de aire que incluso corta el cielo. También puede hacer retroceder al objetivo.
+404,Tijera X,x-scissor,bug,physical,80,100,15,0,,0,2026-03-06 13:28:17.402902+00,Cruza las guadañas o las garras para atacar al objetivo como si fueran unas tijeras.
+405,Zumbido,bug-buzz,bug,special,90,100,10,0,,0,2026-03-06 13:31:45.179106+00,El movimiento de las alas crea una onda sónica dañina. También puede disminuir la Defensa Especial del objetivo.
+406,Pulso Dragón,dragon-pulse,dragon,special,85,100,10,0,,0,2026-03-06 13:27:41.721141+00,Abre mucho la boca y libera una onda de choque que ataca al objetivo.
+407,Carga Dragón,dragon-rush,dragon,physical,100,75,10,0,,0,2026-03-06 13:34:42.149628+00,Ataca de forma brutal mientras intimida al objetivo. También puede hacerlo retroceder.
+408,Joya de Luz,power-gem,rock,special,80,100,20,0,,0,2026-03-06 13:24:18.237546+00,Ataca con un rayo de luz que centellea como si lo formaran miles de joyas.
+409,Puño Drenaje,drain-punch,fighting,physical,75,100,10,0,,0,2026-03-06 13:25:30.072778+00,Un golpe que drena energía. El Pokémon recupera la mitad de los PS arrebatados al objetivo.
+410,Onda Vacío,vacuum-wave,fighting,special,40,100,30,1,,0,2026-03-06 13:26:49.417966+00,Gira los puños y libera una onda de vacío contra el objetivo. Este movimiento siempre va primero.
+411,Onda Certera,focus-blast,fighting,special,120,70,5,0,,0,2026-03-06 14:07:17.291567+00,Agudiza la concentración mental y libera su poder. Puede disminuir la Defensa Especial del objetivo.
+412,Energibola,energy-ball,grass,special,90,100,10,0,,0,2026-03-06 13:36:43.754322+00,Aúna fuerzas de la naturaleza y libera su ataque. Puede disminuir la Defensa Especial del objetivo.
+413,Pájaro Osado,brave-bird,flying,physical,120,100,15,0,,0,2026-03-06 13:36:37.850353+00,Pliega sus alas y ataca con un vuelo rasante. El Pokémon que lo usa también resulta seriamente dañado.
+414,Tierra Viva,earth-power,ground,special,90,100,10,0,,0,2026-03-06 13:24:44.88598+00,La tierra a los pies del objetivo erupciona violentamente. Puede disminuir la Defensa Especial del objetivo.
+415,Trapicheo,switcheroo,dark,status,,100,10,0,,0,2026-03-06 13:37:50.696883+00,Intercambia con el objetivo los objetos que llevan tan rápido que es imposible verlo a simple vista.
+416,Gigaimpacto,giga-impact,normal,physical,150,90,5,0,,0,2026-03-06 13:26:53.559812+00,Carga contra el objetivo usando toda la fuerza que tiene. El Pokémon descansa el turno siguiente.
+417,Maquinación,nasty-plot,dark,status,,,20,0,,0,2026-03-06 13:24:13.014125+00,Estimula su cerebro pensando en cosas malas. Aumenta considerablemente el Ataque Especial.
+418,Puño Bala,bullet-punch,steel,physical,40,100,30,1,,0,2026-03-06 13:26:50.599427+00,Ataca con fuertes puñetazos tan rápidos como proyectiles. Este movimiento siempre va primero.
+419,Alud,avalanche,ice,physical,60,100,10,-4,,0,2026-03-06 13:28:27.305074+00,Este ataque inflige el doble de daño a un objetivo que haya golpeado al usuario en ese mismo turno.
+420,Canto Helado,ice-shard,ice,physical,40,100,30,1,,0,2026-03-06 13:29:01.615297+00,Crea bolas de hielo y las lanza a gran velocidad. Este movimiento siempre va primero.
+421,Garra Umbría,shadow-claw,ghost,physical,70,100,15,0,,0,2026-03-06 13:39:56.308251+00,Ataca con una garra afilada hecha de sombras. Suele ser crítico.
+422,Colmillo Rayo,thunder-fang,electric,physical,65,95,15,0,PAR,10,2026-03-06 13:24:41.773665+00,Usa colmillos electrificados para morder. Puede hacer que el objetivo retroceda o se paralice.
+423,Colmillo Hielo,ice-fang,ice,physical,65,95,15,0,FRZ,10,2026-03-06 13:28:55.863931+00,Usa colmillos helados para morder. Puede hacer que el objetivo retroceda o se congele.
+424,Colmillo Ígneo,fire-fang,fire,physical,65,95,15,0,BRN,10,2026-03-06 13:23:25.421333+00,Usa colmillos en llamas para morder. Puede hacer que el objetivo retroceda o reciba quemaduras.
+425,Sombra Vil,shadow-sneak,ghost,physical,40,100,30,1,,0,2026-03-06 13:31:56.495367+00,Extiende su sombra y ataca al objetivo por la espalda. Este movimiento siempre va primero.
+426,Bomba Fango,mud-bomb,ground,special,65,85,10,0,,0,2026-03-06 13:24:44.376482+00,Ataca lanzando una compacta bola de fango. Puede bajar la Precisión del objetivo.
+427,Psicocorte,psycho-cut,psychic,physical,70,100,20,0,,0,2026-03-06 13:25:02.513352+00,Ataca al objetivo con cuchillas formadas por energía psíquica. Suele ser crítico.
+428,Cabezazo Zen,zen-headbutt,psychic,physical,80,90,15,0,,0,2026-03-06 13:24:21.912957+00,Puede hacer retroceder al rival.
+429,Disparo Espejo,mirror-shot,steel,special,65,85,10,0,,0,2026-03-06 13:26:00.796384+00,El usuario libera un haz de energía desde su pulido cuerpo. Puede bajar la Precisión.
+430,Foco Resplandor,flash-cannon,steel,special,80,100,10,0,,0,2026-03-06 13:23:54.005587+00,El usuario concentra toda la luz del cuerpo y la libera. Puede bajar la Defensa Especial del objetivo.
+431,Treparrocas,rock-climb,normal,physical,90,85,20,0,,20,2026-03-06 13:57:06.200678+00,Ataca con una gran embestida. Puede confundir al objetivo.
+432,Despejar,defog,flying,status,,,15,0,,0,2026-03-06 13:31:37.624528+00,Potente viento que barre el Reflejo o Pantalla de Luz del objetivo y puede reducir su Evasión.
+433,Espacio Raro,trick-room,psychic,status,,,5,-7,,0,2026-03-06 14:10:46.307479+00,Se crea un espacio extraño en el que los Pokémon lentos se mueven primero durante cinco turnos.
+434,Cometa Draco,draco-meteor,dragon,special,130,90,5,0,,0,2026-03-08 04:31:51.975446+00,Hace que grandes cometas caigan del cielo sobre el objetivo. Baja mucho el Ataque Especial del que lo usa.
+435,Chispazo,discharge,electric,special,80,100,15,0,PAR,30,2026-03-06 13:23:56.890945+00,Una deslumbradora onda eléctrica afecta a los Pokémon que hay combatiendo alrededor. Puede paralizar.
+436,Humareda,lava-plume,fire,special,80,100,15,0,BRN,30,2026-03-06 13:28:37.298936+00,Un infierno de llamas daña a los Pokémon adyacentes en combate. Puede quemar.
+437,Lluevehojas,leaf-storm,grass,special,130,90,5,0,,0,2026-03-06 13:33:35.204646+00,Cae una lluvia de hojas afiladas. Baja mucho el Ataque Especial de quien lo usa.
+438,Latigazo,power-whip,grass,physical,120,85,10,0,,0,2026-03-06 13:23:09.207082+00,El usuario agita violentamente sus lianas o tentáculos para golpear al objetivo.
+439,Romperrocas,rock-wrecker,rock,physical,150,90,5,0,,0,2026-03-06 13:58:26.109458+00,"Lanza una piedra enorme contra el objetivo, pero tiene que descansar el siguiente turno."
+440,Veneno X,cross-poison,poison,physical,70,100,20,0,PSN,10,2026-03-06 13:31:54.505572+00,Tajo que puede envenenar al objetivo. Suele ser crítico.
+441,Lanzamugre,gunk-shot,poison,physical,120,80,5,0,PSN,30,2026-03-06 13:41:56.795694+00,Lanza contra el objetivo basura asquerosa. Puede envenenar al objetivo.
+442,Cabeza de Hierro,iron-head,steel,physical,80,100,15,0,,0,2026-03-06 13:29:56.368525+00,Ataca con su dura cabeza de hierro. Puede hacer que el objetivo retroceda.
+443,Bomba Imán,magnet-bomb,steel,physical,60,,20,0,,0,2026-03-06 13:26:02.849436+00,Lanza unas bombas de hierro que se pegan al adversario. No se puede esquivar.
+444,Roca Afilada,stone-edge,rock,physical,100,80,5,0,,0,2026-03-06 13:25:32.271664+00,Clava piedras muy afiladas al objetivo. Suele ser crítico.
+445,Seducción,captivate,normal,status,,100,20,0,,0,2026-03-06 13:24:11.51724+00,"Si el objetivo es del sexo opuesto, queda embelesado y baja mucho su Ataque Especial."
+446,Trampa Rocas,stealth-rock,rock,status,,,20,0,,0,2026-03-06 13:25:33.662368+00,Una trampa de rocas que flota en el aire y daña a los objetivos que entran en combate.
+447,Hierba Lazo,grass-knot,grass,special,,100,20,0,,0,2026-03-06 13:52:11.587312+00,"Enreda al objetivo con hierba y lo derriba. Cuanto más pesado es el objetivo, más daño inflige."
+448,Cháchara,chatter,flying,special,65,100,20,0,,100,2026-03-06 13:50:52.413699+00,Ataca con una onda sónica compuesta por palabras que ha aprendido y confunde al objetivo.
+449,Sentencia,judgment,normal,special,100,100,10,0,,0,2026-03-06 13:53:37.984766+00,Emite incontables haces de luz. Varía según el tipo de tabla que lleve el usuario.
+450,Picadura,bug-bite,bug,physical,60,100,20,0,,0,2026-03-06 13:28:44.611734+00,"Pica al objetivo. Si el objetivo lleva una baya, el usuario se la come y se beneficia de su efecto."
+451,Rayo Carga,charge-beam,electric,special,50,90,10,0,,0,2026-03-06 13:32:33.314451+00,Lanza un rayo eléctrico contra el objetivo. Puede subir el Ataque Especial de quien lo usa.
+452,Mazazo,wood-hammer,grass,physical,120,100,15,0,,0,2026-03-06 13:32:57.230425+00,Arremete contra el objetivo con su robusto cuerpo. El agresor también sufre bastante daño.
+453,Acua Jet,aqua-jet,water,physical,40,100,20,1,,0,2026-03-06 13:29:48.562364+00,Ataque rápido que permite golpear en primer lugar.
+454,Al Ataque,attack-order,bug,physical,90,100,15,0,,0,2026-03-06 13:48:32.21375+00,El usuario llama a sus súbditos para que ataquen al objetivo. Suele ser crítico.
+455,A Defender,defend-order,bug,status,,,10,0,,0,2026-03-06 13:48:32.910531+00,El usuario llama a sus súbditos para que formen un escudo viviente. Sube la Defensa y la Defensa Especial.
+456,Auxilio,heal-order,bug,status,,,10,0,,0,2026-03-06 13:48:34.054991+00,El usuario llama a sus súbditos para que lo curen. Recupera hasta la mitad de los PS máximos.
+457,Testarazo,head-smash,rock,physical,150,80,5,0,,0,2026-03-06 13:32:57.511645+00,El usuario arriesga su vida y lanza un cabezazo con toda su fuerza. El agresor resulta seriamente dañado.
+458,Doble Golpe,double-hit,normal,physical,35,90,10,0,,0,2026-03-06 13:27:04.008982+00,Golpea al objetivo dos veces seguidas con la cola u otras partes de su cuerpo.
+459,Distorsión,roar-of-time,dragon,special,150,90,5,0,,0,2026-03-06 13:52:59.591642+00,Ataca al objetivo usando tal energía que el tiempo se distorsiona. El usuario descansa el siguiente turno.
+460,Corte Vacío,spacial-rend,dragon,special,100,95,5,0,,0,2026-03-06 13:53:04.662012+00,Desgarra al objetivo y el espacio a su alrededor. Suele ser crítico.
+461,Danza Lunar,lunar-dance,psychic,status,,,10,0,,0,2026-03-06 13:53:24.681251+00,"El usuario se debilita, pero el Pokémon que lo sustituye recupera su estado, los PS y los PP."
+462,Agarrón,crush-grip,normal,physical,,100,5,0,,0,2026-03-06 13:53:13.428995+00,"Estruja al objetivo con gran fuerza. Cuantos más PS le queden al objetivo, más fuerte será el ataque."
+463,Lluvia Ígnea,magma-storm,fire,special,100,75,5,0,,100,2026-03-06 13:53:08.313347+00,El objetivo queda atrapado en una tormenta de fuego que dura de cuatro a cinco turnos.
+464,Brecha Negra,dark-void,dark,status,,50,10,0,SLP,0,2026-03-06 13:53:33.48427+00,El objetivo es enviado a un mundo de tinieblas que lo hace dormir.
+465,Fogonazo,seed-flare,grass,special,120,85,5,0,,0,2026-03-07 22:20:58.684544+00,Una onda de choque se libera del cuerpo. Puede bajar mucho la Defensa Especial del objetivo.
+466,Viento Aciago,ominous-wind,ghost,special,60,100,5,0,,10,2026-03-06 13:49:19.746386+00,Produce un viento horripilante. Puede subir de golpe todas las características del usuario.
+467,Golpe Umbrío,shadow-force,ghost,physical,120,100,5,0,,0,2026-03-06 13:53:19.928901+00,"En el primer turno, desaparece. En el segundo, golpea al objetivo aunque se esté protegiendo."
+468,Afilagarras,hone-claws,dark,status,,,15,0,,0,2026-03-06 13:35:34.226639+00,El usuario se afila las garras para aumentar su Ataque y Precisión.
+469,Vastaguardia,wide-guard,rock,status,,,10,3,,0,2026-03-06 13:26:42.314685+00,Bloquea los ataques de objetivo múltiple lanzados contra tu equipo durante un turno.
+470,Isoguardia,guard-split,psychic,status,,,10,0,,0,2026-03-06 13:35:21.317929+00,El usuario emplea sus poderes para hacer la media de su Defensa y Defensa Especial con las de su objetivo y compartirlas.
+471,Isofuerza,power-split,psychic,status,,,10,0,,0,2026-03-06 13:35:21.642876+00,El usuario emplea sus poderes para hacer la media de su Ataque y Ataque Especial con los de su objetivo y compartirlos.
+472,Zona Extraña,wonder-room,psychic,status,,,10,0,,0,2026-03-06 13:24:21.203516+00,Crea una zona misteriosa donde se intercambian la Defensa y la Defensa Especial de todos los Pokémon durante cinco turnos.
+473,Psicocarga,psyshock,psychic,special,80,100,10,0,,0,2026-03-06 13:25:03.829667+00,Crea una onda psíquica que causa daño físico al objetivo.
+474,Carga Tóxica,venoshock,poison,special,65,100,10,0,,0,2026-03-06 13:26:17.295711+00,Ataca cubriendo al objetivo con un líquido venenoso. El daño será doble si este ya está envenenado.
+475,Aligerar,autotomize,steel,status,,,15,0,,0,2026-03-06 13:34:33.175952+00,El usuario se sacude para hacerse más ligero y aumentar mucho su Velocidad.
+476,Polvo Ira,rage-powder,bug,status,,,20,2,,0,2026-03-06 13:33:07.975857+00,Usa un polvo que irrita y centra en el usuario la atención y los ataques de los rivales.
+477,Telequinesis,telekinesis,psychic,status,,,15,0,,0,2026-03-06 13:25:03.53945+00,"El usuario emplea su poder mental para hacer flotar al objetivo, y lo convierte en un blanco fácil durante tres turnos."
+478,Zona Mágica,magic-room,psychic,status,,,10,0,,0,2026-03-06 13:43:42.024959+00,Crea un espacio misterioso que inutiliza todos los objetos de los Pokémon durante cinco turnos.
+479,Antiaéreo,smack-down,rock,physical,50,100,15,0,,100,2026-03-06 13:25:35.165552+00,El usuario ataca lanzando una piedra o un proyectil. Puede estrellar contra el suelo al objetivo si vuela.
+480,Llave Corsé,storm-throw,fighting,physical,60,100,10,0,,0,2026-03-06 13:28:42.900592+00,Lanza un golpe fulminante. Siempre resulta en un golpe crítico.
+481,Pirotecnia,flame-burst,fire,special,70,100,15,0,,0,2026-03-06 13:23:25.128188+00,Golpea al objetivo con una llamarada que afecta también a los Pokémon adyacentes.
+482,Onda Tóxica,sludge-wave,poison,special,95,100,10,0,PSN,10,2026-03-06 14:25:08.70711+00,Una onda tóxica que daña a los Pokémon de alrededor. Puede envenenar.
+483,Danza Aleteo,quiver-dance,bug,status,,,20,0,,0,2026-03-06 13:37:55.355006+00,"Danza mística que sube el Ataque Especial, la Defensa Especial y la Velocidad."
+484,Cuerpo Pesado,heavy-slam,steel,physical,,100,10,0,,0,2026-03-06 13:25:43.81695+00,"El usuario golpea con todo su cuerpo. Cuanto mayor sea su peso comparado con el del objetivo, más daño causará."
+485,Sincrorruido,synchronoise,psychic,special,120,100,10,0,,0,2026-03-06 13:31:35.208373+00,Una extraña onda que daña a todos los Pokémon adyacentes del mismo tipo que el que la ejecuta.
+486,Bola Voltio,electro-ball,electric,special,,100,10,0,,0,2026-03-06 13:23:59.626919+00,"Lanza una bola eléctrica. Cuanto mayor sea la Velocidad del usuario en comparación con la del objetivo, mayor será el daño causado."
+487,Anegar,soak,water,status,,100,20,0,,0,2026-03-06 13:24:23.278272+00,Potente lluvia que transforma al objetivo en un Pokémon de tipo Agua.
+488,Nitrocarga,flame-charge,fire,physical,50,100,20,0,,0,2026-03-06 13:30:54.037138+00,Llamas que golpean al objetivo y aumentan la Velocidad del atacante.
+489,Enrosque,coil,poison,status,,,20,0,,0,2026-03-06 13:31:32.842592+00,"El usuario se concentra, lo que le permite aumentar su Ataque, Defensa y Precisión."
+490,Puntapié,low-sweep,fighting,physical,65,100,20,0,,0,2026-03-06 13:56:54.044082+00,Ataque rápido dirigido a los pies del objetivo que le hace perder Velocidad.
+491,Bomba Ácida,acid-spray,poison,special,40,100,20,0,,0,2026-03-06 13:41:58.688813+00,"Ataca con un líquido corrosivo, reduciendo mucho la Defensa Especial del objetivo."
+492,Juego Sucio,foul-play,dark,physical,95,100,15,0,,0,2026-03-06 13:34:04.714835+00,"El usuario emplea la fuerza del objetivo para atacarlo. Cuanto mayor es el Ataque del objetivo, más daño provoca."
+493,Onda Simple,simple-beam,normal,status,,100,15,0,,0,2026-03-06 13:45:45.041384+00,Lanza una onda psíquica que hace que la habilidad del objetivo pase a ser Simple.
+494,Danza Amiga,entrainment,normal,status,,100,15,0,,0,2026-03-06 13:41:27.851032+00,Una extraña danza que hace que el usuario y el objetivo tengan la misma habilidad.
+495,Cede Paso,after-you,normal,status,,,15,0,,0,2026-03-06 13:32:18.925529+00,"Si el usuario es el más rápido, permite al objetivo usar un movimiento justo tras él, adelantándose a Pokémon más rápidos."
+496,Canon,round,normal,special,60,100,15,0,,0,2026-03-06 13:43:24.488235+00,"Un canto que ataca al objetivo. Cuantos más Pokémon lo usan, más aumenta de potencia."
+497,Eco Voz,echoed-voice,normal,special,40,100,15,0,,0,2026-03-06 13:31:37.339197+00,Un susurro que aumenta de potencia conforme el usuario y otros Pokémon lo van utilizando.
+498,Guardia Baja,chip-away,normal,physical,70,100,20,0,,0,2026-03-06 13:26:54.333968+00,Un ataque que busca los puntos débiles del objetivo y puede causarle daño aunque cambien sus características.
+499,Niebla Clara,clear-smog,poison,special,50,,15,0,,0,2026-03-06 13:27:00.36125+00,Ataca al objetivo con una extraña niebla que elimina sus cambios de características.
+500,Poder Reserva,stored-power,psychic,special,20,100,10,0,,0,2026-03-06 13:38:54.843689+00,"Acumula poder para golpear. Cuanto más suban las características del usuario, mayor será el daño."
+501,Anticipo,quick-guard,fighting,status,,,15,3,,0,2026-03-06 13:26:48.93636+00,Protege a todo el equipo de los movimientos que se adelantan y atacan primero.
+502,Cambio de Banda,ally-switch,psychic,status,,,15,2,,0,2026-03-06 13:25:03.138481+00,Extraño poder que intercambia la posición del usuario con la de un aliado sobre el terreno de combate.
+503,Escaldar,scald,water,special,80,100,15,0,BRN,30,2026-03-06 13:55:13.141822+00,Ataca arrojando agua hirviendo al objetivo. Puede causar quemaduras.
+504,Rompecoraza,shell-smash,normal,status,,,15,0,,0,2026-03-06 13:23:42.136047+00,"El usuario rompe su coraza y baja su Defensa y Defensa Especial, pero aumenta mucho su Ataque, Ataque Especial y Velocidad."
+505,Pulso Cura,heal-pulse,psychic,status,,,10,0,,0,2026-03-06 13:25:49.090551+00,Una onda curativa restaura los PS del objetivo a la mitad de su máximo.
+506,Infortunio,hex,ghost,special,65,100,10,0,,0,2026-03-06 13:26:14.90324+00,Ataque que causa un gran daño a los objetivos que sufren problemas de estado.
+507,Caída Libre,sky-drop,flying,physical,60,100,10,0,,0,2026-03-06 13:29:57.565955+00,"Primer turno: lanza al objetivo al aire. Segundo turno: lo hace caer. Mientras está en el aire, no lo deja moverse."
+508,Cambio de Marcha,shift-gear,steel,status,,,10,0,,0,2026-03-06 14:17:14.712753+00,"Al hacer girar los engranajes, el usuario mejora su Ataque y aumenta su Velocidad espectacularmente."
+509,Llave Giro,circle-throw,fighting,physical,60,90,10,-6,,0,2026-03-06 13:24:54.367045+00,"Lanza por los aires al objetivo y hace que salga otro Pokémon. Si es uno salvaje, acaba el combate."
+510,Calcinación,incinerate,fire,special,60,100,15,0,,0,2026-03-06 13:30:24.981456+00,"Llamas que golpean a los objetivos adyacentes. Si estos llevan bayas u otros objetos, estos se quemarán y ya no se podrán usar."
+511,Último Lugar,quash,dark,status,,100,15,0,,0,2026-03-06 13:34:03.486479+00,Consigue que el objetivo sea el último en moverse.
+512,Acróbata,acrobatics,flying,physical,55,100,15,0,,0,2026-03-06 13:33:08.497017+00,"Golpea ágilmente. Si el usuario no porta ningún objeto, el objetivo resulta seriamente dañado."
+513,Clonatipo,reflect-type,normal,status,,,15,0,,0,2026-03-06 13:28:01.386132+00,Cambia el tipo del Pokémon al mismo tipo que el del objetivo.
+514,Represalia,retaliate,normal,physical,70,100,5,0,,0,2026-03-06 13:24:33.071327+00,"Venga a los amigos derrotados. Si en el turno anterior han derrotado a uno, la potencia del ataque aumentará."
+515,Sacrificio,final-gambit,fighting,special,,100,5,0,,0,2026-03-06 13:46:59.740355+00,El usuario se sacrifica causándole un daño al objetivo equivalente a sus propios PS perdidos.
+516,Ofrenda,bestow,normal,status,,,15,0,,0,2026-03-06 13:27:24.566618+00,Entrega el objeto que lleva al objetivo en caso de que este no tenga ninguno.
+517,Infierno,inferno,fire,special,100,50,5,0,BRN,100,2026-03-06 13:23:23.361525+00,Ataca con una gran ráfaga de fuego que causa quemaduras.
+518,Voto Agua,water-pledge,water,special,80,100,10,0,,0,2026-03-08 04:32:03.053409+00,"Ataca con columnas de agua. Combinado con Voto Fuego, crea un arcoíris y aumenta su potencia."
+519,Voto Fuego,fire-pledge,fire,special,80,100,10,0,,0,2026-03-08 04:32:03.052299+00,"Ataca con columnas de fuego. Combinado con Voto Planta, crea un mar de llamas y aumenta su potencia."
+520,Voto Planta,grass-pledge,grass,special,80,100,10,0,,0,2026-03-08 04:32:03.023325+00,"Ataca con columnas de hojas. Combinado con Voto Agua, crea un pantano y aumenta su potencia."
+521,Voltiocambio,volt-switch,electric,special,70,100,20,0,,0,2026-03-06 13:47:35.747769+00,"Tras atacar, vuelve a toda prisa para dar paso a otro Pokémon del equipo."
+522,Estoicismo,struggle-bug,bug,special,50,100,20,0,,0,2026-03-06 13:31:47.202215+00,El usuario opone resistencia y ataca a los oponentes. También reduce su Ataque Especial.
+523,Terratemblor,bulldoze,ground,physical,60,100,20,0,,0,2026-03-06 13:25:33.991783+00,Sacudida sísmica que afecta a los demás Pokémon adyacentes y también reduce su Velocidad.
+524,Vaho Gélido,frost-breath,ice,special,60,90,10,0,,100,2026-03-07 22:10:11.716641+00,Quien lo usa ataca lanzando un aliento gélido. Siempre resulta en un golpe crítico.
+525,Cola Dragón,dragon-tail,dragon,physical,60,90,10,-6,,0,2026-03-06 13:28:56.354633+00,"Ataca al objetivo y lo obliga a cambiarse por otro Pokémon. Si es uno salvaje, acaba el combate."
+526,Avivar,work-up,normal,status,,,30,0,,0,2026-03-06 13:28:48.677795+00,Quien lo usa se concentra y potencia su Ataque y su Ataque Especial.
+527,Electrotela,Electroweb,electric,special,55,95,15,0,,0,2026-03-06 14:20:21.057385+00,Atrapa y ataca a los objetivos con una telaraña eléctrica. También reduce su Velocidad.
+528,Voltio Cruel,wild-charge,electric,physical,90,100,15,0,,0,2026-03-06 13:23:55.958587+00,Carga eléctrica muy potente que también hiere ligeramente a quien la usa.
+529,Taladradora,drill-run,ground,physical,80,95,10,0,,0,2026-03-06 13:27:09.07422+00,El usuario golpea usando su cuerpo como un taladro. Suele ser crítico.
+530,Golpe Bis,dual-chop,dragon,physical,40,90,15,0,,0,2026-03-06 13:25:18.597944+00,Golpea dos veces seguidas con las partes más recias de su cuerpo.
+531,Arrumaco,heart-stamp,psychic,physical,60,100,25,0,,0,2026-03-06 13:28:28.223161+00,Grácil gesto que asesta un golpe tremendo al objetivo y puede hacerlo retroceder.
+532,Asta Drenaje,horn-leech,grass,physical,75,100,10,0,,0,2026-03-06 14:00:48.540111+00,Un golpe que drena energía. El Pokémon recupera la mitad de los PS arrebatados al objetivo.
+533,Espada Santa,Sacred Sword,fighting,physical,90,100,15,0,,0,2026-03-06 14:01:26.957219+00,Ataque que ignora los cambios en las estadísticas del rival.
+534,Concha Filo,razor-shell,water,physical,75,95,10,0,,0,2026-03-06 13:44:06.488796+00,Una afilada vieira ataca al objetivo. También puede hacer disminuir su Defensa.
+535,Golpe Calor,heat-crash,fire,physical,,100,10,0,,0,2026-03-06 13:53:59.554036+00,"El usuario ataca con su cuerpo ardiente. Cuanto mayor sea su peso comparado con el del objetivo, más daño causará."
+536,Ciclón de Hojas,leaf-tornado,grass,special,65,90,10,0,,0,2026-03-06 13:38:34.211596+00,Tritura con afiladas hojas y puede bajar la Precisión del objetivo.
+537,Rodillo de Púas,steamroller,bug,physical,65,100,20,0,,0,2026-03-06 13:25:46.763836+00,El usuario se hace una bola y arrolla al objetivo con su cuerpo. Puede hacerlo retroceder.
+538,Rizo Algodón,cotton-guard,grass,status,,,10,0,,0,2026-03-06 13:32:34.007649+00,Cubre al Pokémon con una madeja protectora. Aumenta muchísimo la Defensa.
+539,Pulso Noche,night-daze,dark,special,85,95,10,0,,0,2026-03-06 13:59:30.393564+00,Ataca al objetivo con una onda siniestra. Puede bajar su Precisión.
+540,Onda Mental,psystrike,psychic,special,100,100,10,0,,0,2026-03-06 13:30:27.747913+00,Crea una onda psíquica que causa daño físico al objetivo.
+541,Plumerazo,tail-slap,normal,physical,25,85,10,0,,0,2026-03-06 13:59:41.693953+00,Golpea con la cola u otras partes de su cuerpo de dos a cinco veces seguidas.
+542,Vendaval,hurricane,flying,special,110,70,10,0,,30,2026-03-06 13:28:53.756757+00,Golpea al objetivo con un fuerte torbellino que envuelve al rival y puede confundirlo.
+543,Ariete,head-charge,normal,physical,120,100,15,0,,0,2026-03-07 22:31:18.549192+00,Propina un tremendo cabezazo. También daña al usuario un poco.
+544,Rueda Doble,gear-grind,steel,physical,50,85,15,0,,0,2026-03-07 22:29:06.56911+00,Rota dos engranajes de hierro sobre el objetivo. Golpea dos veces.
+545,Bomba Ígnea,searing-shot,fire,special,100,100,5,0,BRN,30,2026-03-07 22:21:11.336264+00,Un infierno de llamas daña a los Pokémon adyacentes en combate. Puede quemar.
+546,Tecno Shock,techno-blast,normal,special,120,100,5,0,,0,2026-03-07 22:33:12.017166+00,Ataca al objetivo con un gran láser. El tipo del ataque lo determina el cartucho que porta el usuario.
+547,Canto Arcaico,relic-song,normal,special,75,100,10,0,SLP,10,2026-03-07 22:33:07.403881+00,Ataca conmoviendo a los rivales de alrededor con un antiguo canto. Puede dormirlos.
+548,Sable Místico,secret-sword,fighting,special,85,100,10,0,,0,2026-03-07 22:33:04.566518+00,"Ensarta al objetivo con un sable, hiriéndolo con su místico poder. Produce daño físico."
+549,Mundo Gélido,glaciate,ice,special,65,95,10,0,,0,2026-03-06 14:02:08.298721+00,Ataque con aire helado que baja la Velocidad del objetivo.
+550,Ataque Fulgor,bolt-strike,electric,physical,130,85,5,0,PAR,20,2026-03-06 14:01:58.175393+00,Ataca envolviéndose de una gran carga eléctrica y embistiendo al objetivo con ella. Puede paralizar.
+551,Llama Azul,blue-flare,fire,special,130,85,5,0,BRN,20,2026-03-06 14:01:53.801865+00,Ataca con una bella pero potente llama azul que rodea al objetivo. Puede quemarlo.
+552,Danza Llama,fiery-dance,fire,special,80,100,10,0,,0,2026-03-06 14:26:55.409797+00,Envuelve en llamas y daña al objetivo. Puede aumentar el Ataque Especial de quien lo usa.
+553,Rayo Gélido,freeze-shock,ice,physical,140,90,5,0,PAR,30,2026-03-08 04:32:08.153973+00,El usuario carga un bloque de hielo con electricidad en el primer turno y ataca con él en el segundo. Puede paralizar.
+554,Llama Gélida,ice-burn,ice,special,140,90,5,0,BRN,30,2026-03-08 04:32:08.149442+00,Ataca al objetivo en el segundo turno rodeándolo de un aire gélido. Puede causar quemaduras.
+555,Alarido,snarl,dark,special,55,95,15,0,,0,2026-03-06 13:37:40.09895+00,Ataca con un chillido desagradable que baja el Ataque Especial del rival.
+556,Chuzos,icicle-crash,ice,physical,85,90,10,0,,0,2026-03-06 13:36:00.172946+00,Lanza grandes carámbanos. Puede hacer retroceder al objetivo.
+557,V de Fuego,v-create,fire,physical,180,95,5,0,,0,2026-03-07 22:21:14.332006+00,"Golpea con una V de llamas al objetivo. Baja la Defensa, la Defensa Especial y la Velocidad de quien lo usa."
+558,Llama Fusión,fusion-flare,fire,special,100,100,5,0,,0,2026-03-06 14:01:55.477874+00,Ataca con una llamarada gigantesca. Aumenta su potencia si es influenciada por una gran energía eléctrica.
+559,Rayo Fusión,fusion-bolt,electric,physical,100,100,5,0,,0,2026-03-06 14:01:59.857597+00,Ataca con una enorme descarga eléctrica. Aumenta su potencia si es influenciada por una gigantesca llamarada.
+560,Plancha Voladora,flying-press,fighting,physical,100,95,10,0,,0,2026-03-06 14:06:09.083081+00,El Pokémon que lo usa se lanza sobre su oponente. Este movimiento es de tipo Lucha y tipo Volador al mismo tiempo.
+561,Escudo Tatami,mat-block,fighting,status,,,10,0,,0,2026-03-06 13:56:50.508005+00,El usuario usa un tatami para escudarse de los movimientos enemigos. Protege también a los aliados. No funciona contra ataques de estado.
+562,Eructo,belch,poison,special,120,90,10,0,,0,2026-03-06 13:26:58.986792+00,El Pokémon causa daño a su oponente lanzándole un eructo. Para poder utilizar este movimiento tiene que llevar una baya y comérsela.
+563,Fertilizante,rototiller,ground,status,,,10,0,,0,2026-03-06 13:54:34.15624+00,Labra la tierra haciendo que sea más fácil cultivarla y consigue que aumente el Ataque y el Ataque Especial de los Pokémon de tipo Planta.
+564,Red Viscosa,sticky-web,bug,status,,,20,0,,0,2026-03-06 13:31:54.220654+00,"Coloca una red pegajosa alrededor del equipo rival, haciendo que baje la Velocidad de cualquier Pokémon adversario que entre al combate."
+565,Aguijón Letal,fell-stinger,bug,physical,50,100,25,0,,0,2026-03-06 13:35:07.094933+00,"Al derrotar al objetivo utilizando este movimiento, aumenta mucho el Ataque del usuario."
+566,Golpe Fantasma,phantom-force,ghost,physical,90,100,10,0,,0,2026-03-06 13:39:52.555747+00,El usuario desaparece en el primer turno y ataca a su objetivo en el segundo. Permite acertar aunque el objetivo esté protegiéndose.
+567,Halloween,trick-or-treat,ghost,status,,100,20,0,,0,2026-03-06 14:06:53.239291+00,"Invita al objetivo a celebrar Halloween, haciendo que pase a ser también de tipo Fantasma además de conservar sus propios tipos."
+568,Rugido de Guerra,noble-roar,normal,status,,100,30,0,,0,2026-03-06 13:42:23.956303+00,"Intimida a su oponente con un rugido de guerra, haciendo que disminuyan tanto su Ataque como su Ataque Especial."
+569,Cortina Plasma,ion-deluge,electric,status,,,25,1,,0,2026-03-06 13:55:42.893437+00,El Pokémon disemina partículas con carga eléctrica que convierten los movimientos de tipo Normal en tipo Eléctrico.
+570,Carga Parábola,parabolic-charge,electric,special,65,100,20,0,,0,2026-03-06 14:05:31.455948+00,Inflige daño a todos los Pokémon a su alrededor. El usuario absorbe la mitad del daño producido para restaurar sus propios PS.
+571,Condena Silvana,forests-curse,grass,status,,100,20,0,,0,2026-03-06 14:06:41.091311+00,"El objetivo es presa de la maldición del bosque, por lo que pasa a ser un Pokémon de tipo Planta, además de conservar sus tipos habituales."
+572,Tormenta Floral,petal-blizzard,grass,physical,90,100,15,0,,0,2026-03-06 13:23:18.886238+00,El usuario desata un intenso vendaval de pétalos que daña a los Pokémon a su alrededor.
+573,Liofilización,freeze-dry,ice,special,70,100,20,0,FRZ,10,2026-03-06 13:30:11.198633+00,Enfría súbitamente al objetivo e incluso puede congelarlo. Es supereficaz contra Pokémon de tipo Agua.
+574,Voz Cautivadora,disarming-voice,fairy,special,40,,15,0,,0,2026-03-06 13:32:13.849603+00,Obnubila a los oponentes con su fascinante voz y les provoca daños emocionales. Siempre acierta al objetivo.
+575,Última Palabra,parting-shot,dark,status,,100,20,0,,0,2026-03-06 13:50:49.91058+00,"El usuario se cambia por otro Pokémon de su equipo, pero antes amedrenta a su oponente y hace que disminuyan su Ataque y Ataque Especial."
+576,Reversión,topsy-turvy,dark,status,,,20,0,,0,2026-03-06 14:04:53.828398+00,Invierte por completo los cambios en las características del Pokémon objetivo.
+577,Beso Drenaje,draining-kiss,fairy,special,50,100,10,0,,0,2026-03-06 13:27:24.849783+00,Absorbe PS del objetivo con un beso y restaura su propia energía en una cantidad igual o superior a la mitad del daño infligido.
+578,Truco Defensa,crafty-shield,fairy,status,,,10,3,,0,2026-03-06 13:58:50.862656+00,"Usa unos misteriosos poderes para protegerse a sí mismo y a sus aliados de ataques de estado, pero no de otro tipo de ataques."
+579,Defensa Floral,flower-shield,fairy,status,,,10,0,,0,2026-03-06 13:49:03.983116+00,Aumenta la Defensa de todos los Pokémon de tipo Planta que hay en el combate usando unos misteriosos poderes.
+580,Campo de Hierba,grassy-terrain,grass,status,,,10,0,,0,2026-03-06 13:27:26.848605+00,Convierte el terreno de combate en un campo de hierba durante cinco turnos. Los Pokémon que estén en el suelo recuperan PS en cada turno.
+581,Campo de Niebla,misty-terrain,fairy,status,,,10,0,,0,2026-03-06 13:56:17.286396+00,Cubre de niebla el terreno de combate durante cinco turnos. Los Pokémon que estén en el suelo no se ven afectados por cambios de estado.
+582,Electrificación,electrify,electric,status,,,20,0,,0,2026-03-06 14:05:30.386156+00,"Si el Pokémon objetivo queda electrificado antes de usar un movimiento, este será de tipo Eléctrico."
+583,Carantoña,play-rough,fairy,physical,90,90,10,0,,0,2026-03-06 13:24:12.113432+00,El Pokémon que lo usa le hace cucamonas al objetivo y lo ataca. Puede disminuir el Ataque del objetivo.
+584,Viento Feérico,fairy-wind,fairy,special,40,100,30,0,,0,2026-03-06 13:32:14.563543+00,El Pokémon que lo usa desata un vendaval feérico que arremete contra el objetivo.
+585,Fuerza Lunar,moonblast,fairy,special,95,100,15,0,,0,2026-03-06 13:31:35.517645+00,Invoca el poder de la luna para atacar al objetivo. Puede disminuir el Ataque Especial del objetivo.
+586,Estruendo,boomburst,normal,special,140,100,10,0,,0,2026-03-06 13:40:05.304384+00,Ataca a todos los Pokémon a su alrededor con una potentísima onda sonora.
+587,Cerrojo Feérico,fairy-lock,fairy,status,,,10,0,,0,2026-03-06 14:06:38.806947+00,Consigue que ningún Pokémon pueda huir en el siguiente turno echando un cerrojo.
+588,Escudo Real,kings-shield,steel,status,,,10,4,,0,2026-03-06 14:04:30.253768+00,Asume una estrategia defensiva a la par que se protege de cualquier daño. Disminuye mucho el Ataque de cualquier Pokémon que lo toque.
+589,Camaradería,play-nice,normal,status,,,20,0,,0,2026-03-06 13:24:00.518456+00,"Se hace amigo de su oponente y consigue que a este se le quiten las ganas de combatir. Además, reduce su Ataque."
+590,Confidencia,confide,normal,status,,,20,0,,0,2026-03-06 14:17:54.882118+00,Hace que el objetivo pierda la concentración contándole un secreto. Disminuye el Ataque Especial del oponente.
+591,Torm. Diamantes,diamond-storm,rock,physical,100,95,5,0,,0,2026-03-07 22:38:32.47864+00,Desata un devastador vendaval de diamantes para dañar a los oponentes. Puede aumentar la Defensa del usuario.
+592,Chorro de Vapor,steam-eruption,water,special,110,95,5,0,BRN,30,2026-03-07 22:38:43.903228+00,Envuelve al Pokémon oponente con vapor extremadamente caliente que puede llegar a quemarlo.
+593,Paso Dimensional,hyperspace-hole,psychic,special,80,,5,0,,0,2026-03-07 22:38:38.345347+00,El usuario aparece junto a su objetivo usando un agujero interdimensional y le asesta un golpe que no puede esquivarse con Protección ni Detección.
+594,Shuriken de Agua,water-shuriken,water,special,15,100,20,1,,0,2026-03-06 14:02:46.747584+00,Golpea al oponente de 2 a 5 veces con estrellas arrojadizas hechas de mucosidad. El que lo usa siempre ataca primero.
+595,Llama Embrujada,mystical-fire,fire,special,75,100,10,0,,0,2026-03-06 13:49:21.241106+00,Lanza por su boca una singular llama a gran temperatura con la que ataca a su oponente y baja su Ataque Especial.
+596,Barrera Espinosa,spiky-shield,grass,status,,,10,4,,0,2026-03-06 13:43:18.393008+00,"Evita el ataque de su oponente y, al mismo tiempo, le inflige daño si ha entrado en contacto con él."
+597,Niebla Aromática,aromatic-mist,fairy,status,,,20,0,,0,2026-03-06 14:04:42.66978+00,Consigue aumentar la Defensa Especial de un Pokémon de su equipo con una fragancia misteriosa.
+598,Onda Anómala,eerie-impulse,electric,status,,100,15,0,,0,2026-03-06 14:05:36.906467+00,"Su cuerpo irradia unas raras ondas que, al alcanzar a un oponente, hacen que disminuya mucho su Ataque Especial."
+599,Trampa Venenosa,venom-drench,poison,status,,100,20,0,,0,2026-03-06 13:42:05.29057+00,"Impregna a su objetivo con un líquido venenoso que disminuye el Ataque, el At. Esp. y la Velocidad. Solo afecta a Pokémon ya envenenados."
+600,Polvo Explosivo,powder,bug,status,,100,20,1,,0,2026-03-06 14:03:22.76385+00,"Esparce un polvo sobre el Pokémon objetivo. Si este usa un movimiento de tipo Fuego en el mismo turno, el polvo explota y le inflige daño."
+601,Geocontrol,geomancy,fairy,status,,,10,0,,0,2026-03-06 14:07:13.404824+00,"Concentra energía durante el primer turno, de forma que su Velocidad, Ataque Especial y Defensa Especial aumenten mucho en el segundo."
+602,Aura Magnética,magnetic-flux,electric,status,,,20,0,,0,2026-03-06 13:30:16.905483+00,Manipula el campo magnético y logra aumentar la Defensa y la Def. Esp. de los Pokémon aliados que cuenten con las habilidades Más y Menos.
+603,Paga Extra,happy-hour,normal,status,,,30,0,,0,2026-03-08 04:32:14.500345+00,Al usar este movimiento se consigue duplicar la recompensa recibida tras el combate.
+604,Campo Eléctrico,electric-terrain,electric,status,,,10,0,,0,2026-03-06 13:41:23.297212+00,"Durante cinco turnos, crea un campo eléctrico en el terreno de combate que impide dormirse a los Pokémon que estén en contacto con el suelo."
+605,Brillo Mágico,dazzling-gleam,fairy,special,80,100,10,0,,0,2026-03-06 13:28:11.962399+00,Inflige daño a los oponentes con una potente luz.
+606,Celebración,celebrate,normal,status,,,40,0,,0,2026-03-08 04:32:14.487387+00,El Pokémon te felicita en un día muy especial para ti.
+607,Manos Juntas,hold-hands,normal,status,,,40,0,,0,2026-03-08 04:32:14.504458+00,El Pokémon le da la mano a un aliado y ambos se sienten muy felices.
+608,Ojitos Tiernos,baby-doll-eyes,fairy,status,,100,30,1,,0,2026-03-06 13:27:25.620677+00,"Lanza una mirada al Pokémon objetivo con ojos acaramelados, con lo que logra que su Ataque se reduzca. El que lo usa siempre ataca primero."
+609,Moflete Estático,nuzzle,electric,physical,20,100,20,0,PAR,100,2026-03-06 13:23:58.102205+00,Quien lo usa frota sus mofletes cargados de electricidad contra el Pokémon objetivo y consigue paralizarlo.
+610,Clemencia,hold-back,normal,physical,40,100,40,0,,0,2026-03-08 04:32:14.559418+00,El usuario se contiene a la hora de atacar y deja al Pokémon objetivo con al menos 1 PS.
+611,Acoso,infestation,bug,special,20,100,20,0,,100,2026-03-06 13:31:57.532276+00,Hostiga al Pokémon objetivo durante cuatro o cinco turnos e impide que pueda huir mientras tanto.
+612,Puño Incremento,power-up-punch,fighting,physical,40,100,20,0,,0,2026-03-06 13:46:30.872086+00,"Cada vez que golpea a un oponente se endurecen sus puños. Si acierta al objetivo, el Ataque del usuario aumenta."
+613,Ala Mortífera,oblivion-wing,flying,special,80,100,10,0,,0,2026-03-06 14:07:18.604967+00,El usuario absorbe energía del Pokémon objetivo y aumenta sus PS en una cantidad igual o superior a la mitad del daño infligido.
+614,Mil Flechas,thousand-arrows,ground,physical,90,100,10,0,,100,2026-03-06 14:07:25.667493+00,Acierta incluso a Pokémon que estén en el aire y los hace caer al suelo.
+615,Mil Temblores,thousand-waves,ground,physical,90,100,10,0,,0,2026-03-06 14:07:25.965824+00,El usuario genera ondas sísmicas que se propagan por el suelo y sacuden a los oponentes. Los Pokémon alcanzados no podrán huir del combate.
+616,Fuerza Telúrica,lands-wrath,ground,physical,90,100,10,0,,0,2026-03-06 14:07:23.934007+00,"Acumula energía de la corteza terrestre y la concentra contra los oponentes, dañándolos."
+617,Luz Aniquiladora,light-of-ruin,fairy,special,140,90,5,0,,0,2026-03-08 04:32:15.869325+00,"El usuario emplea el poder de la Flor Eterna para lanzar un potente rayo de luz, pero sufre bastante daño al hacerlo."
+618,Pulso Primigenio,origin-pulse,water,special,110,85,10,0,,0,2026-03-06 13:45:49.73929+00,Ataca al objetivo con una infinidad de rayos de luz azulada.
+619,Filo del Abismo,precipice-blades,ground,physical,120,85,10,0,,0,2026-03-06 13:45:53.937271+00,Hace que el poder latente de la tierra se manifieste en forma de hojas afiladas y ataca al objetivo con ellas.
+620,Ascenso Draco,dragon-ascent,flying,physical,120,100,5,0,,0,2026-03-06 13:46:00.287102+00,"El usuario se precipita desde el cielo a una velocidad de vértigo para atacar al objetivo, pero hace que bajen la Defensa y la Defensa Especial del usuario."
+621,Cerco Dimensión,hyperspace-fury,dark,physical,100,,5,0,,0,2026-03-08 04:32:17.265091+00,Ataca al objetivo con una ráfaga de golpes que pasan por alto los efectos de movimientos como Protección o Detección. Hace que baje la Defensa del usuario.
+622,Carrera Arrolladora,breakneck-blitz--physical,normal,physical,,,1,0,,0,2026-03-08 04:32:17.248104+00,El usuario emplea el Poder Z para coger carrerilla y arremeter contra el objetivo con gran fuerza. Su potencia depende de la del movimiento original.
+623,Carrera Arrolladora,breakneck-blitz--special,normal,special,,,1,0,,0,2026-03-08 04:32:17.258644+00,Dummy data
+624,Ráfaga Demoledora,all-out-pummeling--physical,fighting,physical,,,1,0,,0,2026-03-08 04:32:17.261638+00,Emplea el Poder Z para lanzar una sarta de golpes demoledores contra el objetivo. Su potencia depende de la del movimiento original.
+625,Ráfaga Demoledora,all-out-pummeling--special,fighting,special,,,1,0,,0,2026-03-08 04:32:17.255364+00,Dummy data
+626,Picado Supersónico,supersonic-skystrike--physical,flying,physical,,,1,0,,0,2026-03-08 04:32:17.235143+00,El usuario emplea el Poder Z para volar muy alto y abalanzarse en picado sobre el objetivo. Su potencia depende de la del movimiento original.
+627,Picado Supersónico,supersonic-skystrike--special,flying,special,,,1,0,,0,2026-03-08 04:32:17.251319+00,Dummy data
+628,Diluvio Corrosivo,acid-downpour--physical,poison,physical,,,1,0,,0,2026-03-08 04:32:17.257233+00,El usuario emplea el Poder Z para crear una ciénaga venenosa en la que sumerge al objetivo. Su potencia depende de la del movimiento original.
+629,Diluvio Corrosivo,acid-downpour--special,poison,special,,,1,0,,0,2026-03-08 04:32:17.235039+00,Dummy data
+630,Barrena Telúrica,tectonic-rage--physical,ground,physical,,,1,0,,0,2026-03-08 04:32:17.269835+00,Emplea el Poder Z para abrir una profunda grieta en el suelo que se traga al oponente. Su potencia depende de la del movimiento original.
+631,Barrena Telúrica,tectonic-rage--special,ground,special,,,1,0,,0,2026-03-08 04:32:18.522771+00,Dummy data
+632,Aplastamiento Gigalítico,continental-crush--physical,rock,physical,,,1,0,,0,2026-03-08 04:32:18.48327+00,El usuario emplea el Poder Z para crear una montaña rocosa con la que aplasta al objetivo. Su potencia depende de la del movimiento original.
+633,Aplastamiento Gigalítico,continental-crush--special,rock,special,,,1,0,,0,2026-03-08 04:32:18.533475+00,Dummy data
+634,Guadaña Sedosa,savage-spin-out--physical,bug,physical,,,1,0,,0,2026-03-08 04:32:18.519374+00,Emplea el Poder Z para encerrar a su oponente en un capullo contra el que arremete con fuerza. Su potencia depende de la del movimiento original.
+635,Guadaña Sedosa,savage-spin-out--special,bug,special,,,1,0,,0,2026-03-08 04:32:18.549151+00,Dummy data
+636,Presa Espectral,never-ending-nightmare--physical,ghost,physical,,,1,0,,0,2026-03-08 04:32:18.544315+00,El usuario emplea el Poder Z para invocar a unos espectros encolerizados que apresan al objetivo. Su potencia depende de la del movimiento original.
+637,Presa Espectral,never-ending-nightmare--special,ghost,special,,,1,0,,0,2026-03-08 04:32:18.682228+00,Dummy data
+638,Hélice Trepanadora,corkscrew-crash--physical,steel,physical,,,1,0,,0,2026-03-08 04:32:18.536394+00,El usuario emplea el Poder Z para girar a toda velocidad y perforar al objetivo. Su potencia depende de la del movimiento original.
+639,Hélice Trepanadora,corkscrew-crash--special,steel,special,,,1,0,,0,2026-03-08 04:32:18.537749+00,Dummy data
+640,Hecatombe Pírica,inferno-overdrive--physical,fire,physical,,,1,0,,0,2026-03-08 04:32:18.560747+00,El usuario emplea el Poder Z para lanzar una enorme llamarada con la que calcina a su objetivo. Su potencia depende de la del movimiento original.
+641,Hecatombe Pírica,inferno-overdrive--special,fire,special,,,1,0,,0,2026-03-08 04:32:19.937125+00,Dummy data
+642,Hidrovórtice Abisal,hydro-vortex--physical,water,physical,,,1,0,,0,2026-03-08 04:32:19.929104+00,El usuario emplea el Poder Z para crear un potente torbellino de agua que engulle al objetivo. Su potencia depende de la del movimiento original.
+643,Hidrovórtice Abisal,hydro-vortex--special,water,special,,,1,0,,0,2026-03-08 04:32:19.939415+00,Dummy data
+644,Megatón Floral,bloom-doom--physical,grass,physical,,,1,0,,0,2026-03-08 04:32:19.923023+00,Emplea el Poder Z para concentrar la energía de la vegetación que lo rodea y atacar al objetivo. Su potencia depende de la del movimiento original.
+645,Megatón Floral,bloom-doom--special,grass,special,,,1,0,,0,2026-03-08 04:32:19.932363+00,Dummy data
+646,Gigavoltio Destructor,gigavolt-havoc--physical,electric,physical,,,1,0,,0,2026-03-08 04:32:19.880013+00,El usuario emplea el Poder Z para generar una fuerte descarga eléctrica con la que electrocuta al objetivo. Su potencia depende de la del movimiento original.
+647,Gigavoltio Destructor,gigavolt-havoc--special,electric,special,,,1,0,,0,2026-03-08 04:32:19.942926+00,Dummy data
+648,Disruptor Psíquico,shattered-psyche--physical,psychic,physical,,,1,0,,0,2026-03-08 04:32:19.946551+00,"Emplea el Poder Z para manipular la mente del objetivo, infligiéndole un daño ingente. Su potencia depende de la del movimiento original."
+649,Disruptor Psíquico,shattered-psyche--special,psychic,special,,,1,0,,0,2026-03-08 04:32:19.937452+00,Dummy data
+650,Crioaliento Despiadado,subzero-slammer--physical,ice,physical,,,1,0,,0,2026-03-08 04:32:19.935349+00,Emplea el Poder Z para lanzar un rayo de hielo que baja la temperatura de golpe y congela al objetivo. Su potencia depende de la del movimiento original.
+651,Crioaliento Despiadado,subzero-slammer--special,ice,special,,,1,0,,0,2026-03-08 04:32:21.199928+00,Dummy data
+652,Dracoaliento Devastador,devastating-drake--physical,dragon,physical,,,1,0,,0,2026-03-08 04:32:21.22062+00,El usuario emplea el Poder Z para materializar su aura y golpear al objetivo. Su potencia depende de la del movimiento original.
+653,Dracoaliento Devastador,devastating-drake--special,dragon,special,,,1,0,,0,2026-03-08 04:32:21.201574+00,Dummy data
+654,Agujero Negro Aniquilador,black-hole-eclipse--physical,dark,physical,,,1,0,,0,2026-03-08 04:32:21.190026+00,El usuario emplea el Poder Z para generar un agujero negro que absorbe al objetivo. Su potencia depende de la del movimiento original.
+655,Agujero Negro Aniquilador,black-hole-eclipse--special,dark,special,,,1,0,,0,2026-03-08 04:32:21.15134+00,Dummy data
+656,Arrumaco Sideral,twinkle-tackle--physical,fairy,physical,,,1,0,,0,2026-03-08 04:32:21.193075+00,El usuario emplea el Poder Z para crear una dimensión fascinante que deja al rival a su merced. Su potencia depende de la del movimiento original.
+657,Arrumaco Sideral,twinkle-tackle--special,fairy,special,,,1,0,,0,2026-03-08 04:32:21.191842+00,Dummy data
+658,Pikavoltio Letal,catastropika,electric,physical,210,,1,0,,0,2026-03-08 04:32:21.202593+00,Pikachu emplea el Poder Z para acumular una gran cantidad de electricidad en su cuerpo y arremeter contra el objetivo.
+659,Recogearena,shore-up,ground,status,,,5,0,,0,2026-03-06 14:11:02.743247+00,"Restaura la mitad de los PS máximos del usuario. Durante las tormentas de arena, restaura aún más PS."
+660,Escaramuza,first-impression,bug,physical,90,100,10,2,,0,2026-03-06 14:11:00.975267+00,Movimiento de gran potencia que solo puede usarse en el turno en que el usuario sale al combate.
+661,Búnker,baneful-bunker,poison,status,,,10,4,,0,2026-03-06 14:09:27.895761+00,"Protege de los ataques y, al mismo tiempo, envenena al Pokémon que use un movimiento de contacto contra el usuario."
+662,Puntada Sombría,spirit-shackle,ghost,physical,80,100,10,0,,0,2026-03-08 04:32:22.513348+00,"Ataca al oponente y, al mismo tiempo, fija su sombra al terreno, impidiendo su huida."
+663,Lariat Oscuro,darkest-lariat,dark,physical,85,100,10,0,,0,2026-03-06 14:07:53.868773+00,Gira sobre sí mismo y golpea al oponente con ambos brazos. Ignora los cambios en las características del objetivo.
+664,Aria Burbuja,sparkling-aria,water,special,90,100,10,0,,0,2026-03-06 14:08:10.020979+00,Libera burbujas al cantar. Este movimiento cura las quemaduras de los Pokémon que reciban daño.
+665,Martillo Hielo,ice-hammer,ice,physical,100,90,10,0,,0,2026-03-06 14:08:48.525266+00,"Un terrible puño golpea al contrincante, pero la Velocidad del usuario se ve reducida."
+666,Cura Floral,floral-healing,fairy,status,,,10,0,,0,2026-03-06 14:10:41.600841+00,Restaura la mitad de los PS máximos del objetivo. Es más efectivo cuando se usa en conjunción con Campo de Hierba.
+667,Fuerza Equina,high-horsepower,ground,physical,95,95,10,0,,0,2026-03-06 13:27:10.461006+00,Asesta un golpe devastador usando todo su cuerpo.
+668,Absorbefuerza,strength-sap,grass,status,,100,10,0,,0,2026-03-06 14:09:57.542277+00,"Restaura una cantidad de PS equivalente al valor de Ataque del rival, que además verá reducida esta característica."
+669,Cuchilla Solar,solar-blade,grass,physical,125,100,10,0,,0,2026-03-06 14:09:52.341238+00,El usuario dedica un turno a absorber energía lumínica y concentrarla en forma de cuchilla con la que ataca al rival al turno siguiente.
+670,Follaje,leafage,grass,physical,40,100,40,0,,0,2026-03-06 13:36:46.905293+00,Ataca al oponente lanzando hojas.
+671,Foco,spotlight,normal,status,,,15,3,,0,2026-03-06 13:28:09.406077+00,"Convierte a uno de los Pokémon que están combatiendo en el foco de atención, de modo que todos los ataques se dirijan hacia él."
+672,Hilo Venenoso,toxic-thread,poison,status,,100,20,0,PSN,100,2026-03-06 13:31:53.706815+00,Ataca al oponente con hilillos venenosos que reducen su Velocidad y lo envenenan.
+673,Aguzar,laser-focus,normal,status,,,30,0,,0,2026-03-06 13:27:42.426615+00,El usuario se concentra para que el siguiente ataque propine un golpe crítico.
+674,Piñón Auxiliar,gear-up,steel,status,,,20,0,,0,2026-03-07 22:29:17.50326+00,Cambia de marcha y logra aumentar el Ataque y el Ataque Especial de los Pokémon aliados que cuenten con las habilidades Más y Menos.
+675,Golpe Mordaza,throat-chop,dark,physical,80,100,15,0,,100,2026-03-06 13:35:27.422081+00,Inflige al rival un dolor tan abrumador que le impide utilizar durante dos turnos ataques que se sirven del sonido.
+676,Bola de Polen,pollen-puff,bug,special,90,100,15,0,,0,2026-03-06 14:09:03.555544+00,"Ataca al oponente con una bola explosiva. Si esta alcanza a un aliado, le hará recuperar PS."
+677,Anclaje,anchor-shot,steel,physical,80,100,20,0,,0,2026-03-06 14:12:13.892606+00,"Ataca lanzando un ancla al oponente, que queda atrapado y no puede huir."
+678,Campo Psíquico,psychic-terrain,psychic,status,,,10,0,,0,2026-03-06 13:55:26.460557+00,"Durante cinco turnos, se potencian los movimientos de tipo Psíquico y los Pokémon que están en el suelo quedan protegidos contra movimientos con prioridad."
+679,Plancha,lunge,bug,physical,80,100,15,0,,0,2026-03-06 13:48:25.29218+00,Ataca al oponente abalanzándose sobre él con todas sus fuerzas y reduce su Ataque.
+680,Látigo Ígneo,fire-lash,fire,physical,80,100,15,0,,0,2026-03-06 14:17:20.188435+00,Golpea al oponente con un látigo incandescente y reduce su Defensa.
+681,Chulería,power-trip,dark,physical,20,100,10,0,,0,2026-03-06 13:43:13.962606+00,"Ataca al oponente presumiendo de su fuerza. Cuanto más hayan subido las características del usuario, mayor será el daño."
+682,Llama Final,burn-up,fire,special,130,100,5,0,,0,2026-03-06 13:30:21.897661+00,"Utiliza hasta el último resquicio de llamas de su cuerpo para infligir un grave daño al oponente. Tras el ataque, el usuario deja de ser de tipo Fuego."
+683,Cambiavelocidad,speed-swap,psychic,status,,,10,0,,0,2026-03-06 14:13:41.130793+00,Intercambia su Velocidad por la del oponente.
+684,Cuerno Certero,smart-strike,steel,physical,70,,10,0,,0,2026-03-07 22:56:50.90582+00,Ensarta al adversario con su afilada cornamenta. Este movimiento acierta siempre.
+685,Purificación,purify,poison,status,,,20,0,,0,2026-03-06 14:11:15.388217+00,Cura los problemas de estado del Pokémon rival y a cambio recupera PS propios.
+686,Danza Despertar,revelation-dance,normal,special,90,100,15,0,,0,2026-03-06 14:08:53.048812+00,Ataque que consiste en un baile muy enérgico. El tipo de este ataque se corresponde con el del Pokémon que lo ejecuta.
+687,Núcleo Castigo,core-enforcer,dragon,special,100,100,10,0,,0,2026-03-08 04:32:25.116543+00,"Inflige daño al rival, y si este ya ha hecho uso de algún movimiento, pierde su habilidad."
+688,Patada Tropical,trop-kick,grass,physical,70,100,15,0,,0,2026-03-06 14:10:36.226136+00,Lanza una patada con la fuerza del trópico que golpea al rival y reduce su Ataque.
+689,Mandato,instruct,psychic,status,,,15,0,,0,2026-03-06 14:10:46.61786+00,Fuerza al objetivo a repetir inmediatamente su último movimiento.
+690,Pico Cañón,beak-blast,flying,physical,100,100,15,-3,,0,2026-03-06 14:08:21.342277+00,Primero aumenta la temperatura de su pico y luego ejecuta un ataque. Quema al rival si este le propina un ataque físico mientras está calentando el pico.
+691,Fragor Escamas,clanging-scales,dragon,special,110,100,5,0,,0,2026-03-08 04:32:26.418252+00,"Frota todas las escamas de su cuerpo para crear un fuerte sonido con el que ataca. Cuando el ataque termina, su Defensa se ve reducida."
+692,Martillo Dragón,dragon-hammer,dragon,physical,90,100,15,0,,0,2026-03-07 22:09:52.329114+00,Usa el cuerpo como un martillo para abalanzarse sobre su rival y causarle daño.
+693,Giro Vil,brutal-swing,dark,physical,60,100,20,0,,0,2026-03-06 14:10:19.06072+00,Hace pivotar su cuerpo para infligir daño a su rival.
+694,Velo Aurora,aurora-veil,ice,status,,,20,0,,0,2026-03-06 13:52:38.488569+00,Reduce el daño de los ataques físicos y especiales que ejecuta el rival durante cinco turnos. Solo puede usarse cuando está granizando.
+695,Aluvión de Flechas Sombrías,sinister-arrow-raid,ghost,physical,180,,1,0,,0,2026-03-08 04:32:26.369204+00,Decidueye usa el Poder Z para proyectar multitud de flechas potentísimas que atraviesan a su oponente.
+696,Hiperplancha Oscura,malicious-moonsault,dark,physical,180,,1,0,,0,2026-03-08 04:32:26.423042+00,Incineroar refuerza sus músculos con el Poder Z para golpear con todas sus fuerzas a su oponente.
+697,Sinfonía de la Diva Marina,oceanic-operetta,water,special,195,,1,0,,0,2026-03-08 04:32:26.339229+00,Primarina invoca ingentes cantidades de agua con el Poder Z para atacar con gran potencia a su rival.
+698,Cólera del Guardián,guardian-of-alola,fairy,special,,,1,0,,0,2026-03-08 04:32:26.371151+00,Los Pokémon Dios Nativo canalizan la energía de Alola gracias al Poder Z y atacan con gran fuerza a sus rivales reduciendo un gran porcentaje de sus PS.
+699,Constelación Robaalmas,soul-stealing-7-star-strike,ghost,physical,195,,1,0,,0,2026-03-08 04:32:26.355835+00,"Cuando Marshadow obtiene el Poder Z, lanza una potente y continua oleada de puñetazos y patadas con la que castiga a su rival."
+700,Surfeo Galvánico,stoked-sparksurfer,electric,special,175,,1,0,PAR,100,2026-03-08 04:32:26.317143+00,"Cuando un Raichu de Alola obtiene el Poder Z, lanza un potente ataque contra su enemigo y lo deja paralizado."
+701,Arrojo Intempestivo,pulverizing-pancake,normal,physical,210,,1,0,,0,2026-03-08 04:32:27.695449+00,"Gracias al Poder Z, Snorlax puede mover su enorme cuerpo con gran agilidad y determinación, cargando sobre el oponente con todas sus fuerzas."
+702,Novena Potencia,extreme-evoboost,normal,status,,,1,0,,0,2026-03-08 04:32:27.711524+00,"Cuando Eevee obtiene el Poder Z, toma prestada la energía de sus amigos evolucionados para potenciar enormemente sus características."
+703,Supernova Original,genesis-supernova,psychic,special,185,,1,0,,0,2026-03-08 04:32:27.692136+00,Mew usa el Poder Z para realizar un potente ataque contra su adversario y crear un Campo Psíquico sobre el terreno.
+704,Coraza Trampa,shell-trap,fire,special,150,100,5,-3,,0,2026-03-06 14:11:45.984678+00,"El caparazón del Pokémon se convierte en una trampa. Si le alcanza un ataque físico, la trampa estalla y el atacante sufre daño."
+705,Cañón Floral,fleur-cannon,fairy,special,130,90,5,0,,0,2026-03-07 22:55:31.907876+00,"El usuario emite un potente rayo, pero su Ataque Especial se reduce mucho."
+706,Psicocolmillo,psychic-fangs,psychic,physical,85,100,10,0,,0,2026-03-06 14:12:02.894928+00,Ataca a sus rivales con poderes psíquicos que además destruyen barreras como Pantalla de Luz y Reflejo.
+707,Pataleta,stomping-tantrum,ground,physical,75,100,10,0,,0,2026-03-06 13:26:32.036737+00,Usa la frustración como revulsivo para atacar. La potencia de Pataleta se duplica si el usuario ha fallado el último movimiento usado.
+708,Hueso Sombrío,shadow-bone,ghost,physical,85,100,10,0,,0,2026-03-08 04:32:27.677002+00,Ataca al oponente golpeándole con un hueso poseído por un espíritu. Puede reducir la Defensa del objetivo.
+709,Roca Veloz,accelerock,rock,physical,40,100,20,1,,0,2026-03-06 14:09:15.880451+00,El usuario se lanza contra el objetivo a gran velocidad. Siempre ataca primero.
+710,Hidroariete,liquidation,water,physical,85,100,10,0,,0,2026-03-06 13:29:45.920883+00,Ataca golpeando gracias a la fuerza del agua. También puede reducir la Defensa del objetivo.
+711,Láser Prisma,prismatic-laser,psychic,special,160,100,10,0,,0,2026-03-06 14:13:20.345256+00,"El usuario utiliza un prisma para emitir un rayo de gran potencia, pero no puede moverse en el turno siguiente."
+712,Robasombra,spectral-thief,ghost,physical,90,100,10,0,,0,2026-03-07 22:55:32.139044+00,El usuario se esconde en la sombra del objetivo y lo ataca tras robarle las mejoras en sus características.
+713,Meteoimpacto,sunsteel-strike,steel,physical,100,100,5,0,,0,2026-03-06 14:13:12.609215+00,"Ataca al objetivo con la potencia de un meteoro, ignorando su habilidad."
+714,Rayo Umbrío,moongeist-beam,ghost,special,100,100,5,0,,0,2026-03-06 14:13:18.784837+00,Ataca con un rayo misterioso que ignora la habilidad del objetivo.
+715,Ojos Llorosos,tearful-look,normal,status,,,20,0,,0,2026-03-06 13:33:00.109189+00,Mira al objetivo con ojos llorosos para hacerle perder su espíritu combativo y reduce su Ataque y Ataque Especial.
+716,Electropunzada,zing-zap,electric,physical,80,100,10,0,,0,2026-03-06 14:11:52.689491+00,El usuario se lanza contra el objetivo y le suelta una potente descarga eléctrica que puede hacerlo retroceder.
+717,Furia Natural,natures-madness,fairy,special,,90,10,0,,0,2026-03-06 14:12:40.622599+00,Golpea al objetivo con la furia de la naturaleza y reduce sus PS a la mitad.
+718,Multiataque,multi-attack,normal,physical,120,100,10,0,,0,2026-03-08 04:32:28.948102+00,El Pokémon se rodea de una potente energía con la que golpea al rival. El tipo del movimiento depende del disco que lleva el usuario.
+719,Gigarrayo Fulminante,10-000-000-volt-thunderbolt,electric,special,195,,1,0,,0,2026-03-08 04:32:28.952678+00,Los Pikachu con gorra acumulan una carga eléctrica descomunal gracias al Poder Z y la lanzan contra el objetivo. Suele ser crítico.
+720,Cabeza Sorpresa,mind-blown,fire,special,150,100,5,0,,0,2026-03-06 14:14:38.705474+00,"El usuario hace explotar su cabeza para atacar a todos los Pokémon que se hallan a su alrededor, aunque también se hiere a sí mismo."
+721,Puños Plasma,plasma-fists,electric,physical,100,100,15,0,,0,2026-03-07 22:55:31.908703+00,El usuario ataca con puños cargados de electricidad. Convierte los movimientos de tipo Normal en movimientos de tipo Eléctrico.
+722,Géiser Fotónico,photon-geyser,psychic,special,100,100,5,0,,0,2026-03-06 14:13:21.265927+00,El usuario ataca con una gran columna de luz. Compara sus valores de Ataque y Ataque Especial para infligir daño con el más alto de los dos.
+723,Fotodestrucción Apocalíptica,light-that-burns-the-sky,psychic,special,200,,1,0,,0,2026-03-08 04:32:30.190822+00,"Necrozma escoge la característica que tenga el valor más alto entre el Ataque y el Ataque Especial para infligir daño, ignorando la habilidad del objetivo."
+724,Embestida Solar,searing-sunraze-smash,steel,physical,200,,1,0,,0,2026-03-08 04:32:30.193052+00,Solgaleo ataca con toda su fuerza tras imbuirse del Poder Z. Este movimiento ignora la habilidad del objetivo.
+725,Deflagración Lunar,menacing-moonraze-maelstrom,ghost,special,200,,1,0,,0,2026-03-08 04:32:30.207824+00,Lunala ataca con toda su fuerza tras imbuirse del Poder Z. Este movimiento ignora la habilidad del objetivo.
+726,Somanta Amistosa,lets-snuggle-forever,fairy,physical,190,,1,0,,0,2026-03-08 04:32:30.276417+00,Mimikyu ataca con toda su fuerza tras imbuirse del Poder Z y asesta una lluvia de golpes.
+727,Tempestad Rocosa,splintered-stormshards,rock,physical,190,,1,0,,0,2026-03-08 04:32:30.217766+00,Lycanroc ataca con toda su fuerza tras imbuirse del Poder Z y neutraliza el campo que esté activo.
+728,Estruendo Implacable,clangorous-soulblaze,dragon,special,185,,1,0,,0,2026-03-08 04:32:30.199703+00,"Kommo-o ataca con toda su fuerza al objetivo tras imbuirse del Poder Z. Además, potencia sus propias características."
+729,Pikaturbo,zippy-zap,electric,physical,80,100,10,2,,0,2026-03-08 04:32:30.165811+00,Ataque eléctrico a la velocidad del rayo. Este movimiento tiene prioridad alta y propina golpes críticos.
+730,Salpikasurf,splishy-splash,water,special,90,100,15,0,PAR,30,2026-03-08 04:32:30.189174+00,"Golpea al adversario con una ola gigante electrificada, que también puede paralizarlo."
+731,Pikapicado,floaty-fall,flying,physical,90,95,15,0,,0,2026-03-08 04:32:31.505989+00,"El usuario se suspende en el aire para, a continuación, abalanzarse súbitamente sobre el rival. Puede hacer retroceder al objetivo."
+732,Pikatormenta,pika-papow,electric,special,,,20,0,,0,2026-03-08 04:32:31.493775+00,Lanza una descarga eléctrica infalible que resulta más potente cuanto mayor es el cariño que siente Pikachu hacia su Entrenador.
+733,Vapodrenaje,bouncy-bubble,water,special,60,100,20,0,,0,2026-03-08 04:32:31.519594+00,Ataca lanzando proyectiles de agua y recupera una cantidad de PS equivalente a la mitad del daño causado.
+734,Joltioparálisis,buzzy-buzz,electric,special,60,100,20,0,PAR,100,2026-03-08 04:32:31.490108+00,Lanza una potente descarga eléctrica sobre el rival y lo deja paralizado.
+735,Flarembestida,sizzly-slide,fire,physical,60,100,20,0,BRN,100,2026-03-08 04:32:31.510373+00,"Tras envolver su cuerpo en llamas, el usuario arrolla con fuerza al rival y le provoca quemaduras."
+736,Espeaura,glitzy-glow,psychic,special,80,95,15,0,,0,2026-03-08 04:32:31.481874+00,Envuelve al rival con ondas psíquicas y alza un extraño muro que debilita los ataques especiales del adversario.
+737,Umbreozona,baddy-bad,dark,special,80,95,15,0,,0,2026-03-08 04:32:31.514411+00,Lanza un ataque haciendo gala de su faceta más umbría y alza un extraño muro que mitiga los ataques físicos del adversario.
+738,Leafitobombas,sappy-seed,grass,physical,100,90,10,0,,100,2026-03-08 04:32:31.521553+00,Hace brotar un tallo gigante que bombardea al rival con unas semillas que le drenan PS en cada turno.
+739,Glaceoprisma,freezy-frost,ice,special,100,90,10,0,,0,2026-03-08 04:32:31.57059+00,Ataca al rival con negros cristales de niebla congelada. Revierte los cambios en las características de todos los Pokémon presentes.
+740,Sylveotornado,sparkly-swirl,fairy,special,120,85,5,0,,0,2026-03-08 04:32:31.51801+00,Ataca al rival envolviéndolo en un remolino de aroma asfixiante. Cura a los aliados de cualquier problema de estado.
+741,Eevimpacto,veevee-volley,normal,physical,,,20,0,,0,2026-03-08 04:32:32.922001+00,Un placaje infalible que resulta más potente cuanto mayor es el cariño que siente Eevee hacia su Entrenador.
+742,Ferropuño Doble,double-iron-bash,steel,physical,60,100,5,0,,0,2026-03-07 22:55:31.91914+00,"Usando la tuerca del pecho como eje, el usuario gira sobre sí mismo y golpea con los brazos dos veces seguidas. Puede hacer retroceder al rival."
+743,Maxibarrera,max-guard,normal,status,,,10,4,,0,2026-03-08 04:32:32.924397+00,"Frena todos los ataques, pero puede fallar si se usa repetidamente."
+744,Cañón Dinamax,dynamax-cannon,dragon,special,100,100,5,0,,0,2026-03-06 14:20:01.971932+00,El usuario ataca emitiendo un rayo desde su núcleo. El daño infligido se duplica si el objetivo ha alcanzado el estado Dinamax.
+745,Disparo Certero,snipe-shot,water,special,80,100,15,0,,0,2026-03-06 14:15:24.816897+00,Permite atacar al objetivo seleccionado ignorando las habilidades o movimientos que permiten a un rival centrar la atención sobre sí.
+746,Presa Maxilar,jaw-lock,dark,physical,80,100,10,0,,0,2026-03-06 14:16:19.594799+00,Impide que tanto el atacante como el defensor puedan ser intercambiados hasta que uno de ellos se debilite o abandone el terreno de combate.
+747,Atiborramiento,stuff-cheeks,normal,status,,,10,0,,0,2026-03-06 14:15:28.773027+00,El usuario ingiere la baya que lleva equipada para aumentar mucho su Defensa.
+748,Bastión Final,no-retreat,fighting,status,,,5,0,,0,2026-03-06 14:18:42.639225+00,"El usuario aumenta todas sus características, pero ya no puede huir ni ser cambiado por otro."
+749,Alquitranazo,tar-shot,rock,status,,100,15,0,,100,2026-03-06 14:16:41.369643+00,Cubre al objetivo de un alquitrán pegajoso que reduce su Velocidad y lo vuelve débil contra el fuego.
+750,Polvo Mágico,magic-powder,psychic,status,,100,20,0,,0,2026-03-06 14:17:48.498671+00,Cubre al objetivo con unos polvos mágicos que le hacen adquirir el tipo Psíquico.
+751,Dracoflechas,dragon-darts,dragon,physical,50,100,10,0,,0,2026-03-06 14:19:52.019301+00,"El usuario ataca propulsando a ambos Dreepy. En caso de haber dos adversarios, cada Dreepy golpea a su propio objetivo por separado."
+752,Hora del Té,teatime,normal,status,,,10,0,,0,2026-03-06 14:17:40.410098+00,"El usuario invita a tomar el té a todos los presentes en el terreno de combate, lo que hace que ingieran las bayas que lleven equipadas."
+753,Octopresa,octolock,fighting,status,,100,15,0,,0,2026-03-06 14:17:32.869051+00,"Retiene al objetivo para impedir su huida, a la vez que reduce su Defensa y Defensa Especial cada turno."
+754,Electropico,bolt-beak,electric,physical,85,100,10,0,,0,2026-03-06 14:19:18.283277+00,"El usuario ensarta al objetivo con su pico cargado de electricidad. Si ataca en primer lugar, la potencia del movimiento se duplica."
+755,Branquibocado,fishious-rend,water,physical,85,100,10,0,,0,2026-03-06 14:19:25.374097+00,"El usuario agarra al objetivo con sus duras branquias. En caso de atacar antes que este último, la potencia del movimiento se duplica."
+756,Cambio de Cancha,court-change,normal,status,,100,10,0,,0,2026-03-06 14:15:07.64281+00,Extraño poder que intercambia los efectos en el terreno de combate de ambos bandos.
+757,Maxignición,max-flare,fire,physical,100,,10,0,,0,2026-03-08 04:32:34.202617+00,Ataque de tipo Fuego ejecutado por un Pokémon Dinamax. Hace que se intensifique el efecto del sol durante cinco turnos.
+758,Maxinsecto,max-flutterby,bug,physical,10,,10,0,,0,2026-03-08 04:32:34.225318+00,Ataque de tipo Bicho ejecutado por un Pokémon Dinamax. Reduce el Ataque Especial del objetivo.
+759,Maxitormenta,max-lightning,electric,physical,10,,10,0,,0,2026-03-08 04:32:34.207864+00,Ataque de tipo Eléctrico ejecutado por un Pokémon Dinamax. Crea un campo eléctrico durante cinco turnos.
+760,Maxiataque,max-strike,normal,physical,10,,10,0,,0,2026-03-08 04:32:34.207864+00,Ataque de tipo Normal ejecutado por un Pokémon Dinamax. Reduce la Velocidad del objetivo.
+761,Maxipuño,max-knuckle,fighting,physical,10,,10,0,,0,2026-03-08 04:32:35.474652+00,Ataque de tipo Lucha ejecutado por un Pokémon Dinamax. Aumenta el Ataque de tu bando.
+762,Maxiespectro,max-phantasm,ghost,physical,10,,10,0,,0,2026-03-08 04:32:35.486159+00,Ataque de tipo Fantasma ejecutado por un Pokémon Dinamax. Reduce la Defensa de los rivales.
+763,Maxihelada,max-hailstorm,ice,physical,10,,10,0,,0,2026-03-08 04:32:35.427564+00,Ataque de tipo Hielo ejecutado por un Pokémon Dinamax. Crea una tormenta de granizo que dura cinco turnos.
+764,Maxiácido,max-ooze,poison,physical,10,,10,0,,0,2026-03-08 04:32:35.491521+00,Ataque de tipo Veneno ejecutado por un Pokémon Dinamax. Aumenta el Ataque Especial de tu bando.
+765,Maxichorro,max-geyser,water,physical,10,,10,0,,0,2026-03-08 04:32:35.467646+00,Ataque de tipo Agua ejecutado por un Pokémon Dinamax. Desata un aguacero que dura cinco turnos.
+766,Maxiciclón,max-airstream,flying,physical,10,,10,0,,0,2026-03-08 04:32:35.531623+00,Ataque de tipo Volador ejecutado por un Pokémon Dinamax. Aumenta la Velocidad de tu bando.
+767,Maxiestela,max-starfall,fairy,physical,10,,10,0,,0,2026-03-08 04:32:35.480122+00,Ataque de tipo Hada ejecutado por un Pokémon Dinamax. Crea un campo de niebla durante cinco turnos.
+768,Maxidraco,max-wyrmwind,dragon,physical,10,,10,0,,0,2026-03-08 04:32:35.479737+00,Ataque de tipo Dragón ejecutado por un Pokémon Dinamax. Reduce el Ataque del objetivo.
+769,Maxionda,max-mindstorm,psychic,physical,10,,10,0,,0,2026-03-08 04:32:35.479979+00,Ataque de tipo Psíquico ejecutado por un Pokémon Dinamax. Crea un campo psíquico durante cinco turnos.
+770,Maxilito,max-rockfall,rock,physical,10,,10,0,,0,2026-03-08 04:32:35.488723+00,Ataque de tipo Roca ejecutado por un Pokémon Dinamax. Levanta una tormenta de arena que dura cinco turnos.
+771,Maxitemblor,max-quake,ground,physical,10,,10,0,,0,2026-03-08 04:32:36.776931+00,Ataque de tipo Tierra ejecutado por un Pokémon Dinamax. Aumenta la Defensa Especial de tu bando.
+772,Maxisombra,max-darkness,dark,physical,10,,10,0,,0,2026-03-08 04:32:36.790338+00,Ataque de tipo Siniestro ejecutado por un Pokémon Dinamax. Reduce la Defensa Especial del objetivo.
+773,Maxiflora,max-overgrowth,grass,physical,10,,10,0,,0,2026-03-08 04:32:36.783685+00,Ataque de tipo Planta ejecutado por un Pokémon Dinamax. Crea un campo de hierba durante cinco turnos.
+774,Maximetal,max-steelspike,steel,physical,10,,10,0,,0,2026-03-08 04:32:36.782334+00,Ataque de tipo Acero ejecutado por un Pokémon Dinamax. Aumenta la Defensa de tu bando.
+775,Estruendo Escama,clangorous-soul,dragon,status,,100,5,0,,0,2026-03-06 14:12:31.071518+00,Utiliza parte de los PS propios para subir sus características.
+776,Plancha Corporal,body-press,fighting,physical,80,100,10,0,,0,2026-03-06 13:53:14.608172+00,El usuario usa el cuerpo para lanzar su ataque e infligir un daño directamente proporcional a su Defensa.
+777,Decoración,decorate,fairy,status,,,15,0,,0,2026-03-06 14:18:40.605055+00,Aumenta mucho el Ataque y el Ataque Especial del objetivo al decorarlo.
+778,Batería Asalto,drum-beating,grass,physical,80,100,10,0,,0,2026-03-06 14:14:57.412252+00,El usuario controla un tocón mediante la percusión y al atacar reduce la Velocidad del objetivo.
+779,Cepo,snap-trap,grass,physical,35,100,15,0,,100,2026-03-08 04:32:36.78767+00,Cepo que atrapa al objetivo durante cuatro o cinco turnos y le causa daño mientras se encuentra preso.
+780,Balón Ígneo,pyro-ball,fire,physical,120,90,5,0,BRN,10,2026-03-06 14:15:11.480469+00,El usuario prende una pequeña piedra para crear una bola de fuego con la que ataca al rival. Puede causar quemaduras.
+781,Tajo Supremo,behemoth-blade,steel,physical,100,100,5,0,,0,2026-03-08 04:32:38.053482+00,"El usuario se convierte en una espada gigante para rebanar al objetivo. Si este ha alcanzado el estado Dinamax, se duplica el daño infligido."
+782,Embate Supremo,behemoth-bash,steel,physical,100,100,5,0,,0,2026-03-08 04:32:38.077861+00,"El usuario se convierte en un escudo gigante para golpear al objetivo. Si este ha alcanzado el estado Dinamax, se duplica el daño infligido."
+783,Rueda Aural,aura-wheel,electric,physical,110,100,10,0,,0,2026-03-06 14:19:06.5606+00,La energía que acumula en las mejillas le sirve para atacar y aumentar su Velocidad. Este movimiento cambia de tipo según la forma que adopte Morpeko.
+784,Vasto Impacto,breaking-swipe,dragon,physical,60,100,15,0,,0,2026-03-06 14:19:33.856262+00,El usuario sacude violentamente su enorme cola para golpear a todos los rivales y reducir su Ataque a la par.
+785,Punzada Rama,branch-poke,grass,physical,40,100,40,0,,0,2026-03-06 14:06:43.79741+00,Ataca pinchando al objetivo con una rama afilada.
+786,Amplificador,overdrive,electric,special,80,100,10,0,,0,2026-03-06 14:17:15.203672+00,El usuario rasguea la guitarra o el bajo para generar enormes vibraciones de intensa reverberación con las que ataca al objetivo.
+787,Ácido Málico,apple-acid,grass,special,80,100,10,0,,0,2026-03-06 14:16:52.08241+00,"Ataca al objetivo con el fluido corrosivo que desprende una manzana ácida, lo que también disminuye la Defensa Especial de este."
+788,Fuerza G,grav-apple,grass,physical,80,100,10,0,,0,2026-03-06 14:16:44.488806+00,El usuario ataca haciendo caer una manzana desde gran altura. Disminuye la Defensa del objetivo.
+789,Choque Anímico,spirit-break,fairy,physical,75,100,15,0,,0,2026-03-06 14:18:02.95962+00,"El usuario ataca al objetivo con tal ímpetu que acaba minando su moral y, en consecuencia, reduce su Ataque Especial."
+790,Cautivapor,strange-steam,fairy,special,90,95,10,0,,20,2026-03-08 04:32:38.07076+00,"Desprende un humo con el que ataca al objetivo, que puede acabar confundido."
+791,Gota Vital,life-dew,water,status,,,10,0,,0,2026-03-06 13:27:25.336802+00,Vierte un agua misteriosa y balsámica que restaura tanto sus propios PS como los de aquellos aliados presentes en el terreno de combate.
+792,Obstrucción,obstruct,dark,status,,100,10,4,,0,2026-03-08 04:32:39.33284+00,"Frena todos los ataques, pero puede fallar si se usa repetidamente. Reduce mucho la Defensa de quien ejecute un movimiento de contacto contra el usuario."
+793,Irreverencia,false-surrender,dark,physical,80,,10,0,,0,2026-03-06 14:17:58.686312+00,El usuario finge hacer una reverencia y aprovecha la ocasión para ensartar al objetivo con su cabello alborotado. Siempre acierta.
+794,Asalto Estelar,meteor-assault,fighting,physical,150,100,5,0,,0,2026-03-06 14:18:20.173157+00,"El usuario agita violentamente su grueso puerro para atacar, pero el mareo que le provocan las sacudidas le impide moverse en el turno siguiente."
+795,Rayo Infinito,eternabeam,dragon,special,160,90,5,0,,0,2026-03-06 14:20:01.083757+00,Este es el mayor ataque de Eternatus una vez adquirida su forma original. No puede moverse en el turno siguiente.
+796,Metaláser,steel-beam,steel,special,140,95,5,0,,0,2026-03-08 04:32:39.285853+00,Utiliza el acero de su cuerpo para disparar un potente rayo. También hiere al agresor.
+797,Vasta Fuerza,expanding-force,psychic,special,80,100,10,0,,0,2026-03-06 14:22:45.569419+00,"El usuario ataca al objetivo con sus poderes psíquicos. Cuando se usa en conjunción con un campo psíquico, aumenta su potencia e inflige daño a todos los rivales."
+798,Allanador Férreo,steel-roller,steel,physical,130,100,5,0,,0,2026-03-06 14:26:37.653964+00,"El usuario lanza su ataque y destruye el campo activo en el terreno de combate, y falla si no hay ninguno en ese momento."
+799,Ráfaga Escamas,scale-shot,dragon,physical,25,90,20,0,,0,2026-03-08 04:32:39.323567+00,"Lanza escamas al objetivo de dos a cinco veces seguidas. Aumenta la Velocidad del usuario, pero reduce su Defensa."
+800,Rayo Meteórico,meteor-beam,rock,special,120,90,10,0,,100,2026-03-08 04:32:39.318669+00,El usuario dedica el primer turno a aumentar su Ataque Especial acumulando energía cósmica y lanza su ofensiva contra el objetivo en el segundo.
+801,Moluscañón,shell-side-arm,poison,special,90,100,10,0,PSN,20,2026-03-08 04:32:40.595136+00,El usuario lanza un ataque físico o especial en función de cuál inflija más daño. Puede envenenar al objetivo.
+802,Bruma Explosiva,misty-explosion,fairy,special,100,100,5,0,,0,2026-03-08 04:32:40.603027+00,"El usuario ataca a todos a su alrededor, pero se debilita de inmediato. La potencia del movimiento aumenta si el terreno está cubierto por un campo de niebla."
+803,Fitoimpulso,grassy-glide,grass,physical,55,100,20,0,,0,2026-03-08 04:32:40.597553+00,Ataca al objetivo deslizándose sobre el terreno de combate. Este movimiento tiene prioridad alta cuando el terreno está cubierto por un campo de hierba.
+804,Alto Voltaje,rising-voltage,electric,special,70,100,20,0,,0,2026-03-07 22:56:49.89922+00,Ataca con una descarga eléctrica que surge del terreno de combate. La potencia del movimiento se duplica si el rival se ve afectado por un campo eléctrico.
+805,Pulso de Campo,terrain-pulse,normal,special,50,100,10,0,,0,2026-03-06 14:22:14.34323+00,"El usuario ataca aprovechando la energía del campo activo, que determina tanto el tipo como la potencia del movimiento."
+806,Golpe Rastrero,skitter-smack,bug,physical,70,90,10,0,,0,2026-03-06 14:21:24.814193+00,Ataca al objetivo por la espalda de forma subrepticia y además reduce su Ataque Especial.
+807,Envidia Ardiente,burning-jealousy,fire,special,70,100,5,0,BRN,100,2026-03-08 04:32:40.555887+00,Ataca al objetivo con la energía generada por la envidia y causa quemaduras a los Pokémon cuyas características hayan aumentado en ese turno.
+808,Desahogo,lash-out,dark,physical,75,100,5,0,,0,2026-03-08 04:32:40.611264+00,"Ataca al rival presa de la rabia. Si el usuario ha sufrido una reducción de características en ese turno, la potencia del movimiento se duplica."
+809,Poltergeist,poltergeist,ghost,physical,110,90,5,0,,0,2026-03-08 04:32:40.605944+00,"El usuario ataca utilizando el objeto que lleva el rival. Si no tiene ninguno equipado, el movimiento falla."
+810,Gas Corrosivo,corrosive-gas,poison,status,,100,40,0,,0,2026-03-08 04:32:40.559684+00,El usuario libera un gas cáustico que envuelve a todos los que se encuentren alrededor y derrite por completo los objetos que lleven equipados.
+811,Motivación,coaching,fighting,status,,,10,0,,0,2026-03-08 04:32:41.855443+00,"El usuario imparte indicaciones precisas a sus aliados, que ven aumentados su Ataque y su Defensa."
+812,Viraje,flip-turn,water,physical,60,100,20,0,,0,2026-03-06 14:24:47.701576+00,"Tras atacar, el usuario da paso a toda prisa a otro Pokémon del equipo."
+813,Triple Axel,triple-axel,ice,physical,20,90,10,0,,0,2026-03-08 04:32:41.882501+00,Patea hasta tres veces seguidas y cada vez más fuerte.
+814,Ala Bis,dual-wingbeat,flying,physical,40,90,10,0,,0,2026-03-06 14:23:02.224302+00,Ataca al adversario golpeándolo dos veces con las alas.
+815,Arenas Ardientes,scorching-sands,ground,special,70,100,10,0,BRN,30,2026-03-08 04:32:41.877282+00,Ataca al objetivo arrojándole arena a temperaturas muy elevadas. Puede causar quemaduras.
+816,Cura Selvática,jungle-healing,grass,status,,,10,0,,0,2026-03-06 14:20:14.002621+00,"Al entrar en plena armonía con la selva, el usuario cura problemas de estado y restaura PS no solo de sí mismo, sino también de los aliados presentes en el terreno."
+817,Golpe Oscuro,wicked-blow,dark,physical,75,100,5,0,,0,2026-03-06 14:20:12.221531+00,Golpe devastador que requiere un absoluto dominio de las artes siniestras. Siempre asesta un golpe crítico.
+818,Azote Torrencial,surging-strikes,water,physical,25,100,5,0,,0,2026-03-08 04:32:41.847711+00,"El usuario, dominador absoluto del líquido elemento, golpea hasta tres veces con movimientos fluidos. Siempre asesta un golpe crítico."
+819,Electrojaula,thunder-cage,electric,special,80,90,15,0,,100,2026-03-06 14:20:19.947691+00,El objetivo queda atrapado en una jaula electrificada que permanece en el terreno de cuatro a cinco turnos.
+820,Dracoenergía,dragon-energy,dragon,special,150,100,5,0,,0,2026-03-06 14:20:23.140153+00,"El usuario convierte su fuerza vital en una energía con la que ataca al objetivo. Cuantos menos PS tenga el usuario, menor será la potencia del movimiento."
+821,Mirada Heladora,freezing-glare,psychic,special,90,100,10,0,FRZ,10,2026-03-08 04:32:43.136245+00,"A través de sus ojos emite poderes psíquicos con los que ataca al objetivo, al que puede llegar a congelar."
+822,Furia Candente,fiery-wrath,dark,special,90,100,10,0,,0,2026-03-08 04:32:43.148347+00,El usuario convierte su ira en un aura flamígera para lanzar su ataque. Puede amedrentar al objetivo.
+823,Patada Relámpago,thunderous-kick,fighting,physical,90,100,10,0,,0,2026-03-08 04:32:43.161679+00,El usuario desconcierta al rival con movimientos centelleantes y le propina una patada. Baja la Defensa del objetivo.
+824,Lanza Glacial,glacial-lance,ice,physical,120,100,5,0,,0,2026-03-08 04:32:43.173253+00,El usuario ataca al objetivo lanzándole un carámbano de hielo envuelto en una ventisca.
+825,Orbes Espectro,astral-barrage,ghost,special,120,100,5,0,,0,2026-03-08 04:32:43.136245+00,El usuario ataca al objetivo lanzándole una ingente cantidad de pequeños fantasmas.
+826,Conjuro Funesto,eerie-spell,psychic,special,80,100,5,0,,0,2026-03-08 04:32:43.154799+00,El usuario ataca con un poder psíquico de inmensa potencia y elimina 3 PP del último movimiento que haya usado el objetivo.
+827,dire-claw,dire-claw,poison,physical,80,100,15,0,,,2026-03-07 22:56:07.781599+00,"The user lashes out at the target with ruinous claws, aiming to land a critical hit. This may also leave the target poisoned, paralyzed, or drowsy."
+828,psyshield-bash,psyshield-bash,psychic,physical,70,90,10,0,,,2026-03-07 22:00:11.76277+00,"Cloaking itself in psychic energy, the user slams into the target. This may also raise the user’s defensive stats."
+829,power-shift,power-shift,normal,status,0,,10,0,,,2026-03-08 04:32:43.132176+00,
+830,stone-axe,stone-axe,rock,physical,65,90,15,0,,,2026-03-07 22:56:03.325011+00,"The user swings its stone axes at the target, aiming to land a critical hit. Stone splinters left behind by this attack continue to damage the target for several turns."
+831,springtide-storm,springtide-storm,fairy,special,100,80,5,0,,,2026-03-07 22:56:06.572996+00,The user attacks by wrapping the target in fierce winds brimming with love and hate. This move’s additional effects depend on the user’s form.
+832,mystical-power,mystical-power,psychic,special,70,90,10,0,,,2026-03-06 13:52:39.86376+00,"The user strengthens itself with a mysterious power. If it excels in offense, its offensive stats are raised. If it excels in defense, its defensive stats are raised."
+833,raging-fury,raging-fury,fire,physical,120,100,10,0,,,2026-03-06 13:46:39.227812+00,"The user rampages and spews vicious flames to inflict damage on the target, then becomes fixated on using this move."
+834,wave-crash,wave-crash,water,physical,120,100,10,0,,,2026-03-06 13:23:40.381896+00,The user shrouds itself in water and slams into the target with its whole body to inflict damage. This also damages the user and raises the user’s action speed.
+835,chloroblast,chloroblast,grass,special,150,95,5,0,,,2026-03-08 04:32:44.431906+00,The user launches its amassed chlorophyll to inflict damage on the target. This also damages the user and lowers the user's action speed.
+836,mountain-gale,mountain-gale,ice,physical,100,85,10,0,,,2026-03-08 04:32:44.397816+00,The user hurls giant chunks of ice at the target to inflict damage.
+837,victory-dance,victory-dance,fighting,status,0,,10,0,,,2026-03-08 04:32:44.444026+00,The user performs a dance to usher in victory. This raises the user’s offensive and defensive stats and increases the damage dealt by the user’s moves by 50 percent.
+838,headlong-rush,headlong-rush,ground,physical,120,100,5,0,,,2026-03-06 13:40:15.928126+00,The user smashes into the target in a full-body tackle. This also lowers the user’s defensive stats.
+839,barb-barrage,barb-barrage,poison,physical,60,100,10,0,,,2026-03-07 22:56:07.861749+00,The user launches countless toxic barbs to inflict damage. This may also poison the target. This move’s power is doubled if the target has a status condition.
+840,esper-wing,esper-wing,psychic,special,80,100,10,0,,,2026-03-08 04:32:44.435402+00,The user slashes the target with aura-enriched wings. This also raises the user's action speed. This move has a heightened chance of landing a critical hit.
+841,bitter-malice,bitter-malice,ghost,special,75,100,10,0,,,2026-03-08 04:32:45.69078+00,The user attacks its target with spine-chilling resentment. This may also leave the target with frostbite. This move's power is doubled if the target has a status condition.
+842,shelter,shelter,steel,status,0,,10,0,,,2026-03-06 14:06:23.192566+00,"The user makes its skin as hard as an iron shield, raising its defensive stats. Incoming moves also become more likely to miss."
+843,triple-arrows,triple-arrows,fighting,physical,90,100,10,0,,,2026-03-08 04:32:45.689173+00,"The user delivers an axe kick, then fires three arrows. This raises the chance of its future attacks landing critical hits and also lowers the target's defensive stats."
+844,infernal-parade,infernal-parade,ghost,special,60,100,15,0,,,2026-03-08 04:32:45.70952+00,The user attacks with myriad fireballs. This may also leave the target with a burn. This move's power is doubled if the target has a status condition.
+845,ceaseless-edge,ceaseless-edge,dark,physical,65,90,15,0,,,2026-03-08 04:32:45.707705+00,"The user slashes its shell blade at the target, aiming to land a critical hit. Shell splinters left behind by this attack will continue to damage the target for several turns."
+846,bleakwind-storm,bleakwind-storm,flying,special,100,80,10,0,,,2026-03-06 14:01:37.620255+00,The user attacks with savagely cold winds that cause both body and spirit to tremble. This may also leave the target with frostbite.
+847,wildbolt-storm,wildbolt-storm,electric,special,100,80,10,0,,,2026-03-06 14:01:42.762804+00,The user summons a thunderous tempest and savagely attacks with lightning and wind. This may also leave the target with paralysis.
+848,sandsear-storm,sandsear-storm,ground,special,100,80,10,0,,,2026-03-06 14:02:02.723138+00,The user attacks by wrapping the target in fierce winds and searingly hot sand. This also leaves the target with a burn.
+849,lunar-blessing,lunar-blessing,psychic,status,0,,5,0,,,2026-03-06 13:53:25.246808+00,The user heals its own status conditions and restores its HP. Incoming moves also become more likely to miss.
+850,take-heart,take-heart,psychic,status,0,,10,0,,,2026-03-07 22:20:42.632663+00,"The user lifts its spirits, healing its own status conditions and raising its offensive and defensive stats."
+851,tera-blast,tera-blast,normal,special,80,100,10,0,,,2026-03-08 04:32:46.935856+00,"If the user has Terastallized, it unleashes energy of its Tera Type. This move inflicts damage using the Attack or Sp. Atk stat—whichever is higher for the user."
+852,silk-trap,silk-trap,bug,status,0,,10,4,,,2026-03-06 14:21:31.650225+00,"The user spins a silken trap, protecting itself from damage while lowering the Speed stat of any attacker that makes direct contact."
+853,axe-kick,axe-kick,fighting,physical,120,90,10,0,,,2026-03-06 13:26:40.883747+00,"The user attacks by kicking up into the air and slamming its heel down upon the target. This may also confuse the target. If it misses, the user takes damage instead."
+854,last-respects,last-respects,ghost,physical,50,100,10,0,,,2026-03-06 14:25:23.743582+00,"The user attacks to avenge its allies. The more defeated allies there are in the user's party, the greater the move's power."
+855,lumina-crash,lumina-crash,psychic,special,80,100,10,0,,,2026-03-06 14:24:12.901533+00,The user attacks by unleashing a peculiar light that even affects the mind. This also harshly lowers the target's Sp. Def stat.
+856,order-up,order-up,dragon,physical,80,100,10,0,,,2026-03-06 14:25:41.287976+00,"The user attacks with elegant poise. If the user has a Tatsugiri in its mouth, this move boosts one of the user's stats based on the Tatsugiri's form."
+857,jet-punch,jet-punch,water,physical,60,100,15,1,,,2026-03-06 14:24:47.397148+00,The user summons a torrent around its fist and punches at blinding speed. This move always goes first.
+858,spicy-extract,spicy-extract,grass,status,0,,15,0,,,2026-03-06 14:23:55.219197+00,"The user emits an incredibly spicy extract, sharply boosting the target's Attack stat and harshly lowering the target's Defense stat."
+859,spin-out,spin-out,steel,physical,100,100,5,0,,,2026-03-06 14:24:52.397551+00,"The user spins furiously by straining its legs, inflicting damage on the target. This also harshly lowers the user's Speed stat."
+860,population-bomb,population-bomb,normal,physical,20,90,10,0,,,2026-03-06 14:21:58.10303+00,The user’s fellows gather in droves to perform a combo attack that hits the target one to ten times in a row.
+861,ice-spinner,ice-spinner,ice,physical,80,100,15,0,,,2026-03-06 14:25:29.318311+00,"The user covers its feet in thin ice and twirls around, slamming into the target. This move's spinning motion also destroys the terrain."
+862,glaive-rush,glaive-rush,dragon,physical,120,100,5,0,,,2026-03-07 22:56:39.991531+00,"The user throws its entire body into a reckless charge. After this move is used, attacks on the user cannot miss and will inflict double damage until the user’s next turn."
+863,revival-blessing,revival-blessing,normal,status,0,,1,0,,,2026-03-06 14:21:53.756711+00,"The user bestows a loving blessing, reviving a party Pokémon that has fainted and restoring half that Pokémon's max HP."
+864,salt-cure,salt-cure,rock,physical,40,100,15,0,,,2026-03-06 14:22:36.533521+00,"The user salt cures the target, inflicting damage every turn. Steel and Water types are more strongly affected by this move."
+865,triple-dive,triple-dive,water,physical,30,95,10,0,,,2026-03-06 14:24:33.727707+00,"The user performs a perfectly timed triple dive, hitting the target with splashes of water three times in a row."
+866,mortal-spin,mortal-spin,poison,physical,30,100,15,0,,,2026-03-06 14:25:15.644801+00,"The user performs a spin attack that can also eliminate the effects of such moves as Bind, Wrap, and Leech Seed. This also poisons opposing Pokémon."
+867,doodle,doodle,normal,status,0,100,10,0,,,2026-03-06 14:23:26.960321+00,The user captures the very essence of the target in a sketch. This changes the Abilities of the user and its ally Pokémon to that of the target.
+868,fillet-away,fillet-away,normal,status,0,,10,0,,,2026-03-06 14:25:38.038773+00,"The user sharply boosts its Attack, Sp. Atk, and Speed stats by using its own HP."
+869,kowtow-cleave,kowtow-cleave,dark,physical,85,,10,0,,,2026-03-06 14:26:11.44817+00,The user slashes at the target after kowtowing to make the target let down its guard. This attack never misses.
+870,flower-trick,flower-trick,grass,physical,70,,10,0,,,2026-03-06 14:20:48.969412+00,The user throws a rigged bouquet of flowers at the target. This attack never misses and always lands a critical hit.
+871,torch-song,torch-song,fire,special,80,100,10,0,,,2026-03-06 14:21:03.586021+00,"The user blows out raging flames as if singing a song, scorching the target. This also boosts the user's Sp. Atk stat."
+872,aqua-step,aqua-step,water,physical,80,100,10,0,,,2026-03-06 14:21:15.892775+00,The user toys with the target and attacks it using light and fluid dance steps. This also boosts the user's Speed stat.
+873,raging-bull,raging-bull,normal,physical,90,100,10,0,,,2026-03-06 13:28:48.398763+00,"The user performs a tackle like a raging bull. This move's type depends on the user's form. It can also break barriers, such as Light Screen and Reflect."
+874,make-it-rain,make-it-rain,steel,special,120,100,5,0,,,2026-03-07 22:56:38.464411+00,The user attacks by throwing out a mass of coins. This also lowers the user's Sp. Atk stat. Money is earned after the battle.
+875,Psicohojas,psyblade,psychic,physical,80,100,15,0,,,2026-03-07 22:56:42.559217+00,The user rends the target with an ethereal blade. This move's power is boosted by 50 percent if the user is on Electric Terrain.
+876,Hidrovapor,hydro-steam,water,special,80,100,15,0,,,2026-03-07 22:56:42.507925+00,The user blasts the target with boiling-hot water. This move's power is not lowered in harsh sunlight but rather boosted by 50 percent.
+877,ruination,ruination,dark,special,1,90,10,0,,,2026-03-06 14:27:14.142486+00,The user summons a ruinous disaster. This cuts the target’s HP in half.
+878,collision-course,collision-course,fighting,physical,100,100,5,0,,,2026-03-06 14:27:42.036911+00,"The user transforms and crashes to the ground, causing a massive prehistoric explosion. This move's power is boosted more than usual if it’s a supereffective hit."
+879,electro-drift,electro-drift,electric,special,100,100,5,0,,,2026-03-06 14:27:46.315857+00,"The user races forward at ultrafast speeds, piercing its target with futuristic electricity. This move's power is boosted more than usual if it's a supereffective hit."
+880,shed-tail,shed-tail,normal,status,0,,10,0,,,2026-03-06 14:25:02.154161+00,The user creates a substitute for itself using its own HP before switching places with a party Pokémon in waiting.
+881,chilly-reception,chilly-reception,ice,status,0,,10,0,,,2026-03-08 04:32:50.684401+00,
+882,tidy-up,tidy-up,normal,status,0,,10,0,,,2026-03-06 14:22:05.135908+00,"The user tidies up and removes the effects of Spikes, Stealth Rock, Sticky Web, Toxic Spikes, and Substitute. This also boosts the user’s Attack and Speed stats."
+883,snowscape,snowscape,ice,status,0,,10,0,,,2026-03-06 13:30:10.806042+00,The user summons a snowstorm lasting five turns. This boosts the Defense stats of Ice types.
+884,pounce,pounce,bug,physical,50,100,20,0,,,2026-03-08 04:32:50.700939+00,The user attacks by pouncing on the target. This also lowers the target's Speed stat.
+885,trailblaze,trailblaze,grass,physical,50,100,20,0,,,2026-03-08 04:32:50.655967+00,The user attacks suddenly as if leaping out from tall grass. The user's nimble footwork boosts its Speed stat.
+886,chilling-water,chilling-water,water,special,50,100,20,0,,,2026-03-08 04:32:50.688364+00,The user attacks the target by showering it with water that's so cold it saps the target's power. This also lowers the target's Attack stat.
+887,hyper-drill,hyper-drill,normal,physical,100,100,5,0,,,2026-03-06 13:34:44.067011+00,The user spins the pointed part of its body at high speed to pierce the target. This attack can hit a target using a move such as Protect or Detect.
+888,twin-beam,twin-beam,psychic,special,40,100,10,0,,,2026-03-06 13:34:26.930119+00,The user shoots mystical beams from its eyes to inflict damage. The target is hit twice in a row.
+889,rage-fist,rage-fist,ghost,physical,50,100,10,0,,,2026-03-06 14:25:49.358275+00,"The user converts its rage into energy to attack. The more times the user has been hit by attacks, the greater the move's power."
+890,armor-cannon,armor-cannon,fire,special,120,100,5,0,,,2026-03-06 14:22:45.262894+00,The user shoots its own armor out as blazing projectiles. This also lowers the user’s Defense and Sp. Def stats.
+891,bitter-blade,bitter-blade,fire,physical,90,100,10,0,,,2026-03-06 14:22:50.35568+00,The user focuses its bitter feelings toward the world of the living into a slashing attack. The user's HP is restored by up to half the damage taken by the target.
+892,double-shock,double-shock,electric,physical,120,100,5,0,,,2026-03-06 14:21:49.759321+00,"The user discharges all the electricity from its body to perform a high-damage attack. After using this move, the user will no longer be Electric type."
+893,gigaton-hammer,gigaton-hammer,steel,physical,160,100,5,0,,,2026-03-06 14:24:25.334986+00,The user swings its whole body around to attack with its huge hammer. This move can't be used twice in a row.
+894,comeuppance,comeuppance,dark,physical,1,100,10,0,,,2026-03-06 13:49:47.546968+00,The user retaliates with much greater force against the opponent that last inflicted damage on it.
+895,aqua-cutter,aqua-cutter,water,physical,70,100,20,0,,,2026-03-06 14:21:05.653601+00,The user expels pressurized water to cut at the target like a blade. This move has a heightened chance of landing a critical hit.
+896,blazing-torque,blazing-torque,fire,physical,80,100,10,0,,,2026-03-08 04:32:51.972334+00,
+897,wicked-torque,wicked-torque,dark,physical,80,100,10,0,,,2026-03-08 04:32:51.943522+00,
+898,noxious-torque,noxious-torque,poison,physical,100,100,10,0,,,2026-03-08 04:32:51.958867+00,
+899,combat-torque,combat-torque,fighting,physical,100,100,10,0,,,2026-03-08 04:32:51.948084+00,
+900,magical-torque,magical-torque,fairy,physical,100,100,10,0,,,2026-03-08 04:32:51.949399+00,
+901,blood-moon,blood-moon,normal,special,140,100,5,0,,,2026-03-08 04:32:53.552133+00,The user unleashes the full brunt of its spirit from a full moon that shines as red as blood. This move can't be used twice in a row.
+902,matcha-gotcha,matcha-gotcha,grass,special,80,90,15,0,,,2026-03-07 22:56:47.232193+00,The user fires a blast of tea that it mixed. The user's HP is restored by up to half the damage taken by the target. This may also leave the target with a burn.
+903,syrup-bomb,syrup-bomb,grass,special,60,85,10,0,,0,2026-03-07 22:56:46.266037+00,"The user sets off an explosion of sticky candy syrup, which coats the target and causes the target's Speed stat to drop each turn for three turns."
+904,ivy-cudgel,ivy-cudgel,grass,physical,100,100,10,0,,,2026-03-07 22:56:46.503111+00,"The user strikes with an ivy-wrapped cudgel. This move's type changes depending on the mask worn by the user, and it has a heightened chance of landing a critical hit."
+905,Electrorrayo,electro-shot,electric,special,130,100,10,0,,,2026-03-07 22:56:47.265736+00,"The user gathers electricity on the first turn, boosting its Sp. Atk stat, then fires a high-voltage shot on the next turn. The shot will be fired immediately in rain."
+906,Teraclúster,tera-starstorm,normal,special,120,100,5,0,,,2026-03-07 22:56:49.847082+00,"With the power of its crystals, the user bombards and eliminates the target. When used by Terapagos in its Stellar Form, this move damages all opposing Pokémon."
+907,Láser Veleidoso,fickle-beam,dragon,special,80,100,5,0,,,2026-03-07 22:56:47.440375+00,"The user shoots a beam of light to inflict damage. Sometimes all the user's heads shoot beams in unison, doubling the move's power."
+908,Llama Protectora,burning-bulwark,fire,status,0,0,10,4,,,2026-03-07 22:56:46.498864+00,The user's intensely hot fur protects it from attacks and also burns any attacker that makes direct contact with it.
+909,Relámpago Súbito,thunderclap,electric,special,70,100,5,1,,,2026-03-07 22:56:50.253686+00,This move enables the user to attack first with a jolt of electricity. This move fails if the target is not readying an attack.
+910,Filo Potente,mighty-cleave,rock,physical,95,100,5,0,,,2026-03-07 22:56:50.032879+00,The user wields the light that has accumulated atop its head to cleave the target. This move hits even if the target protects itself.
+911,Tajo Taquión,tachyon-cutter,steel,special,50,0,10,0,,,2026-03-07 22:56:50.004482+00,The user attacks by launching particle blades at the target twice in a row. This attack never misses.
+912,Prensa Metálica,hard-press,steel,physical,0,100,10,0,,,2026-03-08 04:32:54.911003+00,"The target is crushed with an arm, a claw, or the like to inflict damage. The more HP the target has left, the greater the move's power."
+913,Bramido Dragón,dragon-cheer,dragon,status,0,0,15,0,,,2026-03-08 04:32:54.887476+00,The user raises its allies’ morale with a draconic cry so that their future attacks have a heightened chance of landing critical hits. This rouses Dragon types more.
+914,Canto Encantador,alluring-voice,fairy,special,80,100,10,0,,,2026-03-08 04:32:54.849378+00,The user attacks the target using its angelic voice. This also confuses the target if its stats have been boosted during the turn.
+915,Cólera Ardiente,temper-flare,fire,physical,75,100,10,0,,,2026-03-08 04:32:54.882638+00,"Spurred by desperation, the user attacks the target. This move's power is doubled if the user's previous move failed."
+916,Plancha Voltaica,supercell-slam,electric,physical,100,95,15,0,,,2026-03-08 04:32:54.895007+00,"The user electrifies its body and drops onto the target to inflict damage. If this move misses, the user takes damage instead."
+917,Psicorruido,psychic-noise,psychic,special,75,100,10,0,,,2026-03-08 04:32:54.888315+00,"The user attacks the target with unpleasant sound waves. For two turns, the target is prevented from recovering HP through moves, Abilities, or held items."
+918,Palma Rauda,upper-hand,fighting,physical,65,100,15,3,,,2026-03-08 04:32:54.836336+00,"The user reacts to the target's movement and strikes with the heel of its palm, making the target flinch. This move fails if the target is not readying a priority move."
+919,Cadena Virulenta,malignant-chain,poison,special,100,100,5,0,,,2026-03-07 22:56:49.815863+00,"The user pours toxins into the target by wrapping them in a toxic, corrosive chain. This may also leave the target badly poisoned."
+10001,Carga Oscura,shadow-rush,shadow,physical,55,100,10,0,,,2026-03-08 04:32:54.902498+00,
+10002,Soplo Oscuro,shadow-blast,shadow,physical,80,100,10,0,,,2026-03-08 04:32:56.188983+00,
+10003,Vigor Oscuro,shadow-blitz,shadow,physical,40,100,10,0,,,2026-03-08 04:32:56.137772+00,
+10004,Rayo Oscuro,shadow-bolt,shadow,special,75,100,10,0,,,2026-03-08 04:32:56.198481+00,
+10005,Brío Oscuro,shadow-break,shadow,physical,75,100,10,0,,,2026-03-08 04:32:56.18736+00,
+10006,Hielo Oscuro,shadow-chill,shadow,special,75,100,10,0,,,2026-03-08 04:32:56.197392+00,
+10007,Fin Oscuro,shadow-end,shadow,physical,120,60,10,0,,,2026-03-08 04:32:56.233532+00,
+10008,Fuego Oscuro,shadow-fire,shadow,special,75,100,10,0,,,2026-03-08 04:32:56.211129+00,
+10009,Rabia Oscura,shadow-rave,shadow,special,70,100,10,0,,,2026-03-08 04:32:56.243924+00,
+10010,Tifón Oscuro,shadow-storm,shadow,special,95,100,10,0,,,2026-03-08 04:32:56.192993+00,
+10011,Onda Oscura,shadow-wave,shadow,special,50,100,10,0,,,2026-03-08 04:32:56.194642+00,
+10012,Ocaso Oscuro,shadow-down,shadow,status,,100,10,0,,,2026-03-08 04:32:57.54321+00,
+10013,Mitad Oscura,shadow-half,shadow,special,,100,10,0,,,2026-03-08 04:32:57.544501+00,
+10014,Traba Oscura,shadow-hold,shadow,status,,,10,0,,,2026-03-08 04:32:57.544671+00,
+10015,Bruma Oscura,shadow-mist,shadow,status,,100,10,0,,,2026-03-08 04:32:57.557698+00,
+10016,Miedo Oscuro,shadow-panic,shadow,status,,90,10,0,,,2026-03-08 04:32:57.504399+00,
+10017,Muda Oscura,shadow-shed,shadow,status,,,10,0,,,2026-03-08 04:32:57.614548+00,
+10018,Cielo Oscuro,shadow-sky,shadow,status,,,10,0,,,2026-03-08 04:32:57.540505+00,

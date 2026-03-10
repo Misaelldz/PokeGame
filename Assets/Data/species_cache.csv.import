@@ -1,0 +1,19 @@
+[remap]
+
+importer="csv_translation"
+type="Translation"
+uid="uid://c8m5nvq8ec3r8"
+
+[deps]
+
+files=["res://Assets/Data/species_cache.name.translation", "res://Assets/Data/species_cache.is.translation", "res://Assets/Data/species_cache.is.translation", "res://Assets/Data/species_cache.evolves.translation", "res://Assets/Data/species_cache.evolution.translation", "res://Assets/Data/species_cache.growth.translation", "res://Assets/Data/species_cache.created.translation", "res://Assets/Data/species_cache.gacha.translation"]
+
+source_file="res://Assets/Data/species_cache.csv"
+dest_files=["res://Assets/Data/species_cache.name.translation", "res://Assets/Data/species_cache.is.translation", "res://Assets/Data/species_cache.is.translation", "res://Assets/Data/species_cache.evolves.translation", "res://Assets/Data/species_cache.evolution.translation", "res://Assets/Data/species_cache.growth.translation", "res://Assets/Data/species_cache.created.translation", "res://Assets/Data/species_cache.gacha.translation"]
+
+[params]
+
+compress=1
+delimiter=0
+unescape_keys=false
+unescape_translations=true

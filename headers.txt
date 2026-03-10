@@ -1,0 +1,10 @@
+﻿elite_four.csv	region,slot,name,role,type,pokemon
+evolution_cache.csv	from_pokemon_id,to_pokemon_id,trigger,min_level,item_id
+gyms.csv	id,region,leader_name,badge_name,type,unlock_level,reference_bst,mechanic,pokemon,reward_items,dialog_intro,dialog_victory,dialog_defeat
+items.csv	id,name,sprite_slug,description,category,effect,buyable,lootable,shop_price,sort_order,created_at
+mega_evolutions.csv	id,base_pokemon_id,mega_pokemon_id,mega_name,base_name,required_item,type_override,created_at
+move_cache.csv	move_id,name_es,name_en,type,category,power,accuracy,pp,priority,ailment,ailment_chance,created_at,description_es
+pokemon_cache.csv	pokemon_id,name,types,base_stats,level_up_moves,sprite_url,created_at,updated_at,tm_moves,ability
+species_cache.csv	pokemon_id,name,is_legendary,is_mythical,evolves_from_id,evolution_chain_url,growth_rate,created_at,gacha_tier
+user_profiles.csv	id,run_state,meta_state,training_state,updated_at,email,username
+zones.csv	id,region,zone_index,name,min_level,max_level,wild_pokemon,is_gym,gym_badge_id,created_at,gym_id,battle_bg_id,encounter_rate,trainer_count,reference_bst,item_drops,description
