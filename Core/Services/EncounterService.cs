@@ -85,12 +85,12 @@ namespace PokeIdle.Core.Services
 
         /// <summary>
         /// Selecciona un Pokémon de la lista según sus pesos de aparición.
-        /// Los Pokémon con mayor "SpawnRate" en ZoneData aparecen con mayor frecuencia.
+        /// Los Pokémon con mayor "Weight" en ZoneData aparecen con mayor frecuencia.
         /// </summary>
         private static PokemonData SelectPokemonByWeight(List<ZonePokemonEntry> entries)
         {
             // Suma total de pesos
-            int totalWeight = entries.Sum(e => e.SpawnRate);
+            int totalWeight = entries.Sum(e => e.Weight);
             if (totalWeight <= 0) return null;
 
             int roll = rng.Next(0, totalWeight);
@@ -98,7 +98,7 @@ namespace PokeIdle.Core.Services
 
             foreach (var entry in entries)
             {
-                cumulative += entry.SpawnRate;
+                cumulative += entry.Weight;
                 if (roll < cumulative)
                 {
                     // Buscar en la base de datos el PokemonData por ID

@@ -12,5 +12,6 @@ namespace PokeIdle.Core.Models
         public bool Lootable { get; set; }
         public int ShopPrice { get; set; }
         public int SortOrder { get; set; }
+        public int HealAmount { get; set; }
     }
 }

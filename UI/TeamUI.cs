@@ -142,7 +142,7 @@ namespace PokeIdle.UI
                 _moneyLabel.Text = $"💰 {_gm.CurrentRun?.Money ?? 0}";
 
             if (_zoneLabel != null)
-                _zoneLabel.Text = $"🗺️ {(_gm.CurrentZoneId.IsEmpty() ? "—" : _gm.CurrentZoneId)}";
+                _zoneLabel.Text = $"🗺️ {(string.IsNullOrEmpty(_gm.CurrentZoneId) ? "—" : _gm.CurrentZoneId)}";
         }
 
         // ----------------------------------------------------------------

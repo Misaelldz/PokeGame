@@ -2,6 +2,15 @@ using System.Collections.Generic;
 
 namespace PokeIdle.Core.Models
 {
+    public class ZonePokemonEntry
+    {
+        public int PokemonId { get; set; }
+        public int Weight { get; set; }
+        public int? MinLevel { get; set; }
+        public int? MaxLevel { get; set; }
+        public float? CaptureRate { get; set; }
+    }
+
     public class ZoneData
     {
         public string Id { get; set; }
@@ -10,7 +19,7 @@ namespace PokeIdle.Core.Models
         public string Name { get; set; }
         public int MinLevel { get; set; }
         public int MaxLevel { get; set; }
-        public List<string> WildPokemon { get; set; } = new List<string>();
+        public List<ZonePokemonEntry> Pokemon { get; set; } = new List<ZonePokemonEntry>();
         public bool IsGym { get; set; }
         public string GymBadgeId { get; set; }
         public string GymId { get; set; }

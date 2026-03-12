@@ -1,5 +1,6 @@
 using Godot;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text.Json;
 using PokeIdle.Core.Models;
 
@@ -61,6 +62,31 @@ namespace PokeIdle.Core.Services
                     ShopPrice = int.TryParse(row[8], out int price) ? price : 0,
                     SortOrder = int.TryParse(row[9], out int sort) ? sort : 0
                 };
+
+                // Parse HealAmount from Effect JSON if applicable
+                if (!string.IsNullOrWhiteSpace(item.Effect))
+                {
+                    try
+                    {
+                        var effectDoc = JsonDocument.Parse(item.Effect);
+                        if (effectDoc.RootElement.TryGetProperty("type", out var typeProp) && typeProp.GetString() == "heal_hp")
+                        {
+                            if (effectDoc.RootElement.TryGetProperty("amount", out var amountProp))
+                            {
+                                if (amountProp.ValueKind == JsonValueKind.Number)
+                                {
+                                    item.HealAmount = amountProp.GetInt32();
+                                }
+                                else if (amountProp.ValueKind == JsonValueKind.String && amountProp.GetString() == "full")
+                                {
+                                    item.HealAmount = 0; // InventorySystem treats <= 0 as full heal
+                                }
+                            }
+                        }
+                    }
+                    catch { /* Ignore parse errors for malformed JSON */ }
+                }
+
                 Items[row[0]] = item;
             }
         }
@@ -84,7 +110,7 @@ namespace PokeIdle.Core.Services
                     Name = row[3],
                     MinLevel = int.TryParse(row[4], out int min) ? min : 0,
                     MaxLevel = int.TryParse(row[5], out int max) ? max : 0,
-                    WildPokemon = ParseStringList(row[6]),
+                    Pokemon = ParseJson<List<ZonePokemonEntry>>(row[6]),
                     IsGym = row[7].ToLower() == "true" || row[7] == "1",
                     GymBadgeId = row[8],
                     GymId = row[10],
@@ -216,17 +242,37 @@ namespace PokeIdle.Core.Services
             {
                 var row = file.GetCsvLine();
                 if (row.Length < 10 || !int.TryParse(row[0], out int id)) continue;
-                Pokemon[id] = new PokemonData
+                var stats = ParseJson<BaseStats>(row[3]);
+                var pData = new PokemonData
                 {
                     Id = id,
                     Name = row[1],
                     Types = ParseStringList(row[2]),
-                    Stats = ParseJson<BaseStats>(row[3]),
+                    Stats = stats,
                     LevelUpMoves = ParseJson<List<LevelUpMove>>(row[4]),
                     SpriteUrl = row[5],
                     TmMoves = ParseJson<List<int>>(row[8]),
-                    Ability = row[9]
+                    Ability = row[9],
+                    
+                    // Initialization of missing data
+                    BaseExpYield = 60, // Default fallback
+                    CatchRate = 45,    // Default fallback (medium-hard)
+                    Level = 1,
+                    CurrentHp = stats.Hp > 0 ? stats.Hp : 10, // Fallback if 0
+                    CurrentXp = 0
                 };
+
+                // Merge GrowthRate from Species (loaded previously)
+                if (Species.TryGetValue(id, out var speciesData))
+                {
+                    pData.GrowthRate = speciesData.GrowthRate;
+                }
+                else
+                {
+                    pData.GrowthRate = "medium fast"; // Fallback
+                }
+
+                Pokemon[id] = pData;
             }
         }
 
@@ -313,5 +359,20 @@ namespace PokeIdle.Core.Services
                 };
             }
         }
+
+        // -------------------------------------------------------------------------
+        // API de Acceso (Estática para facilitar llamadas desde cualquier sitio)
+        // -------------------------------------------------------------------------
+
+        public static ZoneData GetZoneById(string id) => Instance?.Zones.GetValueOrDefault(id);
+        public static PokemonData GetPokemonById(int id) => Instance?.Pokemon.GetValueOrDefault(id);
+        public static MoveData GetMoveById(int id) => Instance?.Moves.GetValueOrDefault(id);
+        public static ItemData GetItemById(string id) => Instance?.Items.GetValueOrDefault(id);
+        
+        public static List<PokemonData> GetAllPokemon() => Instance != null ? new List<PokemonData>(Instance.Pokemon.Values) : new List<PokemonData>();
+        public static List<ItemData> GetAllItems() => Instance != null ? new List<ItemData>(Instance.Items.Values) : new List<ItemData>();
+        public static List<ZoneData> GetAllZones() => Instance != null ? new List<ZoneData>(Instance.Zones.Values) : new List<ZoneData>();
+
+        public static EvolutionData GetEvolutionFor(int pokemonId) => Instance?.Evolutions.FirstOrDefault(e => e.FromPokemonId == pokemonId);
     }
 }

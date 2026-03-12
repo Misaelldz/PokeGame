@@ -220,7 +220,7 @@ namespace PokeIdle.Debug
 
             // Sección: Sesión
             vBox.AddChild(SectionLabel("⬛ SESIÓN"));
-            vBox.AddChild(StatRow("Zona",      _gm.CurrentZoneId.IsEmpty() ? "—" : _gm.CurrentZoneId));
+            vBox.AddChild(StatRow("Zona",      string.IsNullOrEmpty(_gm.CurrentZoneId) ? "—" : _gm.CurrentZoneId));
             vBox.AddChild(StatRow("Dinero",    $"${_gm.CurrentRun?.Money ?? 0}"));
             vBox.AddChild(StatRow("Equipo",    $"{_gm.Team.Count}/6"));
 

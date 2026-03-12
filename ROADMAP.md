@@ -43,7 +43,7 @@ Este documento describe el plan de acción para migrar de React a Godot 4 con C#
 
 ## 🖼️ Fase 4: Vistas y Recursos Visuales
 
-- [ ] **Sistemas de UI Control Nodes:** Emplear VBoxContainer y TextureRects para crear las interfaces adaptables.
+- [x] **Sistemas de UI Control Nodes:** Emplear VBoxContainer y TextureRects para crear las interfaces adaptables.
 - [ ] Animaciones de Sprite mediante el uso de nodos `Tween`.
 - [ ] **Modales Godot:** Recrear las mochilas y popups usando ventanas Control y superposiciones.
 

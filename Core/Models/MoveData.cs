@@ -13,5 +13,7 @@ namespace PokeIdle.Core.Models
         public int Priority { get; set; }
         public string Ailment { get; set; }
         public int? AilmentChance { get; set; }
+
+        public string Name => !string.IsNullOrEmpty(NameEs) ? NameEs : NameEn;
     }
 }

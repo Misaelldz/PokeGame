@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using PokeIdle.Core.Models;
 using PokeIdle.Core.Services;
 using PokeIdle.Core.Engines;
+using PokeIdle.Core.Autoloads;
 
 namespace PokeIdle.Core.Systems
 {
@@ -379,9 +380,9 @@ namespace PokeIdle.Core.Systems
                 var moveData = DatabaseService.GetMoveById(lum.MoveId);
                 if (moveData == null) continue;
 
-                if (moveData.Power > bestPower)
+                if (moveData.Power.HasValue && moveData.Power.Value > bestPower)
                 {
-                    bestPower = moveData.Power;
+                    bestPower = moveData.Power.Value;
                     best = moveData;
                 }
             }

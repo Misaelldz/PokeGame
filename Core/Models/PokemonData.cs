@@ -18,6 +18,17 @@ namespace PokeIdle.Core.Models
         
         public string Ability { get; set; }
         
+        // --- Static Data (Missing in current CSV, but required by systems) ---
+        public string GrowthRate { get; set; }
+        public int BaseExpYield { get; set; }
+        public int CatchRate { get; set; }
+        
+        // --- Instance Data (Used for current state in team/battle) ---
+        public int Level { get; set; } = 1;
+        public int CurrentHp { get; set; }
+        public int CurrentXp { get; set; }
+        public bool IsShiny { get; set; }
+
         // Para los movimientos por nivel (level_up_moves), podemos mapearlos a una estructura
         public List<LevelUpMove> LevelUpMoves { get; set; } = new List<LevelUpMove>();
         
@@ -28,8 +39,8 @@ namespace PokeIdle.Core.Models
     public struct BaseStats
     {
         public int Hp { get; set; }
-        public int Attack { get; set; }
-        public int Defense { get; set; }
+        public int Atk { get; set; }
+        public int Def { get; set; }
         public int SpAtk { get; set; }
         public int SpDef { get; set; }
         public int Speed { get; set; }
