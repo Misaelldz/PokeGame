@@ -52,3 +52,60 @@ Este documento describe el plan de acción para migrar de React a Godot 4 con C#
 - [ ] Añadir SFX y BGM con el nodo `AudioStreamPlayer`.
 - [ ] Testing intensivo de los scripts en builds.
 - [ ] Construir versión HTML5 (web).
+
+---
+
+## 🎨 Fase 6: Integración de Assets (pokerogue-assets)
+
+Fuente: [pagefaultgames/pokerogue-assets](https://github.com/pagefaultgames/pokerogue-assets) — branch `beta`
+
+### Fase A — Sprites de Pokémon (🔴 Alta prioridad)
+- [ ] Sparse-checkout del repo para bajar solo las carpetas necesarias.
+- [ ] Copiar sprites a `Assets/Sprites/Pokemon/Front/`, `Back/`, `Shiny/Front/`, `Shiny/Back/`.
+- [ ] Crear `Core/Services/SpriteLoader.cs` que cargue sprites por `PokedexId`.
+
+### Fase B — Fondos de Batalla / Arenas (🔴 Alta prioridad)
+- [ ] Copiar `images/arenas/` → `Assets/Sprites/Arenas/`.
+- [ ] Mapear cada `ZoneData` a su nombre de arena correspondiente.
+- [ ] Cargar fondo dinámicamente en `GameplayScene` y `GymScene`.
+
+### Fase C — Audio completo (🟡 Media prioridad)
+- [ ] Copiar `audio/cry/` → `Assets/Audio/Cries/`.
+- [ ] Copiar `audio/bgm/` → `Assets/Audio/BGM/`.
+- [ ] Copiar `audio/se/` + `audio/ui/` → `Assets/Audio/SE/` y `Assets/Audio/UI/`.
+- [ ] Crear `Core/Autoloads/AudioManager.cs` con `PlayCry(int id)`, `PlayBGM(string zone)`, `PlaySFX(string name)`.
+
+### Fase D — UI Sprites (🟢 Baja prioridad)
+- [ ] Copiar `images/pokeball/` → `Assets/Sprites/Pokeballs/`.
+- [ ] Copiar `images/items/` + `items.png` → `Assets/Sprites/Items/` (spritesheet con AtlasTexture).
+- [ ] Copiar `images/ui/` → `Assets/Sprites/UI/` (marcos retro, dialog boxes).
+
+### Fase E — Trainer Sprites (🟢 Baja prioridad)
+- [ ] Copiar `images/trainer/` → `Assets/Sprites/Trainers/`.
+- [ ] Mapear cada gimnasio a su sprite de líder.
+
+---
+
+## 🎭 Fase 7: Sistema de Variantes de Sprites (Eventos y Cosméticos)
+
+Permite desbloquear sprites alternativos (retro, eventos, otros) por misiones o logros.
+
+### Estructura de archivos
+```
+Assets/Sprites/Pokemon/Variants/
+  {pokedexId}_{variantName}.png       ← ej: 25_gen1.png, 25_christmas.png
+  {pokedexId}_{variantName}_shiny.png
+```
+
+### Flujo de desbloqueo
+```
+Misión completada → GameManager.UnlockVariant(pokedexId, variantName)
+                  → guardado en save file
+                  → SpriteLoader detecta variante activa automáticamente
+```
+
+### Tareas
+- [ ] Ampliar `SpriteLoader.cs` para buscar variante activa antes del sprite base.
+- [ ] Agregar `UnlockedVariants: Dictionary<int, string>` al save del jugador en `GameManager`.
+- [ ] Crear UI de selector de variante en el panel de detalle de `StarterSelection`.
+- [ ] Definir primer evento de prueba (ej. "Desbloquea el sprite Gen 1 de Pikachu ganando 10 batallas con él").
