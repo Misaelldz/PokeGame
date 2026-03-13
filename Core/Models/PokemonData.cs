@@ -28,11 +28,35 @@ namespace PokeIdle.Core.Models
         public int CurrentHp { get; set; }
         public int CurrentXp { get; set; }
         public bool IsShiny { get; set; }
+        public string FormSuffix { get; set; } = "";
 
         // Para los movimientos por nivel (level_up_moves), podemos mapearlos a una estructura
         public List<LevelUpMove> LevelUpMoves { get; set; } = new List<LevelUpMove>();
         
         public List<int> TmMoves { get; set; } = new List<int>();
+
+        public PokemonData Clone()
+        {
+            return new PokemonData
+            {
+                Id = this.Id,
+                Name = this.Name,
+                Types = new List<string>(this.Types),
+                Stats = this.Stats,
+                SpriteUrl = this.SpriteUrl,
+                Ability = this.Ability,
+                GrowthRate = this.GrowthRate,
+                BaseExpYield = this.BaseExpYield,
+                CatchRate = this.CatchRate,
+                Level = this.Level,
+                CurrentHp = this.CurrentHp,
+                CurrentXp = this.CurrentXp,
+                IsShiny = this.IsShiny,
+                FormSuffix = this.FormSuffix,
+                LevelUpMoves = new List<LevelUpMove>(this.LevelUpMoves),
+                TmMoves = new List<int>(this.TmMoves)
+            };
+        }
     }
 
     // Estructura para contener las estadísticas base

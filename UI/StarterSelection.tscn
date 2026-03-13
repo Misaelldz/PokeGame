@@ -1,0 +1,486 @@
+[gd_scene load_steps=8 format=3 uid="uid://c8yv4m2n7p5r8"]
+
+[ext_resource type="Script" path="res://UI/StarterSelection.cs" id="1_xpf2a"]
+[ext_resource type="FontFile" uid="uid://blhgawm0rvr0" path="res://Assets/Fonts/fonts/pokemon-emerald-pro.ttf" id="2_pixel_font"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_FireRedSummary"]
+bg_color = Color(0.972549, 0.972549, 0.972549, 1)
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color(0.8, 0.8, 0.8, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_HeaderBar"]
+bg_color = Color(0.24, 0.24, 0.32, 1)
+border_width_bottom = 2
+border_color = Color(0.12, 0.12, 0.18, 1)
+content_margin_left = 6.0
+content_margin_right = 6.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_NameBar"]
+bg_color = Color(0.4, 0.45, 0.55, 1)
+border_width_top = 1
+border_width_bottom = 1
+border_color = Color(0.2, 0.25, 0.35, 1)
+content_margin_left = 8.0
+content_margin_right = 8.0
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_FireRedGrid"]
+bg_color = Color(0.65, 0.65, 0.65, 1)
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color(0.4, 0.4, 0.4, 1)
+corner_radius_top_left = 8
+corner_radius_top_right = 8
+corner_radius_bottom_right = 8
+corner_radius_bottom_left = 8
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_MoveSlot"]
+bg_color = Color(0.75, 0.75, 0.75, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.12549, 0.313726, 0.313726, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_TypeBadge"]
+bg_color = Color(0.4, 0.7, 0.4, 1)
+border_width_left = 1
+border_width_top = 1
+border_width_right = 1
+border_width_bottom = 1
+border_color = Color(0.12549, 0.313726, 0.313726, 1)
+corner_radius_top_left = 2
+corner_radius_top_right = 2
+corner_radius_bottom_right = 2
+corner_radius_bottom_left = 2
+
+[node name="StarterSelection" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("2_pixel_font")
+script = ExtResource("1_xpf2a")
+GridContainerPath = NodePath("MainHBox/CenterPanel/GridBG/ScrollContainer/GridContainer")
+InfoPanelPath = NodePath("MainHBox/LeftPanel")
+PokemonNameLabelPath = NodePath("MainHBox/LeftPanel/VBox/LowerVBox/NameBar/HBoxName/lblName")
+PokemonTypeLabelPath = NodePath("MainHBox/LeftPanel/VBox/LowerVBox/HBoxTypes/lblTypes")
+PokemonSpritePath = NodePath("MainHBox/LeftPanel/VBox/MiddleHBox/CenterSprite/SpritePivot/texSprite")
+ConfirmButtonPath = NodePath("MainHBox/RightPanel/VBox/StartBtn")
+AbilityLabelPath = NodePath("MainHBox/LeftPanel/VBox/LowerVBox/lblAbility")
+PassiveLabelPath = NodePath("MainHBox/LeftPanel/VBox/LowerVBox/lblPassive")
+NatureLabelPath = NodePath("MainHBox/LeftPanel/VBox/LowerVBox/lblNature")
+GrowthRateLabelPath = NodePath("MainHBox/LeftPanel/VBox/LowerVBox/lblGrowth")
+GenderIconPath = NodePath("MainHBox/LeftPanel/VBox/LowerVBox/NameBar/HBoxName/lblGender")
+MovesContainerPath = NodePath("MainHBox/LeftPanel/VBox/MiddleHBox/RightVBox/MovesVBox")
+EggMovesContainerPath = NodePath("MainHBox/LeftPanel/VBox/MiddleHBox/RightVBox/EggMovesVBox")
+FormContainerPath = NodePath("MainHBox/LeftPanel/VBox/MiddleHBox/LeftInfoVBox/FormVBox")
+ShinyTogglePath = NodePath("MainHBox/LeftPanel/VBox/MiddleHBox/LeftInfoVBox/BtnShiny")
+
+[node name="BG" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.219608, 0.596078, 0.533333, 1)
+
+[node name="MainHBox" type="HBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 15.0
+offset_top = 15.0
+offset_right = -15.0
+offset_bottom = -15.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/separation = 15
+
+[node name="LeftPanel" type="PanelContainer" parent="MainHBox"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_FireRedSummary")
+
+[node name="VBox" type="VBoxContainer" parent="MainHBox/LeftPanel"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="HeaderBar" type="PanelContainer" parent="MainHBox/LeftPanel/VBox"]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_HeaderBar")
+
+[node name="HeaderHBox" type="HBoxContainer" parent="MainHBox/LeftPanel/VBox/HeaderBar"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="lblID" type="Label" parent="MainHBox/LeftPanel/VBox/HeaderBar/HeaderHBox"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("2_pixel_font")
+theme_override_font_sizes/font_size = 32
+text = "No. 0001"
+
+[node name="lblHint" type="Label" parent="MainHBox/LeftPanel/VBox/HeaderBar/HeaderHBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.8, 0.8, 0.8, 1)
+theme_override_fonts/font = ExtResource("2_pixel_font")
+theme_override_font_sizes/font_size = 20
+text = "C : Go to filters"
+
+[node name="MiddleHBox" type="HBoxContainer" parent="MainHBox/LeftPanel/VBox"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_constants/separation = 0
+
+[node name="LeftInfoVBox" type="VBoxContainer" parent="MainHBox/LeftPanel/VBox/MiddleHBox"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="BtnShiny" type="Button" parent="MainHBox/LeftPanel/VBox/MiddleHBox/LeftInfoVBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.12549, 0.313726, 0.313726, 1)
+theme_override_fonts/font = ExtResource("2_pixel_font")
+theme_override_font_sizes/font_size = 14
+text = "Shiny: OFF"
+flat = true
+
+[node name="lblFormsHeader" type="Label" parent="MainHBox/LeftPanel/VBox/MiddleHBox/LeftInfoVBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.12549, 0.313726, 0.313726, 1)
+theme_override_fonts/font = ExtResource("2_pixel_font")
+theme_override_font_sizes/font_size = 14
+text = "Forms"
+horizontal_alignment = 1
+
+[node name="FormVBox" type="VBoxContainer" parent="MainHBox/LeftPanel/VBox/MiddleHBox/LeftInfoVBox"]
+layout_mode = 2
+theme_override_constants/separation = 5
+
+[node name="CenterSprite" type="Control" parent="MainHBox/LeftPanel/VBox/MiddleHBox"]
+layout_mode = 2
+size_flags_horizontal = 3
+
+[node name="StripedBG" type="ColorRect" parent="MainHBox/LeftPanel/VBox/MiddleHBox/CenterSprite"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.9, 0.9, 0.95, 1)
+
+[node name="Stripes" type="TextureRect" parent="MainHBox/LeftPanel/VBox/MiddleHBox/CenterSprite/StripedBG"]
+modulate = Color(1, 1, 1, 0.1)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+stretch_mode = 1
+
+[node name="SpritePivot" type="Control" parent="MainHBox/LeftPanel/VBox/MiddleHBox/CenterSprite"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="texSprite" type="TextureRect" parent="MainHBox/LeftPanel/VBox/MiddleHBox/CenterSprite/SpritePivot"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -64.0
+offset_top = -64.0
+offset_right = 64.0
+offset_bottom = 64.0
+grow_horizontal = 2
+grow_vertical = 2
+expand_mode = 1
+stretch_mode = 5
+
+[node name="RightVBox" type="VBoxContainer" parent="MainHBox/LeftPanel/VBox/MiddleHBox"]
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+theme_override_constants/separation = 5
+
+[node name="MovesVBox" type="VBoxContainer" parent="MainHBox/LeftPanel/VBox/MiddleHBox/RightVBox"]
+layout_mode = 2
+theme_override_constants/separation = 4
+
+[node name="Spacer" type="Control" parent="MainHBox/LeftPanel/VBox/MiddleHBox/RightVBox"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="lblEggMovesHeader" type="Label" parent="MainHBox/LeftPanel/VBox/MiddleHBox/RightVBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.12549, 0.313726, 0.313726, 1)
+theme_override_fonts/font = ExtResource("2_pixel_font")
+theme_override_font_sizes/font_size = 14
+text = "Egg Moves"
+horizontal_alignment = 1
+
+[node name="EggMovesVBox" type="VBoxContainer" parent="MainHBox/LeftPanel/VBox/MiddleHBox/RightVBox"]
+layout_mode = 2
+theme_override_constants/separation = 4
+
+[node name="LowerVBox" type="VBoxContainer" parent="MainHBox/LeftPanel/VBox"]
+layout_mode = 2
+theme_override_constants/separation = 5
+
+[node name="HBoxTypes" type="HBoxContainer" parent="MainHBox/LeftPanel/VBox/LowerVBox"]
+layout_mode = 2
+theme_override_constants/separation = 10
+
+[node name="lblTypes" type="Label" parent="MainHBox/LeftPanel/VBox/LowerVBox/HBoxTypes"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.12549, 0.313726, 0.313726, 1)
+theme_override_fonts/font = ExtResource("2_pixel_font")
+theme_override_font_sizes/font_size = 18
+text = "GRASS / POISON"
+
+[node name="lblGrowth" type="RichTextLabel" parent="MainHBox/LeftPanel/VBox/LowerVBox"]
+layout_mode = 2
+theme_override_colors/default_color = Color(0.125, 0.31, 0.31, 1)
+theme_override_fonts/normal_font = ExtResource("2_pixel_font")
+theme_override_font_sizes/normal_font_size = 18
+bbcode_enabled = true
+text = "Growth Rate: [color=#4a8db7]Medium Slow[/color]"
+fit_content = true
+scroll_active = false
+
+[node name="NameBar" type="PanelContainer" parent="MainHBox/LeftPanel/VBox/LowerVBox"]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_NameBar")
+
+[node name="HBoxName" type="HBoxContainer" parent="MainHBox/LeftPanel/VBox/LowerVBox/NameBar"]
+layout_mode = 2
+
+[node name="lblName" type="Label" parent="MainHBox/LeftPanel/VBox/LowerVBox/NameBar/HBoxName"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_fonts/font = ExtResource("2_pixel_font")
+theme_override_font_sizes/font_size = 44
+text = "Bulbasaur"
+
+[node name="lblGender" type="Label" parent="MainHBox/LeftPanel/VBox/LowerVBox/NameBar/HBoxName"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.4, 0.8, 1, 1)
+theme_override_fonts/font = ExtResource("2_pixel_font")
+theme_override_font_sizes/font_size = 32
+text = "♂"
+
+[node name="lblAbility" type="Label" parent="MainHBox/LeftPanel/VBox/LowerVBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.2, 0.2, 0.2, 1)
+theme_override_fonts/font = ExtResource("2_pixel_font")
+theme_override_font_sizes/font_size = 24
+text = "Ability: Overgrow"
+
+[node name="lblPassive" type="Label" parent="MainHBox/LeftPanel/VBox/LowerVBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.5, 0.5, 0.5, 1)
+theme_override_fonts/font = ExtResource("2_pixel_font")
+theme_override_font_sizes/font_size = 24
+text = "Passive: Grassy Surge 🔒"
+
+[node name="lblNature" type="Label" parent="MainHBox/LeftPanel/VBox/LowerVBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.2, 0.2, 0.2, 1)
+theme_override_fonts/font = ExtResource("2_pixel_font")
+theme_override_font_sizes/font_size = 24
+text = "Nature: Docile (-)"
+
+[node name="lblHintBottom" type="Label" parent="MainHBox/LeftPanel/VBox/LowerVBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.125, 0.31, 0.31, 0.7)
+theme_override_fonts/font = ExtResource("2_pixel_font")
+theme_override_font_sizes/font_size = 18
+text = "G : Gender"
+
+[node name="CenterPanel" type="VBoxContainer" parent="MainHBox"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/separation = 10
+
+[node name="TopBar" type="PanelContainer" parent="MainHBox/CenterPanel"]
+custom_minimum_size = Vector2(0, 50)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_FireRedSummary")
+
+[node name="HBox" type="HBoxContainer" parent="MainHBox/CenterPanel/TopBar"]
+layout_mode = 2
+theme_override_constants/separation = 12
+alignment = 1
+
+[node name="BtnGen" type="Button" parent="MainHBox/CenterPanel/TopBar/HBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.12549, 0.313726, 0.313726, 1)
+theme_override_colors/font_hover_color = Color(0.784314, 0.196078, 0.196078, 1)
+theme_override_fonts/font = ExtResource("2_pixel_font")
+theme_override_font_sizes/font_size = 20
+text = "Gen"
+flat = true
+
+[node name="BtnType" type="Button" parent="MainHBox/CenterPanel/TopBar/HBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.12549, 0.313726, 0.313726, 1)
+theme_override_colors/font_hover_color = Color(0.784314, 0.196078, 0.196078, 1)
+theme_override_fonts/font = ExtResource("2_pixel_font")
+theme_override_font_sizes/font_size = 20
+text = "Type"
+flat = true
+
+[node name="BtnCaught" type="Button" parent="MainHBox/CenterPanel/TopBar/HBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.12549, 0.313726, 0.313726, 1)
+theme_override_colors/font_hover_color = Color(0.784314, 0.196078, 0.196078, 1)
+theme_override_fonts/font = ExtResource("2_pixel_font")
+theme_override_font_sizes/font_size = 20
+text = "Caught"
+flat = true
+
+[node name="BtnUnlocks" type="Button" parent="MainHBox/CenterPanel/TopBar/HBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.12549, 0.313726, 0.313726, 1)
+theme_override_colors/font_hover_color = Color(0.784314, 0.196078, 0.196078, 1)
+theme_override_fonts/font = ExtResource("2_pixel_font")
+theme_override_font_sizes/font_size = 20
+text = "Unlocks"
+flat = true
+
+[node name="BtnMisc" type="Button" parent="MainHBox/CenterPanel/TopBar/HBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.12549, 0.313726, 0.313726, 1)
+theme_override_colors/font_hover_color = Color(0.784314, 0.196078, 0.196078, 1)
+theme_override_fonts/font = ExtResource("2_pixel_font")
+theme_override_font_sizes/font_size = 20
+text = "Misc"
+flat = true
+
+[node name="BtnLegendary" type="Button" parent="MainHBox/CenterPanel/TopBar/HBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.12549, 0.313726, 0.313726, 1)
+theme_override_colors/font_hover_color = Color(0.784314, 0.196078, 0.196078, 1)
+theme_override_fonts/font = ExtResource("2_pixel_font")
+theme_override_font_sizes/font_size = 20
+text = "Legendary"
+flat = true
+
+[node name="BtnMythical" type="Button" parent="MainHBox/CenterPanel/TopBar/HBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.12549, 0.313726, 0.313726, 1)
+theme_override_colors/font_hover_color = Color(0.784314, 0.196078, 0.196078, 1)
+theme_override_fonts/font = ExtResource("2_pixel_font")
+theme_override_font_sizes/font_size = 20
+text = "Mythical"
+flat = true
+
+[node name="BtnParadox" type="Button" parent="MainHBox/CenterPanel/TopBar/HBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.12549, 0.313726, 0.313726, 1)
+theme_override_colors/font_hover_color = Color(0.784314, 0.196078, 0.196078, 1)
+theme_override_fonts/font = ExtResource("2_pixel_font")
+theme_override_font_sizes/font_size = 20
+text = "Paradox"
+flat = true
+
+[node name="BtnSort" type="Button" parent="MainHBox/CenterPanel/TopBar/HBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.12549, 0.313726, 0.313726, 1)
+theme_override_colors/font_hover_color = Color(0.784314, 0.196078, 0.196078, 1)
+theme_override_fonts/font = ExtResource("2_pixel_font")
+theme_override_font_sizes/font_size = 20
+text = "Sort"
+flat = true
+
+[node name="GridBG" type="PanelContainer" parent="MainHBox/CenterPanel"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_styles/panel = SubResource("StyleBoxFlat_FireRedGrid")
+
+[node name="ScrollContainer" type="ScrollContainer" parent="MainHBox/CenterPanel/GridBG"]
+layout_mode = 2
+
+[node name="GridContainer" type="GridContainer" parent="MainHBox/CenterPanel/GridBG/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+theme_override_constants/h_separation = 8
+theme_override_constants/v_separation = 8
+columns = 9
+
+[node name="RightPanel" type="PanelContainer" parent="MainHBox"]
+custom_minimum_size = Vector2(120, 0)
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_FireRedSummary")
+
+[node name="VBox" type="VBoxContainer" parent="MainHBox/RightPanel"]
+layout_mode = 2
+theme_override_constants/separation = 15
+alignment = 1
+
+[node name="RandomBtn" type="Button" parent="MainHBox/RightPanel/VBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.12549, 0.313726, 0.313726, 1)
+theme_override_colors/font_hover_color = Color(0.784314, 0.196078, 0.196078, 1)
+theme_override_fonts/font = ExtResource("2_pixel_font")
+theme_override_font_sizes/font_size = 20
+text = "Random"
+flat = true
+
+[node name="Mystery1" type="Button" parent="MainHBox/RightPanel/VBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.12549, 0.313726, 0.313726, 1)
+theme_override_fonts/font = ExtResource("2_pixel_font")
+theme_override_font_sizes/font_size = 20
+text = "?"
+flat = true
+
+[node name="Mystery2" type="Button" parent="MainHBox/RightPanel/VBox"]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.12549, 0.313726, 0.313726, 1)
+theme_override_fonts/font = ExtResource("2_pixel_font")
+theme_override_font_sizes/font_size = 20
+text = "?"
+flat = true
+
+[node name="Spacer" type="Control" parent="MainHBox/RightPanel/VBox"]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="StartBtn" type="Button" parent="MainHBox/RightPanel/VBox"]
+custom_minimum_size = Vector2(0, 80)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.12549, 0.313726, 0.313726, 1)
+theme_override_colors/font_hover_color = Color(0.784314, 0.196078, 0.196078, 1)
+theme_override_fonts/font = ExtResource("2_pixel_font")
+theme_override_font_sizes/font_size = 18
+text = "0/10
+Start"
+flat = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+
+[connection signal="pressed" from="MainHBox/RightPanel/VBox/StartBtn" to="." method="OnConfirmButtonPressed"]

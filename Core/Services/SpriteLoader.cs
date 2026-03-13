@@ -1,5 +1,6 @@
 using Godot;
 using System.Collections.Generic;
+using PokeIdle.Core.Models;
 
 namespace PokeIdle.Core.Services
 {
@@ -32,13 +33,17 @@ namespace PokeIdle.Core.Services
         private const string BaseTrainers       = "res://Assets/Sprites/Trainers/";
         private const string BasePokeballs      = "res://Assets/Sprites/Pokeballs/";
         private const string BasePlaceholder    = "res://Assets/Sprites/placeholder.svg";
+        private const string BaseIcons          = "res://Assets/Sprites/Icons/";
 
         // ── Caché en memoria para no recargar texturas repetidamente ─────────────
         private static readonly Dictionary<string, Texture2D> _cache = new();
 
         // ── Variantes activas del jugador: pokedexId → variantName ───────────────
-        // Se actualiza desde GameManager cuando el jugador desbloquea/activa una variante.
         private static readonly Dictionary<int, string> _activeVariants = new();
+
+        // ── Sistema de Iconos (PC Style) ─────────────────────────────────────────
+        private static readonly Dictionary<string, (Texture2D sheet, Rect2 region)> _iconCache = new();
+        private static bool _iconsInitialized = false;
 
         // ═════════════════════════════════════════════════════════════════════════
         //  POKÉMON SPRITES
@@ -46,17 +51,18 @@ namespace PokeIdle.Core.Services
 
         /// <summary>
         /// Devuelve el sprite frontal del Pokémon.
-        /// Prioridad: Variante activa → Shiny base → Sprite normal → Placeholder
+        /// Prioridad: Variante cosmética activa → Shiny base → Sprite normal → Placeholder
+        /// Formas: "" (base), "-mega", "-gigantamax"
         /// </summary>
-        public static Texture2D GetPokemonSprite(int pokedexId, bool shiny = false)
+        public static Texture2D GetPokemonSprite(int pokedexId, bool shiny = false, string form = "")
         {
-            // 1. ¿Hay una variante cosmética activa para este Pokémon?
-            if (_activeVariants.TryGetValue(pokedexId, out string variant))
+            // 1. ¿Hay una variante cosmética activa para este Pokémon? (Solo aplica a forma base usualmente)
+            if (string.IsNullOrEmpty(form) && _activeVariants.TryGetValue(pokedexId, out string variant))
             {
                 string variantSuffix = shiny ? $"{pokedexId}_{variant}_shiny.png" : $"{pokedexId}_{variant}.png";
                 var variantTex = LoadTexture(BaseVariants + variantSuffix);
                 if (variantTex != null) return variantTex;
-                // Si la variante shiny no existe, intentar la variante normal
+                
                 if (shiny)
                 {
                     var variantNormalTex = LoadTexture(BaseVariants + $"{pokedexId}_{variant}.png");
@@ -64,24 +70,174 @@ namespace PokeIdle.Core.Services
                 }
             }
 
-            // 2. Sprite shiny o normal base
+            // 2. Sprite shiny o normal con forma (mega/gigantamax)
+            string filename = $"{pokedexId}{form}.png";
             string basePath = shiny
-                ? BaseShinyFront + $"{pokedexId}.png"
-                : BasePokemonFront + $"{pokedexId}.png";
+                ? BaseShinyFront + filename
+                : BasePokemonFront + filename;
 
             return LoadTexture(basePath) ?? GetPlaceholder();
+        }
+
+        public static Texture2D GetPokemonSprite(PokemonData pokemon)
+        {
+            if (pokemon == null) return GetPlaceholder();
+            return GetPokemonSprite(pokemon.Id, pokemon.IsShiny, pokemon.FormSuffix);
         }
 
         /// <summary>
         /// Devuelve el sprite de espalda del Pokémon (lado del jugador en batalla).
         /// </summary>
-        public static Texture2D GetPokemonBackSprite(int pokedexId, bool shiny = false)
+        public static Texture2D GetPokemonBackSprite(int pokedexId, bool shiny = false, string form = "")
         {
+            string filename = $"{pokedexId}{form}.png";
             string path = shiny
-                ? BaseShinyBack + $"{pokedexId}.png"
-                : BasePokemonBack + $"{pokedexId}.png";
+                ? BaseShinyBack + filename
+                : BasePokemonBack + filename;
 
             return LoadTexture(path) ?? GetPlaceholder();
+        }
+
+        public static Texture2D GetPokemonBackSprite(PokemonData pokemon)
+        {
+            if (pokemon == null) return GetPlaceholder();
+            return GetPokemonBackSprite(pokemon.Id, pokemon.IsShiny, pokemon.FormSuffix);
+        }
+
+        // ═════════════════════════════════════════════════════════════════════════
+        //  SISTEMA DE ICONOS (PC STYLE)
+        // ═════════════════════════════════════════════════════════════════════════
+
+        public static void InitializeIconCache()
+        {
+            if (_iconsInitialized) return;
+
+            GD.Print("[SpriteLoader] Initializing PC Icon Cache...");
+            using var dir = DirAccess.Open(BaseIcons);
+            if (dir == null) 
+            {
+                GD.PrintErr($"[SpriteLoader] Could not open icons directory: {BaseIcons}");
+                return;
+            }
+
+            dir.ListDirBegin();
+            string fileName = dir.GetNext();
+            while (fileName != "")
+            {
+                if (!dir.CurrentIsDir() && fileName.EndsWith(".json") && fileName.StartsWith("pokemon_icons_"))
+                {
+                    ParseIconJson(BaseIcons + fileName);
+                }
+                fileName = dir.GetNext();
+            }
+
+            _iconsInitialized = true;
+            GD.Print($"[SpriteLoader] PC Icon Cache initialized with {_iconCache.Count} entries.");
+        }
+
+        private static void ParseIconJson(string path)
+        {
+            if (!FileAccess.FileExists(path)) return;
+
+            using var file = FileAccess.Open(path, FileAccess.ModeFlags.Read);
+            string jsonText = file.GetAsText();
+            var json = new Json();
+            if (json.Parse(jsonText) != Error.Ok) return;
+
+            var data = json.Data.AsGodotDictionary();
+            if (!data.ContainsKey("textures")) return;
+
+            var textures = data["textures"].AsGodotArray();
+            foreach (var texVar in textures)
+            {
+                var texDict = texVar.AsGodotDictionary();
+                string imageName = texDict["image"].AsString();
+                var sheet = LoadTexture(BaseIcons + imageName);
+                if (sheet == null) continue;
+
+                var frames = texDict["frames"].AsGodotArray();
+                foreach (var frameVar in frames)
+                {
+                    var frameDict = frameVar.AsGodotDictionary();
+                    string id = frameDict["filename"].AsString();
+                    var rectDict = frameDict["frame"].AsGodotDictionary();
+                    
+                    Rect2 region = new Rect2(
+                        (float)rectDict["x"],
+                        (float)rectDict["y"],
+                        (float)rectDict["w"],
+                        (float)rectDict["h"]
+                    );
+
+                    _iconCache[id] = (sheet, region);
+                }
+            }
+        }
+
+        /// <summary>
+        /// Devuelve un AtlasTexture con el icono estilo PC (Pokerogue).
+        /// Clave esperada: "{id}" o "{id}s" (shiny) o "{id}-mega", etc.
+        /// </summary>
+        public static AtlasTexture GetPokemonIconAtlas(int pokedexId, bool shiny = false, string formSuffix = "")
+        {
+            InitializeIconCache();
+
+            // Construct Key: {id}{s?}{form?}
+            // Examples: "6", "6s", "6-mega", "6s-mega"
+            string shinyPart = shiny ? "s" : "";
+            string key = $"{pokedexId}{shinyPart}{formSuffix}";
+
+            if (_iconCache.TryGetValue(key, out var data))
+            {
+                return new AtlasTexture { Atlas = data.sheet, Region = data.region };
+            }
+
+            // Fallback to base form if specific form icon fails
+            if (!string.IsNullOrEmpty(formSuffix))
+            {
+                key = $"{pokedexId}{shinyPart}";
+                if (_iconCache.TryGetValue(key, out data))
+                    return new AtlasTexture { Atlas = data.sheet, Region = data.region };
+            }
+
+            // Ultimate Fallback: Placeholder if nothing matches
+            return new AtlasTexture { Atlas = GetPlaceholder(), Region = new Rect2(0, 0, 32, 32) };
+        }
+
+        public static AtlasTexture GetPokemonIconAtlas(PokemonData pokemon)
+        {
+            if (pokemon == null) return null;
+            return GetPokemonIconAtlas(pokemon.Id, pokemon.IsShiny, pokemon.FormSuffix);
+        }
+
+        public static AtlasTexture GetStatusIconAtlas(string statusName)
+        {
+            // Simple indexing for statuses.json
+            string path = BaseIcons + "statuses.json";
+            using var file = FileAccess.Open(path, FileAccess.ModeFlags.Read);
+            if (file == null) return null;
+
+            string jsonText = file.GetAsText();
+            var json = new Json();
+            if (json.Parse(jsonText) != Error.Ok) return null;
+
+            var data = json.Data.AsGodotDictionary();
+            var textures = data["textures"].AsGodotArray();
+            var texDict = textures[0].AsGodotDictionary();
+            var sheet = LoadTexture(BaseIcons + "statuses.png");
+            var frames = texDict["frames"].AsGodotArray();
+
+            foreach (var frameVar in frames)
+            {
+                var frameDict = frameVar.AsGodotDictionary();
+                if (frameDict["filename"].AsString() == statusName)
+                {
+                    var rectDict = frameDict["frame"].AsGodotDictionary();
+                    Rect2 region = new Rect2((float)rectDict["x"], (float)rectDict["y"], (float)rectDict["w"], (float)rectDict["h"]);
+                    return new AtlasTexture { Atlas = sheet, Region = region };
+                }
+            }
+            return null;
         }
 
         // ═════════════════════════════════════════════════════════════════════════

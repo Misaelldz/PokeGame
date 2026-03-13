@@ -1,8 +1,8 @@
 [gd_scene format=3 uid="uid://c16y52btv0dm"]
 
-[ext_resource type="Script" uid="uid://pwso6tlpykud" path="res://Scripts/UI/MainMenu.cs" id="1_p4v3k"]
+[ext_resource type="Script" uid="uid://meiicrh8yu2" path="res://UI/MainMenu.cs" id="1_p4v3k"]
 [ext_resource type="Texture2D" uid="uid://dfhor7s045s1b" path="res://Assets/Sprites/UI/pokeidle_main_bg_custom.png" id="2_bg"]
-[ext_resource type="FontFile" uid="uid://bbobmiti118nv" path="res://Assets/Fonts/fonts/pkmnems.ttf" id="3_m4p2q"]
+[ext_resource type="FontFile" uid="uid://blhgawm0rvr0" path="res://Assets/Fonts/fonts/pokemon-emerald-pro.ttf" id="3_pixel_font"]
 [ext_resource type="Texture2D" uid="uid://c8ashef0ltx1r" path="res://Assets/Sprites/UI/pokeidle_logo_clean.png" id="4_uv623"]
 [ext_resource type="Shader" uid="uid://csof6f0modhwm" path="res://Assets/Shaders/chroma_key.gdshader" id="5_shader"]
 
@@ -12,16 +12,16 @@ shader_parameter/chroma_key_color = Color(1, 1, 1, 1)
 shader_parameter/precision = 0.1
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_box"]
-bg_color = Color(0.0784314, 0.156863, 0.313726, 0.862745)
+bg_color = Color(0.972549, 0.972549, 0.972549, 1)
 border_width_left = 4
 border_width_top = 4
 border_width_right = 4
 border_width_bottom = 4
-border_color = Color(0.784314, 0.117647, 0.117647, 1)
-corner_radius_top_left = 8
-corner_radius_top_right = 8
-corner_radius_bottom_right = 8
-corner_radius_bottom_left = 8
+border_color = Color(0.12549, 0.313726, 0.313726, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
 expand_margin_left = 15.0
 expand_margin_top = 15.0
 expand_margin_right = 15.0
@@ -34,7 +34,7 @@ loop_mode = 1
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("Header/Subtitle:scale")
+tracks/0/path = NodePath("Header/SubtitleContainer/Subtitle:scale")
 tracks/0/interp = 2
 tracks/0/loop_wrap = true
 tracks/0/keys = {
@@ -46,7 +46,7 @@ tracks/0/keys = {
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-tracks/1/path = NodePath("Header/Subtitle:self_modulate")
+tracks/1/path = NodePath("Header/SubtitleContainer/Subtitle:modulate")
 tracks/1/interp = 2
 tracks/1/loop_wrap = true
 tracks/1/keys = {
@@ -61,7 +61,7 @@ _data = {
 &"Breathing": SubResource("Animation_breathing")
 }
 
-[node name="MainMenu" type="Control" unique_id=1956612270]
+[node name="MainMenu" type="Control" unique_id=1765586610]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
@@ -69,12 +69,19 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_p4v3k")
-_continueButton = NodePath("MenuBox/VBoxContainer/ContinueButton")
-_bgmPlayer = NodePath("AudioStreamPlayer")
-_subtitleLabel = NodePath("Header/Subtitle")
-_versionLabel = NodePath("Version")
+OptionsContainerPath = NodePath("MenuBox/VBoxContainer")
 
-[node name="Background" type="TextureRect" parent="." unique_id=1662749021]
+[node name="BackgroundTint" type="ColorRect" parent="." unique_id=1894295971]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.219608, 0.596078, 0.533333, 1)
+
+[node name="Background" type="TextureRect" parent="." unique_id=947406177]
+self_modulate = Color(1, 1, 1, 0.196078)
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -85,7 +92,7 @@ texture = ExtResource("2_bg")
 expand_mode = 1
 stretch_mode = 6
 
-[node name="Header" type="VBoxContainer" parent="."]
+[node name="Header" type="VBoxContainer" parent="." unique_id=592151577]
 layout_mode = 1
 anchors_preset = 5
 anchor_left = 0.5
@@ -97,7 +104,7 @@ offset_bottom = 440.0
 grow_horizontal = 2
 alignment = 1
 
-[node name="Logo" type="TextureRect" parent="Header" unique_id=746836213]
+[node name="Logo" type="TextureRect" parent="Header" unique_id=1955534360]
 material = SubResource("ShaderMaterial_logo")
 custom_minimum_size = Vector2(0, 320)
 layout_mode = 2
@@ -105,19 +112,37 @@ texture = ExtResource("4_uv623")
 expand_mode = 1
 stretch_mode = 5
 
-[node name="Subtitle" type="Label" parent="Header" unique_id=1809166473]
+[node name="SubtitleContainer" type="Control" parent="Header" unique_id=219949094]
 layout_mode = 2
-theme_override_colors/font_color = Color(0.941176, 0.941176, 0.470588, 1)
-theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+
+[node name="Subtitle" type="Label" parent="Header/SubtitleContainer" unique_id=2092422148]
+layout_direction = 1
+layout_mode = 1
+anchors_preset = 3
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -383.0
+offset_top = -146.00002
+offset_right = -189.0
+offset_bottom = -114.000015
+grow_horizontal = 0
+grow_vertical = 0
+rotation = -0.174533
+scale = Vector2(1.1, 1.1)
+pivot_offset = Vector2(97, 16)
+theme_override_colors/font_color = Color(1, 0.901961, 0, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 0.784314)
 theme_override_constants/shadow_offset_x = 2
 theme_override_constants/shadow_offset_y = 2
-theme_override_fonts/font = ExtResource("3_m4p2q")
+theme_override_fonts/font = ExtResource("3_pixel_font")
 theme_override_font_sizes/font_size = 32
 text = "Starting the dev!"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Version" type="Label" parent="." unique_id=1732403497]
+[node name="Version" type="Label" parent="." unique_id=1661448735]
 layout_mode = 1
 anchors_preset = 3
 anchor_left = 1.0
@@ -130,66 +155,81 @@ offset_right = -20.0
 offset_bottom = -20.0
 grow_horizontal = 0
 grow_vertical = 0
-theme_override_colors/font_color = Color(0.9411765, 0.9411765, 0.47058824, 1)
-theme_override_fonts/font = ExtResource("3_m4p2q")
+theme_override_colors/font_color = Color(1, 1, 1, 0.8)
+theme_override_fonts/font = ExtResource("3_pixel_font")
 theme_override_font_sizes/font_size = 28
 text = "v0.0.1"
 horizontal_alignment = 2
 
-[node name="MenuBox" type="PanelContainer" parent="." unique_id=261230420]
+[node name="MenuBox" type="PanelContainer" parent="." unique_id=1957319377]
 layout_mode = 1
 anchors_preset = 2
 anchor_top = 1.0
 anchor_bottom = 1.0
-offset_left = 60.0
-offset_top = -360.0
-offset_right = 420.0
-offset_bottom = -60.0
+offset_left = 12.0
+offset_top = -312.0
+offset_right = 272.0
+offset_bottom = -12.0
 grow_vertical = 0
 theme_override_styles/panel = SubResource("StyleBoxFlat_box")
 
-[node name="VBoxContainer" type="VBoxContainer" parent="MenuBox" unique_id=1191304242]
+[node name="VBoxContainer" type="VBoxContainer" parent="MenuBox" unique_id=1792001205]
 layout_mode = 2
 theme_override_constants/separation = 10
 
-[node name="PlayButton" type="Button" parent="MenuBox/VBoxContainer" unique_id=746628704]
+[node name="PlayButton" type="Button" parent="MenuBox/VBoxContainer" unique_id=220628907]
 layout_mode = 2
 size_flags_vertical = 3
-theme_override_fonts/font = ExtResource("3_m4p2q")
+theme_override_colors/font_color = Color(0.12549, 0.313726, 0.313726, 1)
+theme_override_colors/font_hover_color = Color(0.784314, 0.196078, 0.196078, 1)
+theme_override_fonts/font = ExtResource("3_pixel_font")
 theme_override_font_sizes/font_size = 36
 text = "JUGAR"
+flat = true
 
-[node name="ContinueButton" type="Button" parent="MenuBox/VBoxContainer" unique_id=731179743]
+[node name="ContinueButton" type="Button" parent="MenuBox/VBoxContainer" unique_id=714494422]
 layout_mode = 2
 size_flags_vertical = 3
-theme_override_fonts/font = ExtResource("3_m4p2q")
+theme_override_colors/font_color = Color(0.12549, 0.313726, 0.313726, 1)
+theme_override_colors/font_hover_color = Color(0.784314, 0.196078, 0.196078, 1)
+theme_override_fonts/font = ExtResource("3_pixel_font")
 theme_override_font_sizes/font_size = 36
 text = "CONTINUAR"
+flat = true
 
-[node name="GachaButton" type="Button" parent="MenuBox/VBoxContainer" unique_id=173958413]
+[node name="GachaButton" type="Button" parent="MenuBox/VBoxContainer" unique_id=518764529]
 layout_mode = 2
 size_flags_vertical = 3
-theme_override_fonts/font = ExtResource("3_m4p2q")
+theme_override_colors/font_color = Color(0.12549, 0.313726, 0.313726, 1)
+theme_override_colors/font_hover_color = Color(0.784314, 0.196078, 0.196078, 1)
+theme_override_fonts/font = ExtResource("3_pixel_font")
 theme_override_font_sizes/font_size = 36
 text = "GACHA"
+flat = true
 
-[node name="StatsButton" type="Button" parent="MenuBox/VBoxContainer" unique_id=1133957644]
+[node name="StatsButton" type="Button" parent="MenuBox/VBoxContainer" unique_id=689740494]
 layout_mode = 2
 size_flags_vertical = 3
-theme_override_fonts/font = ExtResource("3_m4p2q")
+theme_override_colors/font_color = Color(0.12549, 0.313726, 0.313726, 1)
+theme_override_colors/font_hover_color = Color(0.784314, 0.196078, 0.196078, 1)
+theme_override_fonts/font = ExtResource("3_pixel_font")
 theme_override_font_sizes/font_size = 36
 text = "ESTADÍSTICAS"
+flat = true
 
-[node name="QuitButton" type="Button" parent="MenuBox/VBoxContainer" unique_id=1057875463]
+[node name="QuitButton" type="Button" parent="MenuBox/VBoxContainer" unique_id=823655885]
 layout_mode = 2
 size_flags_vertical = 3
-theme_override_fonts/font = ExtResource("3_m4p2q")
+theme_override_colors/font_color = Color(0.12549, 0.313726, 0.313726, 1)
+theme_override_colors/font_hover_color = Color(0.784314, 0.196078, 0.196078, 1)
+theme_override_fonts/font = ExtResource("3_pixel_font")
 theme_override_font_sizes/font_size = 36
 text = "SALIR"
+flat = true
 
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=735796735]
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=1480943124]
 
-[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=2086012343]
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=1223458370]
 libraries/ = SubResource("AnimationLibrary_menu")
 autoplay = &"Breathing"
 

@@ -56,10 +56,12 @@ namespace PokeIdle.Core.Systems
 
             GD.Print($"[EvolutionSystem] ¡{current.Name} evoluciona a {evolvedForm.Name}!");
 
-            // Transferir el progreso del Pokémon actual a la nueva forma
+            // Transferir el progreso y cosméticos
             evolvedForm.Level = current.Level;
             evolvedForm.CurrentXp = current.CurrentXp;
             evolvedForm.GrowthRate = current.GrowthRate;
+            evolvedForm.IsShiny = current.IsShiny;
+            evolvedForm.FormSuffix = current.FormSuffix;
 
             // Calcular HP proporcional: mantener el mismo porcentaje de HP que tenía antes
             int oldMaxHp = CombatantState.CalculateMaxHp(current.Stats.Hp, current.Level);
